@@ -1,0 +1,21 @@
+# Understanding LLM Sycophancy Through the User Community
+This project hopes to develop a better understanding of sycophancy in LLMs through the user community. We focus on the user community by turning to Reddit subthread r/chatGPT. While we acknowledge the biases of narrowing in on this community - not representative of the general community, Western-based, poster bias - many people are active users that may not be active on social media/Reddit, and negative bias - Reddit is known to trend towards negativeity as threads grow over time [source](https://www.reddit.com/r/psychology/comments/1vozmdb/research_shows_that_the_entire_website_of_reddit/) and the general bias that many users only post negative experiences and do not post positive experiences, we still believe social media is a strong signal for how some group of the general user community views and experiences sycophancy in LLMs.
+## Method
+We use a general purpose sparse autoencoder (SAE) to generate activations from Gemini embeddings generated from a subset of r/chatGPT comments. Our SAE has 131,072 features and top-k is 128. 
+### 1. Data/Corpus Filtering
+We filter the data on comments that
+1. either contain the "sycophan" keyword or are linked to a post that contains the "sycophan" keyword
+And remove the following from our dataset:
+1. deleted, removed, or empty comments
+2. comments less than 40 characters
+3. automated bot comments
+Note that r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl contains the comments before the removal - so it is uncleaned. The general purpose SAE was run on this dataset, so our cleaning happens on the sparse activations instead (we verified that the row_indices from sparse_activations.npz matches the indices from r_chatGPT_comments.jsonl file). There are a total of 20,560 comments in r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl. 
+### 2. Generate Embeddings
+We generate embeddings from r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl. We use Gemini Embedding 2 to embed our text. TODO: add information about which data was actually used to embed (was it the full json, or just 'body' field from json objects?).
+### 3. Compute Activations on General Purpose SAE
+We use our general purpose SAE to run a forward pass/re-compute the activations on the embeddings generated from 2. This outputs a sparse NPZ file, which we then use to understand more concepts/information from the data.
+### 4. Targeted Feature Selection
+In order to make sense of and discover nuanced information about the large data we are working with, we use three targets to narrow down our concept discovery:
+1. GPT5_release_marker: we use the `created_utc` field from the r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl to zero out activations where created_utc >= 8/7/25 (GPT5 release). We narrow down our focus on features in a specific density range (100 <= num_comments <= 5000 non-zero activations per feature) and additionally filter on the data/corpus filtering criteria mentioned above to get 4182 activations and 17105 comments. We calculate the mean activation p1 when created_utc >= 8/7/25 (gpt5 and after) and the mean activation p0 when created_utc < 8/7/25 (pre-gpt5 release). We calculate the z-score and effect-size as (p1 - p0) / se and p1 - p0 respectively. This calculates the difference in activations gpt5_and_after and pre_gpt5. We retrieve the features with the top-30 positive z-score and top-30 negative z-score to get 60 total features of top-30 positive: top features that fire more for gpt_5_and_after and top-30 negative: top features that fire more for pre_gpt5.
+2. engagement: we use the `score` field from r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl.
+3. sycophan_related: we use the regex matcher to retrieve comments that contain some sycophancy-related keyword. Similar to 1, we have a binary marker, where a negative target is a comment that does not contain the sycophancy-related keyword. We retrieve the features with the top-30 positive z-score and top-30 negative z-score to get 60 total features of top-30 positive: top features that fire more for sycophancy-related comments and top-30 negative: top features that fire more for non sycophancy-related comments.
