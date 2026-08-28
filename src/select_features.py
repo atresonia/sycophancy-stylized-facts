@@ -33,6 +33,7 @@ MIN_THREAD_SIZE = 5 # min comments in a thread (for engagement target)
 N_FEATURES = 30
 N_TOP, N_MID, N_NEG = 100, 70, 50
 
+GPT5_WINDOW_DAYS = 45 # window of time before and after GPT5 release to consider for gpt5_marker target
 GPT5_RELEASE = datetime.datetime(2025, 8, 7, tzinfo=datetime.timezone.utc)
 
 
@@ -89,7 +90,12 @@ def build_target(data, target, keep):
     out = np.full(len(data), np.nan)
 
     if target == 'gpt5_marker':
-        out[keep] = (ts[keep] >= GPT5_RELEASE.timestamp()).astype(float)
+        release_ts = GPT5_RELEASE.timestamp()
+        window_seconds = GPT5_WINDOW_DAYS * 24 * 60 * 60
+        # 1 if comment is from (gpt5_release - window_seconds) until (gpt5_release + window_seconds)
+        is_within_window = ((ts[keep] >= release_ts - window_seconds) & 
+                               (ts[keep] <= release_ts + window_seconds))
+        out[keep] = is_within_window.astype(float)
         return out
     elif target == 'engage':
         y = np.log1p(np.clip(sc, 0, None))
@@ -120,9 +126,9 @@ def score_binary_features(P, y):
         Outputs: 1) z-score: p1 - p0 / se: confidence of the effect size (how many standard deviations the difference is from 0)
                  2) effect-size: p1 - p0 (difference between activation means for positive and negative targets)
     """
-    p1 = P[y == 1].mean(0)
-    p0 = P[y == 0].mean(0)
-    n1, n0 = (y == 1).sum(), (y == 0).sum()
+    p1 = P[y == 1].mean(0) # mean non-zero activations for positive target 
+    p0 = P[y == 0].mean(0) # mean non-zero activations for negative target
+    n1, n0 = (y == 1).sum(), (y == 0).sum() # n1: number of positive targets, n0: number of negative targets
     se = np.sqrt(p1 * (1 - p1) / n1 + p0 * (1 - p0) / n0)
     effect = p1 - p0
     return effect / se, effect
@@ -134,13 +140,14 @@ def score_continous_features(P, y):
         Outputs: 1) z-score: p1 - p0 / se: confidence of the effect size (how many standard deviations the difference is from 0)
                  2) effect-size: mean activation for positive target - mean activation for negative target
     """
-    n = P.sum(0).astype(float)
-    s1 = (P * y[:, None]).sum(0)
-    m1 = np.where(n > 0, s1 / np.maximum(n, 1), 0)
-    m0 = (y.sum() - s1) / np.maximum(len(y) - n, 1)
-    var = y.var()
-    se = np.sqrt(var / np.maximum(n, 1) + var / np.maximum(len(y) - n, 1)) + 1e-9
-    effect = m1 - m0
+    n = P.sum(0).astype(float) # number of non-zero activations per feature
+    s1 = (P * y[:, None]).sum(0) # sum of engagement (z-score) for activating comments
+    m1 = np.where(n > 0, s1 / np.maximum(n, 1), 0) # mean engagement among comments when feature activates
+    m0 = (y.sum() - s1) / np.maximum(len(y) - n, 1) # mean engagement among comments when feature does not activate
+    se = np.sqrt(y.var() / np.maximum(n, 1) + y.var() / np.maximum(len(y) - n, 1)) + 1e-9
+    # difference in mean engagement for a given feature between comments that activate and those that do not activate 
+    # (ex: if positive, activating comments have higher engagement than non-activating comments)
+    effect = m1 - m0 
     return effect / se, effect
 
 
