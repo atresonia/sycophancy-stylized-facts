@@ -7,3 +7,9 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Environment variables
+.env
+
+# Cache
+.sf_cache/
