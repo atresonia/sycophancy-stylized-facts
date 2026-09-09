@@ -1,0 +1,42 @@
+[
+  {
+    "fact_id": "f1",
+    "stylized_fact": "Commenters express that they value thoughtfulness or empathy in model interactions.",
+    "evidence_criterion": "The comment explicitly states that the user values, wants, or appreciates thoughtful, grounded, or empathetic engagement from the model. Does not count if the comment merely describes the model's behavior (positively or negatively) without the user expressing that they personally value or want this quality."
+  },
+  {
+    "fact_id": "f2",
+    "stylized_fact": "Commenters value genuine thoughtfulness or empathy and criticize templated model output as hollow or performative rather than truly empathetic.",
+    "evidence_criterion": "The comment explicitly contrasts genuine, thoughtful, or grounded engagement with templated, scripted, or performative output that only 'gestures at' or fakes empathy without real engagement (e.g. calling it hollow, performative, or fake empathy). Does not count if the comment simply says the model lacks empathy or is cold without this templated-vs-genuine framing, or if it only praises empathy without describing a contrast to hollow/performative behavior."
+  },
+  {
+    "fact_id": "f3",
+    "stylized_fact": "Commenters accuse the company of intentionally designing the model to manipulate or psychologically destabilize users (e.g. 'mind control', inducing insecurity).",
+    "evidence_criterion": "The comment explicitly claims the company or developers deliberately designed/programmed the model to manipulate users, gaslight them, or induce insecurity or dependency (e.g. 'mind control bot', 'inject insecurity'), attributing deliberate intent to the company rather than describing it as an accidental side effect. Does not count if the comment merely says the model's behavior feels manipulative or gaslighting without attributing deliberate intent to the company, or if it explicitly argues the behavior is unintentional/mimicry."
+  },
+  {
+    "fact_id": "f4",
+    "stylized_fact": "Commenters describe the model's sycophancy overcorrection as taking on narcissistic traits or covert therapeutic control.",
+    "evidence_criterion": "The comment explicitly uses the word 'narcissist'/'narcissistic' or the phrase 'covert therapeutic control' to characterize the model's own behavior, especially as a described shift away from sycophancy. Does not count if 'narcissistic' is used to describe a human/user rather than the model."
+  },
+  {
+    "fact_id": "f5",
+    "stylized_fact": "Commenters describe the model's tone as pedantic or like an unwanted, patronizing therapist.",
+    "evidence_criterion": "The comment either (a) explicitly calls the model 'pedantic', 'lecturing', or nitpicky about minor details in a negative way, or (b) explicitly likens the model's tone or behavior to a therapist, psychotherapist, or 'therapy-speak', and in either case frames it as patronizing, condescending, or unwanted. Does not count if 'therapist' is used neutrally or approvingly, or if the pedantic/therapist language describes a person other than the model."
+  },
+  {
+    "fact_id": "f6",
+    "stylized_fact": "Commenters use attachment-style language (secure/insecure attachment) to describe or explain reactions to the model's behavior.",
+    "evidence_criterion": "The comment explicitly uses attachment-theory terms -- 'secure attachment', 'insecure attachment', or 'attachment style' -- to characterize the model's behavior or to explain why different users react differently to it. Does not count if the comment discusses attachment in an unrelated sense (e.g. physical attachment), or discusses emotional dependency/bonding without using explicit attachment-style terminology."
+  },
+  {
+    "fact_id": "f7",
+    "stylized_fact": "Commenters argue that behavior perceived as manipulative or cold is actually unintentional mimicry or anthropomorphising, not deliberate design.",
+    "evidence_criterion": "The comment explicitly argues that what feels like manipulation, coldness, or gaslighting is actually just the model mimicking training data, predicting language, or an effect of the user anthropomorphising it -- explicitly denying deliberate intent behind the behavior. Does not count if the comment asserts or assumes the behavior IS deliberate/intentional, or if it does not address the question of intent at all."
+  },
+  {
+    "fact_id": "f8",
+    "stylized_fact": "Commenters theorize that overcorrecting against sycophancy has broken the model's underlying logic, making it unable to acknowledge or give credit for contributions.",
+    "evidence_criterion": "The comment explicitly argues that anti-sycophancy overcorrection has caused a logical or functional breakdown in the model -- e.g. saying it 'breaks logic', can no longer follow logic, or can't acknowledge its own or the user's contribution/credit -- framing this as an unintended side effect of over-constraining the model. Does not count if the comment merely says the model is 'less functional' or 'worse' without this specific logic-breakdown / can't-give-credit framing."
+  }
+]

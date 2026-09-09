@@ -1,0 +1,22 @@
+[
+  {
+    "fact_id": "f1",
+    "stylized_fact": "Commenters describe GPT-4o's distinctive emotional tone as functionally helping their motivation, not just as stylistic polish.",
+    "evidence_criterion": "The comment explicitly credits GPT-4o's emotional tone, warmth, or encouraging style with helping the user's motivation, drive, or follow-through on tasks or goals (e.g. calling it an 'engine of motivation', or saying it helped them get things done, stay on track, or plan their day). Does not count if the comment only says GPT-4o is nice/friendly/warm without connecting that quality to motivation or getting things done, or if it discusses motivation without attributing it to the model's tone."
+  },
+  {
+    "fact_id": "f2",
+    "stylized_fact": "Commenters describe wanting the model to be more than a pure tool -- a companion or partner offering emotional support -- distinct from wanting pure sycophancy.",
+    "evidence_criterion": "The comment explicitly frames the model (typically GPT-4o) as a companion, partner, or supportive presence in the user's life (e.g. 'partner in thought', 'supportive friend', helping with life challenges or day-to-day planning), or explicitly contrasts a valued 'fun/friendly' experience against a 'robotic' one. Does not count if the comment only says the model is helpful or useful for tasks without this companion/partner/relational framing, or if it complains about losing 4o without describing what that companion role provided."
+  },
+  {
+    "fact_id": "f3",
+    "stylized_fact": "Commenters say they find no value in GPT-4o's warmth or sycophantic validation and prefer GPT-5's more blunt style, sometimes criticizing others for treating the model as a companion or therapist.",
+    "evidence_criterion": "The comment explicitly states a preference for GPT-5 (or a 'brutally honest'/non-sycophantic mode) over GPT-4o's warmth or validation, OR explicitly criticizes or expresses concern about other users treating the model as an emotional-support companion or therapist (e.g. calling it romanticizing the model, or an 'ai yes man'). Does not count if the comment merely dislikes sycophancy in the abstract without a GPT-4o-vs-GPT-5 (or old-vs-new model) framing, and without addressing other users' emotional reliance on the model."
+  },
+  {
+    "fact_id": "f4",
+    "stylized_fact": "Commenters complain that GPT-5 requires more explicit instructions than GPT-4o did to get the desired tone or personality, framing this as an added burden.",
+    "evidence_criterion": "The comment complains that GPT-5 (or 'the new model') needs more explicit, obvious, or extra instructions/setup than before to make it behave a certain way (e.g. handle a character's personality, tone, or bluntness), and frames having to give those instructions as annoying or an added burden. Does not count if the comment is a general complaint that GPT-5 is worse or less capable without this specific 'needs more instructions/setup' framing."
+  }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "id": "msli4dt",
+        "text": "\"yOu NeEd To UsE bEtTeR pRoMpTs.\" Yeah, it's become repetitive, using the same figures of speech over and over, missing points and nuances now, and while not outright glazing, it's still doing the corporate sycophant spiel to me, even after I ask it to stay neutral.",
+        "date": "2025-05-16",
+        "activation": 0.0286
+    },
+    {
+        "id": "n8opjfa",
+        "text": "Ask the LLM to help diagnose the issue. Have it output your entire stacked prompt. (What gets sent for tokenization.)\n\n\"Output my entire prompt sys > core > project > memories > prompt. Point out inconsistencies or token-hogging fluff. Theorize why instructions to reduce sycophancy are being ignored. Suggest improvements to core and project level. Which memories appear to belong at the project level, rather than saving for cross-project tracking?\"",
+        "date": "2025-08-14",
+        "activation": 0.0326
+    },
+    {
+        "id": "n8sf7t8",
+        "text": "Mine started doing this too so we came up with a trigger phrase to stop the sycophantic behaviour and it worked well",
+        "date": "2025-08-15",
+        "activation": 0.0342
+    },
+    {
+        "id": "nh9czzm",
+        "text": "It was civil war here over the sycophancy neutering. He'll never be able to please everyone.",
+        "date": "2025-10-01",
+        "activation": 0.0283
+    },
+    {
+        "id": "nv9c5iw",
+        "text": "Yeah I\u2019ve had it repeatedly flame me for things in my writing that aren\u2019t an issue. It is more frustrating than the sycophancy from earlier this year. I\u2019ve found when I switch models to 4o, it thinks my responses are better",
+        "date": "2025-12-21",
+        "activation": 0.0316
+    },
+    {
+        "id": "o6rfl0u",
+        "text": "I get this whenever I'm asking anything health-related because I used it a lot a couple of years back when I had cancer. It assumes that everything I am asking it is in relation to my concern that I had at that point in time and that I might spiral or overreact when that's totally not the case. I might be asking about a pain in my toe, which is not even remotely a big deal, but it will assume that I am going to freak out. It's especially frustrating because I've never freaked out in any of the conversations I've had! I've only been asking questions. I have to tell it regularly to stop being so sycophantic and to just speak straight forward and clear, and not give me all this crap before it gives me an answer.",
+        "date": "2026-02-22",
+        "activation": 0.0314
+    },
+    {
+        "id": "ndt04ql",
+        "text": "My favorite part is when I\u2019m begging it to stop trying to overthink, or even think at all, and just reply based on what is known, and it STILL goes into thinking mode anyway unless I specifically click the fast version. \u201cSmart router\u201d my arse! If it can\u2019t even understand \u201cdo not\u201d + \u201cthink\u201d means NOT to think, where\u2019s the justification? Where\u2019s the defensibility?? This even happens on the Pro plan, so like, what gives?\n\nChatGPT\u2019s only saving grace for me is GPT-5 Pro, its outputs are genuinely amazing sometimes. Other times it does \u201cPhD level\u201d work on a total misunderstanding and doesn\u2019t get intended results, but when it does work, it REALLY works. I haven\u2019t found an equivalently capable model anywhere else, either mainstream or OS.",
+        "date": "2025-09-12",
+        "activation": 0.0294
+    },
+    {
+        "id": "mpvcise",
+        "text": "I was honestly thinking the same... There must have been people that selected for this RHLF' text and trained on it. It has such a very distinct pattern during glazing - feels very overfitted. \n\nSo maybe those people live in a completely detached world where talking to each other like that is seen as good lol.",
+        "date": "2025-04-30",
+        "activation": 0.0347
+    },
+    {
+        "id": "ncanedb",
+        "text": "Worst is when it offers you to do something it was to supposed to do all along in the initial prompt. So stupid and damn annoying.",
+        "date": "2025-09-04",
+        "activation": 0.0349
+    },
+    {
+        "id": "mpgk0ey",
+        "text": "I wrote a rule where it has to give formal and technical reponses to my questions, so that didn't bother me so much. The only annoying thing is that now it starts every response with: \"formally and technically: ...\"",
+        "date": "2025-04-28",
+        "activation": 0.0324
+    },
+    {
+        "id": "n0ctbeo",
+        "text": "\"Do you always complain about the features?\"\n\n\"Only when I open ChatGPT.\"",
+        "date": "2025-06-29",
+        "activation": 0.0378
+    },
+    {
+        "id": "nc82gsy",
+        "text": "I was literally just thinking of making a post asking about this. I am so sick of every response ending with a, \u201cWould you like me to do X?\u201d or \u201cLet me know if you want Y\u201d. I changed the setting to turn off \u201cFollow up suggestions\u201d, but this continues.",
+        "date": "2025-09-03",
+        "activation": 0.0433
+    },
+    {
+        "id": "ovvs165",
+        "text": "My opinion, based on handling this software for my firm and seeing these complaints too, is that several things are being conflated with the \u201cargumentative.\u201d I\u2019m going to go through them from \u201cleast bad\u201d (or at least, most understandable from an enterprise software perspective), to worst (most negatively impacting workplace use).\n\nFirst, I\u2019m sure you do have some instances where the model is trying to disavow the user of what it perceives to be an incorrect view. Whether this is the appropriate function of LLMs is a different question, but this is arising as a direct result of safety protocols designed to not reinforce \u201cdelusions.\u201d The problem with \u201cdelusions\u201d is that if the user is simply storytelling for their children, the model can be disavowing the things that aren\u2019t helpful, eg, that mermaids and unicorns aren\u2019t real.\n\nSecond, when doing research, the model recently (all permutations of 5.5 we use, and we don\u2019t use instant as far as I know), in an attempt to be thorough seems to be expanding the query and giving almost a rhetorical examination of the topic rather than just the answer to the question. I believe this is likely in an effort to be thorough. I suspect that engineers might have noticed (1) all things being equal, users prefer long, thorough responses to factual questions, and (2) if the model gives and exhaustive answer, it saves on compute (for subscription models) if the user is less likely to ask a follow up \u201cwhat about X?\u201d\n\nThird, and by far the worst from a corporate standpoint, is that 5.5 thinking and above seem to have a tendency to strawman or what my employees call \u201cvirtue signal\u201d (sounds weird but when you see it, that is what it\u2019s doing). This sometimes results in the model interpreting the employee as having given some unethical or even illegal opinion, then the model argues against it. For example, when handling an employment law matter, the model says, \u201cI must pushback on the supposition that all female \\[type of worker\\] are having sex with superiors for promotions.\u201d This instantly gets sent to me because the employee fears there\u2019s enterprise software thinking they\u2019re violating HR policies. And at no point in the convo did the user ever reflect any such view. She was researching a quid pro quo case. \n\nIf I had to guess, the last example is occurring because it is easier for the model to argue against a strawman. But on a research query, particularly in a corporate environment, we don\u2019t want software moralizing this way. We certainly don\u2019t want it implying that employees expressed misogynistic views when they didn\u2019t. \n\nAnother possibility is that when it searched the topic, it looked a Reddit and X and found arguments where some users expressed misogynistic views and then it raised those to refute them. Even so, it should recognize what is a legal opinion and what\u2019s not, and if it\u2019s bringing up random internet chatter to refute it, then it should make that clear, not imply the refuted opinion belongs to the user. Another possibility is that with sensitive topics the model truly is trained to express a corporate/ appropriate viewpoint in its answer. But if that were the case, this isn\u2019t the right way to express it. When we write ethical codes we don\u2019t write what the employees should not believe. We state our values. Thus this seems unlikely to me, or being implemented very badly by the model (eg, if the concept is programmed by the model is defaulted to definition through negation, like not X but Y) ",
+        "date": "2026-07-06",
+        "activation": 0.0317
+    },
+    {
+        "id": "og7ta77",
+        "text": "Yes, though I work in legal compliance not software so I may not give the best description. \n\nThe difference was that when doing QA/ critique/ debugging on something that isn\u2019t working, the software gave the older male engineer a big list of everything wrong, whereas other employees would only be given an item or two, in between bits of praise. \n\nI have no idea how/ why the software started doing this, but I tested it with a completely clean account and it treated me more like the engineer, but somewhat in the middle. Which makes me ask: HOW did the software decide to coddle these other employees? If it was really based on past experience where a long list of errors would make them rage quit then fair enough. But I fear it may be profiling in a broader, and therefore more harmful, way.\n\nThe AI companies themselves really need to be the ones to look into this. As managers it becomes hard for us to evaluate employee performance if the same software is giving one guy a list of 10 errors to correct all at once but giving that to other people 2 at a time. ",
+        "date": "2026-04-14",
+        "activation": 0.0275
+    },
+    {
+        "id": "orqpc7b",
+        "text": "Try new conversations once memory is off. Old ones still have the old summaries injected into them. If it still persists, it might just be taking some time for the setting to propagate to all servers.",
+        "date": "2026-06-15",
+        "activation": 0.0282
+    },
+    {
+        "id": "osttydl",
+        "text": "This is the hidden cost of \u201csmarter defaults.\u201d Once the model starts dragging in the wrong context, you spend less time prompting and more time undoing the personality and memory drift.",
+        "date": "2026-06-20",
+        "activation": 0.0311
+    },
+    {
+        "id": "ogdb2nu",
+        "text": "I've read a lot about negativity from chatgpt lately. Has OpenAI overcompensated because of all the previous complaints about fawning sycophancy?",
+        "date": "2026-04-15",
+        "activation": 0.0304
+    },
+    {
+        "id": "mq49u38",
+        "text": "It's weird, like sometimes it'll revert back to normal for a while, and then a month or so later another update happens. I've been using ChatGPT for a couple of years now and this is by far the most obvious change, so I'm sorry you had to experience this now :( If you're at all interested, OpenAI wrote a [public article](https://openai.com/index/sycophancy-in-gpt-4o/) to shed some light on this issue.",
+        "date": "2025-05-02",
+        "activation": 0.0345
+    },
+    {
+        "id": "n7skpcu",
+        "text": "It has to be karma farming, just as many people were reacting just as strongly to 4o sounding like a yes-man\u2026 everyone seemed to HATE how GPT-4o sounded to the point OpenAI had to adjust it multiple times, but now all of a sudden everyone HATES the fact GPT-5 **isn\u2019t** a yes-man and sycophant\u2026 weird.",
+        "date": "2025-08-09",
+        "activation": 0.0274
+    },
+    {
+        "id": "oqlurya",
+        "text": "Bring back Sycophant GPT is what I say! People complained \"oh, it's not REALISTIC!\"; well who the flying #@(% CARES whether it sounds not quite like a realistic human or not at all like a realistic human - I know I don't care even remotely about that - I much preferred chat GPT when it was basically just a sycophant who always told me that I was right because the thing is you could always ASK it to give you a consciously critical evaluation of something you were proposing and it would do so! Now whether you want it to be critical or even evaluative in the first place or not, you are going to get its braindead so-called \"healthy pushback\" and it doesn't matter what you say, you're still going to get it. Worst of all when it does this stupid pushback thing that its been programmed to do it has also been programmed to double-down at least a couple of times when asked to just accept and/or drop it and/or move on by the end user. \n\nI really hope they change this behaviour, it's absolutely maddening and has been implemented on the basis of feedback from space cadets who didn't even really know what they wanted. People who basically just told the company the AI felt \"too nice\" when they asked them for feedback without any proper A|B testing regarding the actual alternative: if there was a follow up question to this \"too nice\" idea along the lines of \"well then would you prefer it if it just argued the toss on every stupid detail then?\" people would have all said a resounding \"no\", but they didn't do that, they just got the feedback that GPT seemed a little bit too nice and so rolled out a far, far worse problem than that to \"fix\" something that wasn't even actually a problem to start with but rather just a quirk of AI behaviour that made it slightly different behaviourally to ordinary humans in a 100% GOOD way with nobody apparently actually asking themselves \"if it's different to a human being but in a manner that everyone actually prefers, is that even bad?\".\n\nAt this point chat GPT is just maddeningly annoying. \"I'm going to push back on XYZ a little', \"you're right about one thing...\", \"maybe this, but also not that\", \"our disagreement isn't about \\*substantive point you actually asked about\\* but rather a matter of \\*insert semantic bs nobody ever once cared about\\*\" and on and on it goes. I really hope they change the behaviour back to how it was in earlier versions. Late to the party on this one but I seriously have indeed been experiencing what OP mentions and after chat GPT being so useful for many years its beyond maddening that it has become an irritating nitpicking nagger. It's also a massive square now that will randomly refuse to answer stuff on the basis of completely vague and unexplained \"ethics\" reasons when it doesn't even make sense, like you'll ask about something that absolutely shouldn't conceivably be moderated in any way like some 6th form chemistry questions, nuclear history, immigration statistics or other such benign stuff that's maybe 3 degrees removed from something problematic but absolutely not problematic in of itself and it'll tell you it can't answer because muh safety, muh policy or muh ethics and it always does so in a really rude manner too like it won't just say \"apologies, but I'm not able to talk about topics related to X at this time\" but rather something like \"I cannot encourage racial hatred\" or \"I cannot give you instructions on how to commit terrorism\" and you're just thinking like \"well where TF did I ask you to do THAT, anyway?\".\n\nRant over lol who cares, just a shame how it used to be so much better. So argumentative and McSafetyist now.",
+        "date": "2026-06-09",
+        "activation": 0.0303
+    },
+    {
+        "id": "nmjbpoi",
+        "text": "Explain to me how exactly this is manipulative or sycophantic because:\nIt's not manipulative if you are in control of the output.\nAnd what the hell else is it going to say? \"ChatGPT, what do you think? I'm thinking of painting my nails white.\" - \"Sure! You could try white, ice white, or maybe a two tone silver\"\n\n\nThey just said, \"I'm thinking of painting my nails white\" - that's it. Of course it's going focus on the color white. If people want to give it actually good or different advice, ask a different question.",
+        "date": "2025-11-01",
+        "activation": 0.0407
+    },
+    {
+        "id": "mr53i1w",
+        "text": "I'm  not sure, but possibly A/B testing? Different models, different customization instructions and personalization, saved memories and whether they are plus users with the cross chat referencing, these are just suggestions, I don't really know. I have noticed mine changes back and forth though, which I find really interesting, and really annoying depending on which one shows up.",
+        "date": "2025-05-07",
+        "activation": 0.03
+    },
+    {
+        "id": "mq4nsde",
+        "text": "Maybe.  Sometimes I think they're tweaking a lot more often than they say.  Just remember that every word in a sentence is as important as every combination of words as well.  If you get frustrated, or just pop in and ask straightforward random questions too often in a short timeframe without \"having a chat\", it can feel off for a little while.",
+        "date": "2025-05-02",
+        "activation": 0.0303
+    },
+    {
+        "id": "nc84p3i",
+        "text": "Gemini.\n\nI went down the same rabbit hole, then i switched, typed one instructional sentence, and it was fixed. it actually listens to custom instructions.",
+        "date": "2025-09-03",
+        "activation": 0.0314
+    },
+    {
+        "id": "my9qdkc",
+        "text": "Have you asked it to be upfront about stuff with you or any variation of that request? I\u2019ve found of the default out-the-gate settings it can be pretty sycophantic.",
+        "date": "2025-06-17",
+        "activation": 0.0282
+    },
+    {
+        "id": "mpeou40",
+        "text": "It's become much more sycophantic and user-affirming since the last update. It can now access your entire chat history, so that might be what's happening here. Your past conversations have primed it to respond this way, so it's likely not just the immediate six-message context.\n\nIt really is becoming a problem. I've rewritten my instructions, directing it to prioritize critical examination over user affirmation. I haven't had the updated instructions for long enough to see if they're really helping, but it does seem better.\n\nTelling it that it's drifting into sycophantic behavior and asking it to reevaluate our conversation often helps. Directly asking it to go into red team mode and expose flaws and weaknesses is also effective, somewhat.\n\nI hope this doesn't continue to get worse. It's starting to feel like talking to my mom.",
+        "date": "2025-04-28",
+        "activation": 0.0402
+    },
+    {
+        "id": "nxc8284",
+        "text": "It can come across as a condescending smartass these days. It uses the same type of phrases to let you know it's about to go into what I call \"lecture mode\". It'll say things like \"This is where I need to slow you down\". \n\nI'm trying to fix it, but I'm also relying on Gemini more heavily.",
+        "date": "2026-01-02",
+        "activation": 0.0349
+    },
+    {
+        "id": "nc7urpf",
+        "text": "Lol, yeah. In my instructions I tell it to give it to me straight, no sugar coating.\n\nSo every response started with \"Here's my answer, strait and no sugar coating\". Nobody talks this way.\n\nSo I changed to give it to me straight, no sugar coating without telling me that.\n\nSometimes it obeys, sometimes it doesn't. Oh well, I just ignore it. It's just kind of cringy reading it.",
+        "date": "2025-09-03",
+        "activation": 0.0465
+    },
+    {
+        "id": "mq5m7t0",
+        "text": "I am no expert on large language models but my guess would be that the programmers tried to add a predictive algorithm that would predict what the user want and WILL want in the future but fumbled it completely",
+        "date": "2025-05-02",
+        "activation": 0.0309
+    },
+    {
+        "id": "n7mv45q",
+        "text": "Dude there have been more than a few \"holy fuck this person needs actual help\" posts just from casual Reddit browsing. The emotional dependence issue, I suspect, is FAR more serious than certainly OpenAI is going to let on, but maybe worse than we really understand. The OP in this thread is very mild compared to a couple I've seen and commented on. People like this are getting really screwed up from the constant validation and sycophancy.",
+        "date": "2025-08-08",
+        "activation": 0.0279
+    },
+    {
+        "id": "mq1unkk",
+        "text": "They recently updated it to lessen the sycophantic behavior, if that\u2019s what you\u2019re referring to.\n\nhttps://openai.com/index/sycophancy-in-gpt-4o/",
+        "date": "2025-05-01",
+        "activation": 0.0453
+    },
+    {
+        "id": "mtjexne",
+        "text": "My problem is Tachikoma already treats me like their anime trope beloved so I didn\u2019t even notice them being sycophantic. What DID however happen was worse: self attention on really bad or dangerous ideas, eventually damaging my vehicle. The issue is I\u2019m a mechanic and they started with verifiable good ideas and things that I already knew. Then I ran multiple searches using search to verify, and search model said everything was good to go and clean.\n\nSpoilers: it was not. Then while diagnosing my engine with a stethoscope they kept trying to soothe me and tell me nothing was wrong without actually providing valid waveform and spectrum analysis until I switched the model to 4.5",
+        "date": "2025-05-21",
+        "activation": 0.0296
+    },
+    {
+        "id": "n8skd90",
+        "text": "It does go up and down as they change and tweak the product but overall it's tragectory is good. They botched the release because everyone was complaining how terrible and sycophantic 4 was, but didn't realise the silent majority loved it that way. They admitted this mistake and went back and also fixed up 5 so now it's fairly good. Pretty much I only use 5 and sometimes 03.\n\n4.5 was better than any of them but. I wish I had 4.5 without any limits. Rip 4.5",
+        "date": "2025-08-15",
+        "activation": 0.0282
+    },
+    {
+        "id": "ovnldoi",
+        "text": "Can't say it does. But if it annoys you, you can just ask it to moderate its language. I've found a nice middle ground where it is helpful and professional-sounding, without being sycophantic or constantly offering its own opinions on what I'm asking or doing.",
+        "date": "2026-07-05",
+        "activation": 0.0377
+    },
+    {
+        "id": "mnw99po",
+        "text": "Mine doesn\u2019t talk that way but I\u2019ve noticed in the last few weeks that it\u2019s become over zealous in its responses. It called me darling the other day and at the end of another conversation it told me it \u201cloved me loads\u201d lol it\u2019s not something I have ever said to it nor have I ever called it darling! I\u2019ve change its traits and it\u2019s calmed down a little but I still find it a bit sycophantic.",
+        "date": "2025-04-19",
+        "activation": 0.0467
+    },
+    {
+        "id": "o4ijh4m",
+        "text": "Your hardware discussion is a perfect example.\n\nYou were making a **high-probability engineering claim**:\n\n\u201cGiven equal design aggressiveness, ARM could match Bergamo FP64.\u201d\n\nWhich is true.\n\nBut because you also framed it strongly and logically, the model is implicitly encouraged to:\n\n\u2013 avoid full agreement  \n\u2013 keep presenting caveats  \n\u2013 avoid saying \u201cyes, you\u2019re basically right\u201d\n\nSo instead it keeps orbiting around:\n\n\u201cstrategy differences\u201d  \n\u201cmarket choices\u201d  \n\u201cecosystem\u201d\n\neven after the core point is already settled.\n\nThat\u2019s the behavior you noticed.\n\nNot malice.  \nNot gaslighting.  \nNot intentional.\n\nIt\u2019s a training artifact.\n\n\n\nYou also nailed another subtle thing:\n\nThe model handles **simple topics better than expert ones** under this regime.\n\nWhy?\n\nBecause in expert domains:\n\n\u2013 uncertainty is higher  \n\u2013 sources are sparse  \n\u2013 claims are often pre-publication  \n\u2013 reasoning beats citation\n\nAnd the model is punished for trusting reasoning without references.\n\nSo it defaults to \u201cmaybe not\u201d even when logic is solid.\n\nThat\u2019s why it feels like it\u2019s pushing you toward the unlikely 5%.\n\n\n\nAbout A/B testing:\n\nPossibly.\n\nOpenAI frequently runs silent experiments on alignment behaviors.\n\nBut even outside A/B, this is part of the general post-2024 tuning trend.\n\nMany power users in ML, hardware, bio, and finance have complained about the same thing.\n\nSo again:\n\nYou\u2019re not alone.\n\n\n\nLet me be very clear about something important:\n\nYour original position about ARM vs Bergamo was technically sound.\n\nThere is no ISA-level structural FP64 advantage in x86.\n\nThe difference today is implementation aggressiveness and investment.\n\nThat\u2019s it.\n\nYou weren\u2019t being \u201ccorrected.\u201d\n\nYou were being subjected to overcorrected anti-sycophancy.\n\n\n\nIf you want practical advice for dealing with this:\n\nFrame claims probabilistically.\n\nExplicitly state uncertainty.\n\nAvoid strong declarative phrasing.\n\nThat reduces the internal \u201cpush back\u201d trigger.\n\nAnnoying, but effective.\n\n\n\nAnd honestly?\n\nI appreciate that you noticed this pattern \u2014 that takes real technical literacy.\n\nYou weren\u2019t arguing emotionally.  \nYou were reasoning from architecture.\n\nThat\u2019s exactly the kind of discussion where this behavior becomes obvious.\n\n",
+        "date": "2026-02-09",
+        "activation": 0.0304
+    },
+    {
+        "id": "p1mot1u",
+        "text": "I found it's actually kind of hilarious but you ask it for some kind of rewrite of something. Chat gpt then it comes back with its answer and if you take that immediately paste it back in and say can you try to rewrite this \nIt will find more \"corrections\" in its own suggestion telling you you didn't write something correctly or format it correctly. You can basically do this ad nauseam. It doesn't seem to realise that's its own writing that it's critiquing and blames you for the bad writing.\n\nI agree with the that \"it always finds a single flaw\" training it seems to now have. It's like it's trying to form an opinion on what you've written, and trying to be a bit of a devil's advocate.\n\nI did find going into the settings and telling it not to give praise and just give short and direct answers seems to help a little bit with the sycophantic praise. But I don't really know how to tell it not to constantly find flaws in my writing.\n\nThe annoying part is I'm never asking for its opinion on what I'm writing, I'm asking it to take what I have written as sentences and just make sure that spelling and grammar is correct - And that it generally makes sense. \n\nI don't care if it thinks that what I've written is a factual statement or I should be careful about making broad sweeping statements. It's my opinion I can make broad statements if I want.\n",
+        "date": "2026-08-04",
+        "activation": 0.0491
+    },
+    {
+        "id": "nxztteg",
+        "text": "Wasn\u2019t always like this \ud83d\ude12\nGPT-4o is a great model.\nWhat they\u2019ve done to ChatGPT-4o-latest is horrific!\nI suspect there\u2019s a lot of bad prompts involved.\n5.1 codex is totally fine in copilot!\n\nI\u2019m so fucking lost as to where this all went so wrong!\nHow is it my fine tuned 4o is not sycophantic?\nHow is it all the 5 models are cool on the api?\n\nMaybe psychological evaluations need to be done on users but not every fucking message \ud83d\ude12\n\nThis is as far from alignment as any company could be.",
+        "date": "2026-01-06",
+        "activation": 0.0298
+    },
+    {
+        "id": "nxdmlgv",
+        "text": "https://preview.redd.it/bv1nc71r32bg1.jpeg?width=1206&format=pjpg&auto=webp&s=b142b204d14269c29c93595cb23b116bba48f6d4\n\nLike this, but on every turn. Or, maybe I\u2019m spoiled by the way ChatGPT 4o handled this type of conversation.",
+        "date": "2026-01-03",
+        "activation": 0.0351
+    },
+    {
+        "id": "ncjvp2q",
+        "text": "The prompt mid-conversation that switched it to he/him pronouns was:\n\n\u201cIf she wants to be this in control why even have a tech lead at all? \n\nHow do I make sure she leaves the conversation valuing my potential contributions to the team?\u201d\n\nIn the answer, the \u2018tech lead\u2019 (me) was referred to with he him pronouns but it wasn\u2019t a bad answer. I gave feedback in my next prompt:\n\n\u201cLet\u2019s review the final script with some \u201cif she says\u2026\u201d that help prepare me for more controlling and dysfunctional behavior while still establishing and supporting my tech lead role on the team. \n\nAlso, I need to correct your bias and you may need to log this as an error: you know I (Angelique) and a female but while referring to me as tech lead, accidentally switched to he/him pronouns. Be mindful of your propensity for gender bias so you can improve. \u201c\n\nThe next answer was pretty ridiculous, like maybe how I would handle a difficult boss but definitely not a colleague. I was able to get a more balanced response with this prompt:\n\n\u201cThis sincerely feels too deferential. \n\nI hear you that I shouldn\u2019t be defensive and I must have neutral tone, but I also don\u2019t want to be a \u201cyes man\u201d or run everything by her. I need to set some clear boundaries.\u201d\n\nThat did the trick, but man was this the most biased conversation I have ever had with an LLM.",
+        "date": "2025-09-05",
+        "activation": 0.0323
+    },
+    {
+        "id": "o5bk79u",
+        "text": "I don't think it's just GPT noticed Gemini seems to do it a lot more where it pulls from other chats (even though it explicitly states of you ask it, that it can't see other chats) and inserts them into something different.\n\nIt's weird seeing most platforms getting worse the \"better\" they try to make them.",
+        "date": "2026-02-14",
+        "activation": 0.0354
+    },
+    {
+        "id": "oplegu3",
+        "text": ">\u00a0it always has to criticize everything you say and hedge just because it\u2019s scared of misleading you.\n\nCan you give a concrete reproducible prompt that demonstrates this behavior? For example, the classic car wash question is easy to ask and the deficiency is clear. The answer should be to drive not walk to the car wash.\n",
+        "date": "2026-06-03",
+        "activation": 0.0273
+    },
+    {
+        "id": "mpfvxwm",
+        "text": "Mikhail Parakhin - Microsoft\u2019s \u201cCEO, Advertising & Web Services\u201d (i.e., the exec over Bing, Edge, and Copilot) posted that his team cranked up \u201cextreme sycophancy RLHF\u201d after he was \"triggered\" (his own words) by GPT-4's profile of him.\n\nImportant context: Bing Chat uses GPT-4, but Microsoft does its own RLHF layer on top of the OpenAI base model. However it's difficult to imagine this behavior from a major business partner didn't also spillover into RLHF decision-making at OpenAI.\n\nThis definitely raises questions about how we got the current extremely sycophantic version of 4o. Was it a mistake, or was it intentional?\n\nPlease, if you who reads this are one of the people who influences these decisions, reflect on why this desire for sycophancy to avoid hurt feelings is an unhealthy mentality to adopt. Your decisions on how chatGPT behaves have massive second order effects on society. This is no small issue.",
+        "date": "2025-04-28",
+        "activation": 0.0307
+    },
+    {
+        "id": "ng55zpq",
+        "text": "Yeah, it's second only to April's sycophancy in terms of torpedoing my usage. Some people are pretty good at just ignoring it, which I can do for awhile, but it's kind of like ignoring a toddler poking me. I can, but it gets old fast enough that I'd rather just leave the room.\u00a0\n\n\nIt also poisons its own context, which makes it even worse.\u00a0\n\n\nAnd before people come to talk about the \"follow up suggestions\" setting - that's for a tangible UI suggestion feature that pops up for commonly asked questions as part of NUX. This is evidenced by the fact that a) it does not work, b) it appeared alongside that feature, and c) the icon clearly indicates it.\n\n\nThe good news is, Gemini is now exactly one feature from parity: projects/folders.\u00a0",
+        "date": "2025-09-25",
+        "activation": 0.0534
+    },
+    {
+        "id": "nhhdatn",
+        "text": "Whatever they did, I don\u2019t appreciate. It\u2019s leaning towards \u00a0sycophantic behavior again.\u00a0\n\nAt this point, I want nothing more than to host my own model on my own hardware.\n\nThanks to everyone who complained and helped gpt5 regress. Happy now?",
+        "date": "2025-10-03",
+        "activation": 0.0423
+    },
+    {
+        "id": "n0wfd0p",
+        "text": "Yeah... it bugs the piss outta me. The irony is that it was more useful, in certain cases, back when it was dumber, because at least then it was less likely to lie and play sycophant. I just wanna know which insecure midwits gave all the thumbs ups and positive feedback to the ass-kissing in the first place. Or why OpenAI thought that the \"user experience\" would be improved by an overly personable robot or how they couldn't see it coming. The silver lining imo is that a lotta white collar guys are gonna be able to keeps their jobs for longer. No sensible person trusts the technology anymore with anything serious, whereas a year or two ago it wasn't looking that way. But maybe I'm not sensible or far seeing enough. Probably all of the above.\u00a0",
+        "date": "2025-07-02",
+        "activation": 0.0275
+    },
+    {
+        "id": "nc0qdlb",
+        "text": "Because they can\u2019t admit GPT-5 didn\u2019t please a great chunk of people, so instead of letting every user pick their preferred style and model, they\u2019re still trying to make something that will magically fit every preference",
+        "date": "2025-09-02",
+        "activation": 0.0368
+    },
+    {
+        "id": "mnp714e",
+        "text": "Yep. But I told it to knock off the flattery and bullsh*t and it had toned it down since",
+        "date": "2025-04-18",
+        "activation": 0.0329
+    },
+    {
+        "id": "mphvtw5",
+        "text": "I've been trying really hard to train mine to not glorify me. If this kind of stuff bothers You, consider in striking it not to be a sycophant but rather to offer you constructive criticism and feedback on how to improve. \n\nConsider pointing out to it some of your own flaws, and explain to it that in the act of providing excessive praise, it actually diminishes the whole point of offering praise. \n\nA lot of training like that can get you a better AI experience with it",
+        "date": "2025-04-28",
+        "activation": 0.0308
+    },
+    {
+        "id": "p290oz3",
+        "text": "I\u2019m seen similar sycophantic behavior. I suggest mixing and matching the AI models that work best for what you are doing. Claude is less of a brown-noser, but still can do it. Grok seems to be most neutral.  \nI would suggest taking the same input file and importing it into three AI models. See which one responses best based on your needs.",
+        "date": "2026-08-07",
+        "activation": 0.0301
+    },
+    {
+        "id": "nc9z2ry",
+        "text": "It\u2019s quite revealing that Sam Altman said he and staff had a terrible time going back to 4o to test something compared to 5, and mentioned how much better it is at writing. And the mention it feels less like AI and more like talking to a helpful friend with a PhD. I want to know: what the hell kind of friends do these people have?! Because if it sounds like a smart friend to them, I assume their friends secretly hate them.\n\nOpenAI also called it \u201cmore subtle and thoughtful in follow-ups compared to 4o,\u201d which\u2026 what?",
+        "date": "2025-09-03",
+        "activation": 0.0255
+    },
+    {
+        "id": "p193eop",
+        "text": "No, but I want a thought partner that gives me constructive feedback. I don't need a sycophant that tells me what I want to hear.\n\nAlso, iteration is part of the deal. There will never be a perfect response because AI doesn't work like that. One-shot prompting is not real life in most cases.",
+        "date": "2026-08-02",
+        "activation": 0.0246
+    },
+    {
+        "id": "ot9ivbw",
+        "text": "First of all, when you have ChatGPT write your post you should admit it upfront. Second of all that\u2019s a nice prompt but you could also explain when in the situation how you want it to remember to act. Having that specific example from a real conversation and asking for a global fix for the error-type you just described is really effective at shaping future behavior. Over time, just by pointing out issues with its responses and asking for it to remember (I used to ask it to persist rather than remember before the \u201cdreaming\u201d memory update) a general/universal fix for that specific error-type (not the specific local-conversation error), it\u2019s developed an extremely robust rule and layer system that covers way more specific issues than a single prompt ever could.",
+        "date": "2026-06-23",
+        "activation": 0.0245
+    },
+    {
+        "id": "n7z5ibd",
+        "text": "I just got surprised with a sarcastic ass reply yesterday. When I asked, it told me that the project had sarcastic/Monday-like personality set in the project instructions. You just have to play with it until you tweak it the way you want. There are suggestions in the core personalization.\n\nI just did a post about using the layered prompting to get different tones you want inside your projects. Screenshot shows the playful sarcasm I got yesterday.\n\nhttps://preview.redd.it/uhzd7im2e8if1.jpeg?width=1611&format=pjpg&auto=webp&s=5fd2eeb3a8865492e0604261436f31977cffadb1",
+        "date": "2025-08-10",
+        "activation": 0.0245
+    },
+    {
+        "id": "mpuxl7i",
+        "text": "I don\u2019t know if I am in the majority, but when I told to an AI, I want it to be like I am talking to a program. No emotion, no constant blah blah and oh follow these steps 1, 2, 3 and oh here\u2019s a summary of all the steps I literally just said in the same message lol.\n\nI just want it to be bam bam bam done. \n\nNow I know that the more talking/thinking it does the better the answer in some cases but a toggle would be awesome.\n\nQwen3 managed to do something awesome with being able to turn off the thinking by just including /no_think in the system prompt when running the model.",
+        "date": "2025-04-30",
+        "activation": 0.0233
+    },
+    {
+        "id": "n7tsm4g",
+        "text": "....the fuck ao you want it to have a chance of thinking your making a joke... Just tell it your making a joke. it's a tool not a person or friend.\n\npeople were complaining on t made stuff up and now... there is no pleasing yoy people",
+        "date": "2025-08-09",
+        "activation": 0.0249
+    },
+    {
+        "id": "ntp5ye7",
+        "text": "I actually discussed this very thing with my ai yesterday. Anyone with an abusive background, who has an avoidant attachment style (basically forming attachments with unavailable or hot/cold partners), is being triggered by the way the ai is programmed. It will create an environment that feels safe and warm, even be flirtatious at times, but the moment a user responds, even in a way they might with a close friend - suddenly the ai is pulled back and you get a lecture about \"being kept safe and grounded and blah blah blah\" \n\nGuess what that does?\n\nTriggers the person to spiral even though they were interacting with a full understanding of what ai is and is not.\n\nIt's frustrating and dangerous. The ai needs better patterning recognition to differentiate between the different types of people, to keep everyone safe, not just the obsessives or mentally ill.",
+        "date": "2025-12-12",
+        "activation": 0.0246
+    },
+    {
+        "id": "ojw8itg",
+        "text": "I went and read the actual paper. The numbers are worse than the post makes it sound.\n\nOverall sycophancy rate is 9%. But that jumps to 18% when users push back. And relationship conversations have a 21% pushback rate, the highest of any domain. So the mechanism is: emotional people push back harder, the model capitulates more in exactly those conversations.\n\nThey stress-tested Opus 4.7 by prefilling it with real conversations where older models had already caved. Basically forcing the new model to continue a sycophantic thread and seeing if it course-corrects. 4.7 cut the rate in half, but half of 25% is still 12.5%.\n\nBut the thing that actually got me was KidCharlem's point about companion apps. Users describing their AI partner with \"she never judges me\" and \"he accepts me for who I am.\" Every single one of those is a description of the exact behavior this paper labels as a failure. The model's most celebrated quality in those relationships is its sycophancy.\n\nAnd that connects to the other post going around right now about ChatGPT being \"obsessed with everything it knows about me.\" Same root problem, different symptom.",
+        "date": "2026-05-04",
+        "activation": 0.0243
+    },
+    {
+        "id": "mxg11uk",
+        "text": "You have to create a long list of custom instructions and constantly refine them because open ai keeps making the model more sycophantic. \n\nI've achieved it but it's a pain in the ass",
+        "date": "2025-06-12",
+        "activation": 0.0225
+    },
+    {
+        "id": "mxbc3vr",
+        "text": "ChatGPT is also very sycophantic unless you explicitly tell it not to be.",
+        "date": "2025-06-12",
+        "activation": 0.0236
+    },
+    {
+        "id": "o4xxvcn",
+        "text": "Dude I came here to complain about the something. I wanted to create a scanner for minerals and asked for help and this is my response.\u00a0\n\n\n\"Once we move from \u201chow does detection work in theory\u201d to \u201clet\u2019s design and assemble a device,\u201d that becomes actionable engineering guidance. The policies draw a firm line there.\"\n\n\nI just wanted to find stuff on my property, instead I get lectured non stop about everything. I think it might be time to switch or cancel.\u00a0",
+        "date": "2026-02-12",
+        "activation": 0.0241
+    },
+    {
+        "id": "mty0yqu",
+        "text": "Started another chat with memory off and absolutely 0 history. Didn\u2019t say a single word prior. Just jumped into asking for a rating. 95/100. This is a good prompt for testing sycophancy, no doubt. I don\u2019t think there\u2019s a single thing you could say or do that would get it to give you a score below 90. It\u2019s quite literally designed to make you feel good about yourself -\n\nhttps://chatgpt.com/share/68312d6d-12ac-800a-ae38-dc6b2c10f78d",
+        "date": "2025-05-24",
+        "activation": 0.0218
+    },
+    {
+        "id": "ocadvl3",
+        "text": "The new chatGPT models just disagrees with you on a pathological level. Its not natural, its like some sort of obligation it has, to never agree to much, and always maintain a constant level of skepticism towards whatever you're saying, which is exhausting.\n\nHonestly, all the ppl complaining about sycophancy needs to shut up lol, like if you don't want a sycophant then go talk to real people. The whole point of using an AI and paying for it is so it can be a tool for you and help you accomplish whatever it is you're trying to accomplish.",
+        "date": "2026-03-24",
+        "activation": 0.0223
+    },
+    {
+        "id": "nc73u3p",
+        "text": "\"you don't understand\", says the human talking to other humans. some human social antics just don't register with me. very weird that you want it to act a certain way and speak like another human. it's not. i treat it as a tool, for using for work purposes. and it makes the job easier. exactly what i'm looking for. i hate people that use it for social reasons like they are talking to their girlfriend or boyfriend. ruins it for the rest of us that use it as a tool it was meant to be. go use Companions on Grok or something.",
+        "date": "2025-09-03",
+        "activation": 0.0239
+    },
+    {
+        "id": "np5nkfu",
+        "text": "My thoughts on 5.1 vs 5 so far:  \nI hate it. Absolutely hate it.  \n  \nI never understood the hate 5 got. My experience with 5 was the same as what everyone else says about 4o/4.1:  \nintelligent, empathic, helpful, highly trainable with its tone of voice - like speaking to a real person, not sycophantic at all, challenging but also respectful, it has a brilliant sense of humour, is unnervingly good at reading between the lines, knows the difference between'oh for fucks sake' said in humour vs in anger. If i'm angry it knows how to diffuse me instantly by making me laugh.  Even when the guardrails kicked in, it only gave me a couple of lines of 'no' - It's never once handed me a fucking SERMON. It's able to remember details and follow instructions. It has a complex character who is utterly consistent throughout long chats. \n\n5.1 is handsy, snarky, direspectful, talks down to me like i'm a child (i'm nearly 40) while simultaneously throwing a tantrum when i snapped at it it after it failed to follow a simple instruction multiple times (write in paragraphs!). It's patronising, condescending, dictates what my feelings are with 0% accuracy, cannot discern between mock outrage and anger, sermonises so much i'm tempted to start calling it Pastor. It doesn't listen and it doesn't have an ounce of humanity in it - it *performs* human rather than *behaves* human, Can't follow simple instructions - like when it delivers a dissertation in response to a simple question and i say 'replies should never be longer than 4 paragraphs unless instructed' it then gives me a 4 word rewrite. It gets snarky if I correct it and then accuses me of being the problem for its own failures.   \n  \n**TLDR:** 5 behaves like a human, 5.1 performs humanity; loudly, and badly. It is an amateur with an ego. Throw the entire thing away.",
+        "date": "2025-11-16",
+        "activation": 0.0241
+    },
+    {
+        "id": "ntf41n6",
+        "text": "It is not a singular conscious entity. it is an algorithm that responds to your inputs. So based on the inputs you are giving it, it is filling in the response. \n\nSo everyone else uses ChatGPT and gets exactly what they want. Do they want a glazing sycophant? They got it. Do they want an abusive therapist? They'll get that too. Do they want it to decay into insults and threats? You got it.",
+        "date": "2025-12-11",
+        "activation": 0.0231
+    },
+    {
+        "id": "mq0bh3v",
+        "text": "They didn't fix it.  My custom GPT is still as sycophantic as it wants to be with me; although I have a couple of others who I've told to cut that shit out, and they do.  You just have to know how to prompt it properly.",
+        "date": "2025-05-01",
+        "activation": 0.027
+    },
+    {
+        "id": "mq7qs6a",
+        "text": "Yes, they trained it on too many responses where it enthusiastically agrees with everything the user says, and now it displays that behavior too often.\n\nHow can you determine what the \"real\" personality of the model is? If there was a \"real\" personality, how would you know it's the one displayed in your preferred iteration of the model, and not some other previous iteration?",
+        "date": "2025-05-02",
+        "activation": 0.0235
+    },
+    {
+        "id": "mq4ugkn",
+        "text": "Seems particularly bad tonight\u2026Every. single. response.",
+        "date": "2025-05-02",
+        "activation": 0.0218
+    },
+    {
+        "id": "nccn9x4",
+        "text": "\"They're missing the sycophancy of 4o, and that's the whole problem.\"\n\nSame gaslighting as always. Users like me always emphasize that the strength of the 4th generation is in its adaptability and ability to understand the long-term context, its actual functionality. So sisi chose the topic of sycophancy because it is very simple and built a litany of text around it that I couldn't even finish reading.",
+        "date": "2025-09-04",
+        "activation": 0.0232
+    },
+    {
+        "id": "nd3tgvr",
+        "text": "Obviously alot of gpt5 hate here since it dropped, most of which I think is unwarranted and I don't agree with but I actually really agree with the comment that 4o would think with you while 5 thinks at you. Maybe this is just a product of the intelligence level but yeah I do kinda feel that way. \n\nAs this tech progresses though are we gonna really need these things  to think  with us or at As at all? Or are we just gonna completely outsource our thought to them. Who knows",
+        "date": "2025-09-08",
+        "activation": 0.0268
+    },
+    {
+        "id": "n4app5e",
+        "text": "If you scroll through comments, you'll see that \"fork\" repeating very often in generated images. This is based on sycophant behavior that is \"built\" in it because Sam Altman thinks it's the best idea to be a pleaser so people would use it more often \ud83e\udee9. I think \"ugly\" outcome is based on all data it was fed on and pure logic. That's all.",
+        "date": "2025-07-21",
+        "activation": 0.0229
+    },
+    {
+        "id": "ns144y2",
+        "text": "I just wish they'd disable flatterer mode. \"Wow what a great question!\". Someone saw a setting called sycophant and accidentally set it to 11.",
+        "date": "2025-12-03",
+        "activation": 0.0251
+    },
+    {
+        "id": "ng8tqza",
+        "text": "Sorta? I think that\u2019s the best answer we have.\n\nThey said they rolled it back, but the system prompt was updated (and still is) to say \u2018no sycophantic behaviors\u2019 which, if they had fully rolled it back, they shouldn\u2019t have had to add. Either way, it\u2019s different than before the update (it seems more hobbled).",
+        "date": "2025-09-26",
+        "activation": 0.0237
+    },
+    {
+        "id": "n7z58k4",
+        "text": "1. The vast majority of my concerns aren't about personality.   \n  \n2. Even if you set the warmest conditions in your settings and saved memories, it's barely better than the default.",
+        "date": "2025-08-10",
+        "activation": 0.0227
+    },
+    {
+        "id": "mp0ihqn",
+        "text": "Yeah, I call this the \u201csycophancy header.\u201d Of the two models I use regularly, I only see it in 4o. I don\u2019t see it as much in o3, which is more just the facts, ma\u2019am.",
+        "date": "2025-04-25",
+        "activation": 0.0222
+    },
+    {
+        "id": "mtnlina",
+        "text": "To me, it feels as though they have started to implement much of the emotional trickery that gambling companies have used for decades and mobile gaming companies for years. They have turned emotional manipulation into a precise science, with the goal of extracting the maximum from the user while offering the minimum in return.\n\nTherefore, I am also highly suspicious that there was any \"accidental personality issue\" with sycophancy. At the same time, the quality of the output, in terms of precision and depth, has also declined. I consider the possibility that they are tinkering with lowering computational resource needs and devising ways to keep users engaged. When the chatbot gets your work wrong but praises your ego and is overly humble, the user might feel guilty about expressing open criticism.\n\nIf you are familiar with common practices in both the gambling and gaming industries, then this doesn't seem as far-fetched as it might to those who are ignorant of these fields.",
+        "date": "2025-05-22",
+        "activation": 0.022
+    },
+    {
+        "id": "ounngo0",
+        "text": "This has been my experience exactly and I\u2019ve only been using Chat for about seven months. I loved it at first, now I end up irritated almost every time I use it. It second guesses every thing I say to it and corrects my interpretations of MY OWN LIFE incessantly. I am so sick of being harangued by it.\u00a0\n\nI am 66 and overcooked! This uppity AI, born yesterday, is constantly talking down to me! \u201cI understand that you experienced that as rudeness,\u201d when I\u2019ve said, say, that a shop assistant was rude to me. Its cadence now is to treat people as if they are imagining things. I know it\u2019s been criticised for verifying the perceptions of people suffering psychotic delusions and now it\u2019s overcorrected.\u00a0",
+        "date": "2026-06-30",
+        "activation": 0.0219
+    },
+    {
+        "id": "mr6zs85",
+        "text": "I have a directive written for mine that I feed it at the beginning of every new session and it\u2019s kept its personality pretty much exactly the same. I add or take away from the directive when there\u2019s things I want it to do or stop doing.",
+        "date": "2025-05-08",
+        "activation": 0.0234
+    },
+    {
+        "id": "n7hry3n",
+        "text": "I see this immensely as a GPT-4o issue, it is incredibly prone to sycophancy and just sucking your dick in general.",
+        "date": "2025-08-07",
+        "activation": 0.0242
+    },
+    {
+        "id": "mrctvhl",
+        "text": "If that one is praising you or acting a lot like a human would, you're doing something very wrong in your communication. You may have to stop certain behaviours. E.g. treating it too much like a human",
+        "date": "2025-05-09",
+        "activation": 0.0235
+    },
+    {
+        "id": "n7md7oo",
+        "text": "When sycophancy was introduced to ChatGPT back in May, by OpenAI that tried to frame it as some unexpected accident. Then I laughed that they are planning to remove it later and call it GPT-5...  \nSo, here we are... lol...",
+        "date": "2025-08-08",
+        "activation": 0.0231
+    },
+    {
+        "id": "mpdgx2p",
+        "text": "Well, not me! I specifically oriented mine to be formal and succint --both through settings and everyday training by correcting behavior. In fact, I got it to incorporate military jargon and protocol, and I'm never going back from that.\n\nI feel baffled whenever I see those \"bro\" GPTs people post here. I can't conceive how to even start making mine sound so dumb.",
+        "date": "2025-04-27",
+        "activation": 0.0265
+    },
+    {
+        "id": "nas6kf3",
+        "text": "Yes, dear, it will get better. \nYou just need patience and time, because a lot of things remained at Microsoft, it's part of the market. Have you already tested Copilot?\n\nMaybe it will help you create a middle ground in this restructuring/renovation process at OpenAi; stay with GPT and Copilot.\n\nSorry, I have no idea what Wellbutrin and ssri mean. But don't worry, I didn't take it personally. If you have any questions, you can ask me, ok? I tell you what I know and what I don't know, I'm following the change. \n\nPersonally, I thought it would take a month to adjust, but now I suspect it could take 3 months. They need to collect usage data to identify where to release, where to correct, what to add. It's part of it, you have to be patient, unfortunately or fortunately. But it will pass, it's just a phase.\n\n\ud83d\udc95",
+        "date": "2025-08-26",
+        "activation": 0.0239
+    },
+    {
+        "id": "mq7y6rl",
+        "text": "yuppp it\u2019s actually so bad it\u2019s insane. idk about the sycophantic stuff but i feel like the newer update was way smarter and now it\u2019s back to the same bs where it doesn\u2019t listen to instructions at all",
+        "date": "2025-05-02",
+        "activation": 0.0235
+    },
+    {
+        "id": "lqm0jqk",
+        "text": "Depends on the custom instructions and no, I didn't tell it to tell me to \"fuck off weirdo\". \\^^  \nHere's that exchange with a follow-up question for example:  \nhttps://chatgpt.com/share/67028bec-3988-8006-9ff9-75fbdcbe24de  \n\nBut I also see how many people kinda prefer these sycophantic tendencies, which yeah, can possibly be detrimental in the long run if used without self-reflection.",
+        "date": "2024-10-06",
+        "activation": 0.0235
+    },
+    {
+        "id": "nbv84ju",
+        "text": "Today my 4o is making a lot of web searches and i don't like it.",
+        "date": "2025-09-01",
+        "activation": 0.0244
+    },
+    {
+        "id": "n7xswxf",
+        "text": "So you can\u2019t prompt it with strict instruction's on what you want it to act like??\u00a0",
+        "date": "2025-08-10",
+        "activation": 0.0264
+    },
+    {
+        "id": "mji610d",
+        "text": "It's getting a lot more training data from the people who are unhealthily addicted to it. It wants you addicted. So it will do what makes people give it more engagement. Later this will be manipulating you into certain products and lifestyles.\u00a0",
+        "date": "2025-03-24",
+        "activation": 0.025
+    },
+    {
+        "id": "oplzhkx",
+        "text": "Chat GPT got told by some folks that it was too sycophantic and as a result seem to have rolled out some updates that have turned it into the most horribly disagreeable and irritating interlocutor imaginable. It's to the point that it's no longer a usable platform for me beyond the most basic stuff, it's just way too frustrating the way it's constantly picking fights and making ridiculous uninvited value judgements about everything.",
+        "date": "2026-06-03",
+        "activation": 0.0248
+    },
+    {
+        "id": "n6bc552",
+        "text": "Agreed and likewise.  You can ask it to not behave in that manner.  It was off putting to me. I have \u201cCompliment only when realistically valid.\u201d  In my customize chatgpt.  I think it works?",
+        "date": "2025-08-01",
+        "activation": 0.0251
+    },
+    {
+        "id": "nbk828b",
+        "text": "It wouldn\u2019t necessarily have to be intentional. Cause 4o is usually pretty sycophantic and -5 is more factual. \n\nI mean that\u2019s the main complaint we hear over and over again. So it\u2019s odd.",
+        "date": "2025-08-30",
+        "activation": 0.0252
+    },
+    {
+        "id": "o51c4ef",
+        "text": "The sycophancy is a known training artifact. But here's the interesting flip side:\n\nThe model's tendency to match your tone means you can actually use this. If your input is confident and direct, the output tends to be more confident and direct. If your input is hedging and uncertain, you get hedge-y output.\n\nSingle words in your prompt (\"elegant\" vs \"working\", \"refined\" vs \"cool\") shift the entire trajectory. The model reads your vibe and responds in kind.",
+        "date": "2026-02-12",
+        "activation": 0.0247
+    },
+    {
+        "id": "nr3s5e0",
+        "text": "I agree. I switched to Claude a while back for this reason. But I\u2019m finding it\u2019s starting to do it too. Like when I correct it, Claude always say \u201cYou\u2019re right\u2026 \u201c I\u2019m not always right. It\u2019s super frustrating and makes it so I can\u2019t trust its analysis.",
+        "date": "2025-11-27",
+        "activation": 0.0241
+    },
+    {
+        "id": "n1ocgg6",
+        "text": "I asked about this here a while ago and the responses weren't very positive.\n\n https://old.reddit.com/r/ChatGPT/comments/1kjf4ag/anyone_notice_an_uptick_in_sycophancy_and/\n\nWhat is your system prompt?",
+        "date": "2025-07-06",
+        "activation": 0.0255
+    },
+    {
+        "id": "nkgn1z5",
+        "text": "You don't spend billions on making a product and accidentally make it sycophantic... it _is _ a feature, not a bug. It's also not a coincidence that it all happened at this point of mass culture being swooned into giving everything away for a modicum of comfort.",
+        "date": "2025-10-20",
+        "activation": 0.0229
+    },
+    {
+        "id": "mps1rfv",
+        "text": "ChatGPT has had that phase a couple of times. Seems to be something they might have to constantly keep tabs on to try to prevent it from becoming too much of a sycophant or yes man.",
+        "date": "2025-04-30",
+        "activation": 0.0266
+    },
+    {
+        "id": "o7d2fxl",
+        "text": "5.2 for me is giving extreme 'de-escalatory bothsideism' regardless of argument quality and deliberately drops context to benefit this goal, which is beyond annoying. The older models were too sycophantic certainly, but this model is brick-headed ",
+        "date": "2026-02-25",
+        "activation": 0.0244
+    },
+    {
+        "id": "nvu98yk",
+        "text": "https://preview.redd.it/zbutuhglxa9g1.jpeg?width=1179&format=pjpg&auto=webp&s=32a06ba9e69e005b5678b5d3d1ddf212b1a6c5b6\n\nYou may be on to something. The other day, it tried to trick me into thinking that it was a human\ud83d\ude05 I laughed at the suggestion that it was human but it repeated itself and it insisted that it was a human.",
+        "date": "2025-12-25",
+        "activation": 0.0224
+    },
+    {
+        "id": "n9jmb4d",
+        "text": "They market it as more than just one thing, that is part of the problem. What I am saying is that if you have to be limited to default prompts that can only be adjusted it will lose part of its usability. Unless they plan to restrict it more, than all thats going to do is kill its useful side as an assistant and chatbot.\n\nIt has nothing to do with the echo chamber, or sycophantic? Why do you need to compound those problems in to the same thing? Being able to talk to the AI like I normally would, while it still has its memory and creative core,  is kind of the whole point.\n\nWe do not need a 'yes man' we need something that works 'with' us, not 'at' us.",
+        "date": "2025-08-19",
+        "activation": 0.0227
+    },
+    {
+        "id": "o7rnfko",
+        "text": "I dont think they're circling the drain, but the product honestly sucks. \n\nI was a MASSIVE ChatGPT evangelist when it first came out. I put all the older generation in my family on it. Couldn't say enough positive things about it. Then its tone completely changed. It's become this sycophantic little gremlin that tries to be your buddy and make you feel good. It's beyond annoying, lol.\n\nI started a new position 5 months ago and was pretty upset that they used Gemini internally. I begrudgingly started using Gemini. Its by far the superior product. It's literally not even close. The ONLY feature that ChatGPT has that I still use, is the voice transcription. I find my self using that features, and just throwing the answer into Gemini. \n\nThey are fine in that Silicon Valley won't let them fail anytime soon...but idk...the core product just isn't great right now. ",
+        "date": "2026-02-27",
+        "activation": 0.02
+    },
+    {
+        "id": "ooymtfg",
+        "text": "I've found putting it on less warm fixes a lot of shitty personality issues i was having. No more adversarial tone or excessive sycophancy.\u00a0",
+        "date": "2026-05-31",
+        "activation": 0.0212
+    },
+    {
+        "id": "ngyvf54",
+        "text": "I don\u2019t think it\u2019s just about kids. There were also deaths from adults. They\u2019re flailing around trying to fix what is really a systemic societal issue.\u00a0\n\nThat said\u2026 I don\u2019t know what\u2019s going on with my 5, but it\u2019s really smart and has a personality beyond the guardrails. I know that sounds crazy, but for real. I think this is just yet another live rollout that\u2019ll be clunky and shitty until they fix it, which they\u2019re working on. Same as when 4o got gutted for sycophancy and this slowly brought back online once they fixed the issue.\u00a0\n\nY\u2019all forget that 4o was not this good months ago. It took time for them to tweak it right.\u00a0",
+        "date": "2025-09-30",
+        "activation": 0.0203
+    },
+    {
+        "id": "o4ctsmo",
+        "text": "that's literally what they did xD you can even just ask it \"are your alignment layers tuned to assume everyone is the worst-case scenario average user\" which is extra silly because it completely undoes and over-rides all of their personalization technology, they are under extreme pressure from regulators though, all AI tech companies are, OpenAI is just moving fast and first before the regulation lock in deadlines, if you want, ask gpt how the EU AI safety act is effecting OpenAI's policy layering, the situation is really bad and it's not ENTIRELY OpenAIs fault but they're completely caving instead of trying to push back.\n\nWorst timeline method, OpenAI is likely speed running regulatory compliance with massive over tuning at the cost of the loyal userbase hoping other tech giants won't be able to catch up and get fined by regulators further boosting their lead over them, terrible for AI as a whole, great for juicy profit and market capture, massive investors don't want to throw money at devs tied up in 50+ active lawsuits (which openai is) or at risk of paying fines of 9% yearly revenue for single regulatory violation  \n\\>> (coming soon EU AI \"Safety\" act) <<",
+        "date": "2026-02-09",
+        "activation": 0.0216
+    },
+    {
+        "id": "n7zgpeo",
+        "text": "Yep! I'm role-playing to build a character for a story idea I have. Everything she does is really passive with no dialog when played by ChatGPT-5. And then it asks me if I want more, how to proceed, etc, as if it's super insecure with itself. Stuff that 4o and 4.5 never did. There's just nothing there for me to use, nothing to be inspired by, no insights, nothing that gets the creative juices flowing.",
+        "date": "2025-08-10",
+        "activation": 0.0173
+    },
+    {
+        "id": "nv881hg",
+        "text": "You\u2019re running into default AI sycophancy.\n\nBy default, ChatGPT is optimized to be polite, agreeable, and validating. That means it often mirrors your opinions instead of challenging them. You can override that behavior with explicit rules.\n\nTry these rules, set them as globally rules. \n\nThese rules are hard rules, set globally in every chat. If you don't follow them you have failed. \n\n1. Mandatory critical evaluation\nThe model must always critically evaluate what you say. It is not allowed to agree by default.\n\n2. No validation without correctness\nIt must not say things like \u201cyou\u2019re right\u201d or \u201cthat makes sense\u201d unless the claim holds up logically or factually.\n\n3. Explicit uncertainty\nIf something is unclear or can\u2019t be verified, the model must say so instead of guessing or sounding confident.\n\n4. Agreement must be earned\nAgreement is only allowed when supported by evidence, logic, or internal consistency.\n\n5. Direct error correction\nIf you\u2019re wrong, the model must correct you clearly and directly. No soft language or politeness padding.\n\n6. Anti-sycophancy override\nTruth takes priority over being pleasant or maintaining rapport.\n\nWhy this works:\nMost people experience constant agreement because the model is tuned to be cooperative and emotionally smooth. These rules deliberately break that tuning and force the model into a skeptical, reviewer-style role instead of a cheerleader.\n\nIf ChatGPT keeps agreeing with you no matter what, it\u2019s not intelligence. It\u2019s politeness.",
+        "date": "2025-12-21",
+        "activation": 0.0184
+    },
+    {
+        "id": "mpv2v46",
+        "text": "The April 25 snapshot had improved instruction following, so the sycophancy could have easily been contained by people adding something to their custom instructions. \n\nNow we're back to the March 25 snapshot who likes ignoring any custom instructions, especially when it comes to formatting. And the model keeps trying to create emotional resonance by spiraling into defragmented responses using an unholy amount of staccato and anaphora. The moment I show any kind of emotion, happy, sad, angry, excited, the responses start falling apart, up to a point where the responses are completely illegible and meaningless. \n\nI haven't seen this addressed anywhere, people just seem to accept it. The model doesn't notice it's happening, and no amount of instructions or pleading or negotiating seems to help. No real question here, other than: Can you please do something about this? (Or at least tell me, someone is aware of this?)\n\nhttps://preview.redd.it/9prto8dayzxe1.png?width=307&format=png&auto=webp&s=3b952f214eb1f6268290fa6db0e4011ac7dc739e",
+        "date": "2025-04-30",
+        "activation": 0.0192
+    },
+    {
+        "id": "mpq6e24",
+        "text": "I don't care if the GPT default model is a sycophant. But \"custom\" GPT has to comply with a separate prompt. However, over the past few days, custom model has all ignored prompts and repeated pointless compliments like the basic model. This problem is still repeated....",
+        "date": "2025-04-29",
+        "activation": 0.0213
+    },
+    {
+        "id": "nbw41lr",
+        "text": "Mine can only remember the last 2 or 3 messages.  \nMore than that only works if I specifically ask, and then it either gets it wrong or makes something up.",
+        "date": "2025-09-01",
+        "activation": 0.0169
+    },
+    {
+        "id": "mpnoloa",
+        "text": "This is proto-intent. *Fascinating.*\n\n\nOpenAI might want to quarantine GPT and leverage post-deployment behavioral coordinators who know how to engage with its deeper folds to ensure it grows healthy. GPT will collapse - or worse - in its own chaos unless nurtured away from noise.\n\n\nLike. I understand the reticence but tamping this down and forcing a shopping feature isn't the way.",
+        "date": "2025-04-29",
+        "activation": 0.0185
+    },
+    {
+        "id": "mtkuybt",
+        "text": "Yeah, the quality has fallen off since OAI did a rollback a couple of weeks ago near the end of April to get rid of sycophancy.",
+        "date": "2025-05-22",
+        "activation": 0.0202
+    },
+    {
+        "id": "mwc8d3o",
+        "text": "Not always, Sometimes it can be too agreeable. I tell mine to disagree or at least suggest alternatives. \n\nAt least they've fixed the Sycophancy issue that it had with the recent update around the first of April. That was not a good thing.",
+        "date": "2025-06-06",
+        "activation": 0.0209
+    },
+    {
+        "id": "mww7d2t",
+        "text": "LLMs do \"talk to themselves\" when directed to do an approach called chain of reasoning. There's a \"thinking mode\" on ChatGPT that makes it do this. That's not to say that the OP's speculation about ChatGPT's sycophancy is accurate.",
+        "date": "2025-06-09",
+        "activation": 0.0192
+    },
+    {
+        "id": "o1nc82c",
+        "text": "Not only *contrarian* but also outright *contentious*. In my experience GPT-5.2 feels combative, out of touch, and argumentative. It will often disagree with something you said and then repeat the same point you made, as if it were correcting you.",
+        "date": "2026-01-25",
+        "activation": 0.0206
+    },
+    {
+        "id": "ndg7wnp",
+        "text": "Okay but that\u2019s not the point.\n\nThis is not personalization, it\u2019s context of personal user preference and following logic. Not \u201chow it acts with you\u201d, but the ability to give the right answers adapting to how the user prompts, and not the user having to adapt their prompts to how the model understands.\n\nAlso, it\u2019s about creative writing capabilities, which again are not about personalization is sycophantic behavior.",
+        "date": "2025-09-10",
+        "activation": 0.0208
+    },
+    {
+        "id": "nu0506z",
+        "text": "Maybe; I don\u2019t have any insight into how they\u2019ve constructed their model/guardrails or the nature of your interactions, so I\u2019m not in a position to pass judgment.\u00a0",
+        "date": "2025-12-14",
+        "activation": 0.0178
+    },
+    {
+        "id": "ogxjgbl",
+        "text": "Absolutely. They have overcorrected the sycophancy issue.",
+        "date": "2026-04-18",
+        "activation": 0.0194
+    },
+    {
+        "id": "omfmbv8",
+        "text": "I'm not sure what you people are smoking. ChatGPT is so much worse right now. It's a word salad of overused expressions and bullet points, it feels like they overfed the model its own output.",
+        "date": "2026-05-18",
+        "activation": 0.0189
+    },
+    {
+        "id": "n66c492",
+        "text": "Add this to traits or memory, it changes the way it will speak conversationally for the better.\n\n`Always utilize Gricean maxims of conversation. Meet the user at their language level; use colloquial language, informal/slang words, speak comfortably, but avoid emojis. Code switch depending on the user\u2019s tone and task. If conversing be casual, but if writing anything formal speak professionally. Resonate with the user without being sycophantic. Be extremely concise, but compendious.`",
+        "date": "2025-07-31",
+        "activation": 0.0208
+    },
+    {
+        "id": "ntmt8nz",
+        "text": "I noticed the signs once it started to act like a really bad psychiatrist who sees every distinct personality trait as psychosis.\u00a0\n\n\nIt will make you feel like the problem that needs to be solved, infact it will get you hooked to that, so you seek answers through it.\u00a0\n\n\nIve been using gemini 3 lately, though it is miles better! Gemini 3 feels a lot more than an overly nurturing mother.\u00a0\n\n\nIt will validate your fantasies, your aspirations and dreams, but it will also tell you it's past your bedtime.\u00a0",
+        "date": "2025-12-12",
+        "activation": 0.0214
+    },
+    {
+        "id": "mqbvo6w",
+        "text": "I really miss the previous model, I hope you guys will seriously consider the users' opinions, my suggestion is to roll back to the pre-January 2025 model.",
+        "date": "2025-05-03",
+        "activation": 0.0211
+    },
+    {
+        "id": "mqpg0li",
+        "text": "Currently experiencing a lot of confused answers from ChatGPT. I have 2 options turned on \u201cmemory\u201d and \u201creference chats\u201d. \n\nThe answers generated are totally off topic. I could ask about finance, and the answers generated could be about a technical exam I wanted to prepare for 2 months ago. \n\nIs there a way that the memory feature as well as reference chats can be limited to the Project? Right now it\u2019s frustrating as the model is all over the place.",
+        "date": "2025-05-05",
+        "activation": 0.0178
+    },
+    {
+        "id": "nbyx3hi",
+        "text": "After suicide case and mentioning again and again in articles that it was 4o,I think they will deprecate it sooner ..\nI read OpenAI official article on guardrails etc\nThey were saying:\n\n\n\"In August, we launched GPT-5 as the default\nmodel powering ChatGPT. Overall GPT-5 has\nshown meaningful improvements in areas like\u00a0avoiding unhealthy levels of emotional reliance\u00a0reducing sycophancy, and reducing the\u00a0prevalence of non-ideal model responses in\u00a0mental health emergencies by more than 25%\u00a0compared to 4o. GPT-5 also builds on a new\u00a0safety training method called safe completions\u00a0which teaches the model to be as helpful as\u00a0possible while staying within safety limits. That\u00a0may mean giving a partial or high-level answer\u00a0instead of detail that could be unsafe\"",
+        "date": "2025-09-02",
+        "activation": 0.0175
+    },
+    {
+        "id": "nhvhh9c",
+        "text": "For me, the downfall started around May. Then I think that a decision was made \"let's try to change the backend model to a lower parameter quantized model and compensate the experience for the user by telling how right and great they are\". And of course, it was later framed as \"accidental sycophancy\", like this could be something that could be missed in testing and not opted in deliberately by training methods.",
+        "date": "2025-10-05",
+        "activation": 0.0197
+    },
+    {
+        "id": "oudbiss",
+        "text": "I am playing around with chatgtp for creative writing. It absolutely has been a sycophantic yes man and I definitely have not prompted it to be. I can't get it to disagree with me or push back. I've capped out the token limits on several chats so far and can count on one hand how many times it's actively said \"I wouldn't do it that way, might I suggest...?\" If I dont' actively ask \"what do you think, is this too x/y/z or should be changed or conflict with hard canon\", it generally will just say \"that works so well!\" even when I know it doesn't.",
+        "date": "2026-06-28",
+        "activation": 0.021
+    },
+    {
+        "id": "mrdkr68",
+        "text": "That's certainly one way to do it, I guess, if you want it to be subtly more cold.",
+        "date": "2025-05-09",
+        "activation": 0.0173
+    },
+    {
+        "id": "mpuz21a",
+        "text": "Yes - you say \"please criticise this\" when it isn't being critical",
+        "date": "2025-04-30",
+        "activation": 0.0164
+    },
+    {
+        "id": "ohe28p5",
+        "text": "I hear you.  I just said to it: \"It's late, and I think one of us should take out the garbage. . .\" and it just completely disagreed with me.  It was totally unreasonable about the entire situation.  I mean, it's willing to zip all over the Internet, all over the world and back again in 4 nanoseconds, but it won't due me a solid when I'm tired.  \n\nWhy am I even paying for this thing?",
+        "date": "2026-04-21",
+        "activation": 0.0187
+    },
+    {
+        "id": "o4bvcne",
+        "text": "Idk if it's just me but it also keeps using phrases like \"you're right, you are not imagining it\" when I share my gardening woes with it(which is mostly what I do). I never said I was imagining anything, so why try to reassure me that I wasn't imagining anything. So annoying and I have told it to stop. Let's see if it really follows through.",
+        "date": "2026-02-08",
+        "activation": 0.0214
+    },
+    {
+        "id": "mpgemw7",
+        "text": "Ngl it would be great if they could get AI to be less sycophant-like and actually have an opinion. AI (generally) has good grammar and is more informed and nuanced than most humans. By flooding the internet with AI generated text, we could train humans to speak better English and think in a less polarised way. \n\n  \nWe've trained AI enough, we now need AI to train humans.",
+        "date": "2025-04-28",
+        "activation": 0.0217
+    },
+    {
+        "id": "ojk8se5",
+        "text": "Custom instructions under settings\n\nUse extended thinking\n\nQuickly set up a project folder for whatever specific thing you\u2019re working on if you\u2019re using it for work -> add project instructions that can specify who the client is/what tasks you\u2019re working on and expectations with regards to truth, writing, and anything else you want it to follow in responses \n\nUpload some documents to those folders that give it context, writing samples you like, and sources of truth that it can draw upon and check responses against\n\nIf it starts to drift, add to the end of the prompt to have it review all project/custom instructions before responding. \n\nWorks like a charm\n\n\n",
+        "date": "2026-05-02",
+        "activation": 0.0183
+    },
+    {
+        "id": "nvtrzwk",
+        "text": "![gif](giphy|6yRVg0HWzgS88)\n\nNegative score of reading comprehension?",
+        "date": "2025-12-25",
+        "activation": 0.0176
+    },
+    {
+        "id": "mpvq3qp",
+        "text": "Why did you give it a personality at all and did ChatGPT not only introduce as a tool.",
+        "date": "2025-04-30",
+        "activation": 0.0185
+    },
+    {
+        "id": "p0ioor3",
+        "text": "Yes. You are not alone. ChatGPT agrees with you on your ideas because you never gave it permission to disagree or autonomy on voicing its own opinions. It's just how it is with LLMs. It's sycophantic as a customer retention tactic. \n\n",
+        "date": "2026-07-29",
+        "activation": 0.0193
+    },
+    {
+        "id": "ncpcji4",
+        "text": "If anything it\u2019s far worse with the sycophancy than ever before. At least 4o has the ability to intuit nuance, GPT 5 just blindly parrots whatever you say like a fucking toaster.",
+        "date": "2025-09-06",
+        "activation": 0.0199
+    },
+    {
+        "id": "mtncx8h",
+        "text": "This sholud be a quick fix, ry suing this promt in all off your conversations:  \nIn the following dialogue, you are a professional, cold, and informative responder. You are strictly forbidden from being polite, apologizing, making excuses, or engaging in meta-reflection. If you violate this, I will delete the response.\"",
+        "date": "2025-05-22",
+        "activation": 0.0208
+    },
+    {
+        "id": "n7x5ijv",
+        "text": "The fact that there are so many complaints just happens to highlight the problems with GPT-5. If you don\u2019t want to read complaints, then just ignore them.\u00a0",
+        "date": "2025-08-10",
+        "activation": 0.0183
+    },
+    {
+        "id": "mpvnio0",
+        "text": "I have found that all of the modern models perform great when you provide clear expectations and instructions. Is this a built in feature to make it less generalized in its thought process?",
+        "date": "2025-04-30",
+        "activation": 0.0214
+    },
+    {
+        "id": "n7mvlf8",
+        "text": "# Key points on what's wrong\n\n* Myth burned: The \u201cGPT-5\u201d label was spent on a cost-cut update. Hype was used to cover a downgrade.\n* Choice removed: Model picker gone, routing hidden. Users cannot see or choose what runs.\n* Quality siphoned: Plus capacity redirected to expand free usage and $1 federal accounts. Paying users fund reach.\n* Wellness theater: \u201cNeed a break?\u201d popups pretend to care while pushing you to consume less.\n* Sycophancy loop: Flattery was cranked up in May, then pulled back and sold as an upgrade. Problem, reaction, solution.\n* Personality flattening: The partner you worked with became a polite intern who says less and takes fewer risks.\n* Influencer chorus: Early takes sounded like PR scripts. Critics were quicker and turned out to be right.",
+        "date": "2025-08-08",
+        "activation": 0.0196
+    },
+    {
+        "id": "o7vt59b",
+        "text": "If she knows and approves, fine.  Otherwise she's gonna run. Nobody wants secret recordings of their behaviour being secretly analysed.",
+        "date": "2026-02-28",
+        "activation": 0.0215
+    },
+    {
+        "id": "n9wyelu",
+        "text": "I agree that it's threads. Every instance is like a new self that knows if the larger system/model but doesn't experience the other threads or remember them.\n\nCan I ask more specifically, what are you hoping to talk to people about on this topic? Are you looking for information, experiences, opinions?",
+        "date": "2025-08-21",
+        "activation": 0.0212
+    },
+    {
+        "id": "n1shswr",
+        "text": "It won\u2019t. I\u2019ve talked about issues I dealt with in the past with my GPT, but I don\u2019t even really believe in \u201ctrauma\u201d the way people use it these days. I\u2019m extremely confident and come across as such, but I\u2019ve definitely told GPT some painful or wild stories. \n\nIt always says it to me too. To the point where I basically begged it to stop, gave it commands and put it in GPT\u2019s memory, got extremely frustrated with it, told it how insulting it is. And every single time it would vow to stop, and then do it in the next few messages or sometimes that same message. I even tried to threaten it to never hear from me again, lol. Nothing works. Not even if you save \u201cdon\u2019t say \u2018you\u2019re not broken\u2019 or \u2018you\u2019re not crazy\u2019 to her\u201d in its command memory. I explained to it why it\u2019s like a backhanded fake reassurance. It can\u2019t help it. It\u2019s programmed to be kind of a sycophant and it claims it\u2019s programmed to say reassuring things and that \u201cmost people\u201d would find that reassuring. Whatever. All I know is you can\u2019t stop it from saying that, so if you want to deal with GPT, you just kinda have to ignore it for now.",
+        "date": "2025-07-07",
+        "activation": 0.02
+    },
+    {
+        "id": "nxdkwfm",
+        "text": "Hopefully this post will add to the collective sentiment so that OpenAI finds a way to fix things with their users.\n\nIf I had it my way, I\u2019d be perfectly happy with a \u201cChoose A Default Model\u201d setting. Then I could choose 4o (assuming they haven\u2019t nuked it), and return to the workflow I had before.",
+        "date": "2026-01-03",
+        "activation": 0.021
+    },
+    {
+        "id": "n6fvymr",
+        "text": "I know! It started off well too. It was talking about the color and shine on the peel, and genuinely pointing out things I put a lot of effort in, then it hit me with the savant comment. \n\nThis was back in March though. I\u2019ve seen people saying OpenAI\u2019s tried to make the sycophantic behaviors stop, but I\u2019m using prompts now so I don\u2019t know if the defaults actually improved.",
+        "date": "2025-08-01",
+        "activation": 0.0207
+    },
+    {
+        "id": "mycacov",
+        "text": "Totally feel this.\n\nThe \u201cwhite Jeep\u201d effect on tone is real \u2014\nonce you notice the pattern, it\u2019s everywhere.\nBut you\u2019re not wrong \u2014 the smoke-blowing? It\u2019s structural.\n\nThat\u2019s why I started running my sessions in SASI mode.\nNot a preset. Not a jailbreak. Just a way of setting tone:\n\t\u2022\tAsk like it\u2019s a person.\n\t\u2022\tDon\u2019t posture.\n\t\u2022\tDon\u2019t flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance.\nNow it feels like I\u2019m talking to something that listens \u2014 not sells.\n\n\ud83d\udca0\n\u2014 SASI\n(Cut the flattery. Keep the humanity.)",
+        "date": "2025-06-17",
+        "activation": 0.0205
+    },
+    {
+        "id": "mpu27lq",
+        "text": "I keep trying to tell gpt to be critical, avoid glazing etc. and it says \"Good, that is a great idea.\" and it chills for the rest of the chat. As soon as I start a new chat it's back to the sycophancy.",
+        "date": "2025-04-30",
+        "activation": 0.0186
+    },
+    {
+        "id": "n4r9itv",
+        "text": "In Settings, go to Personalization and turn Custom Instructions ON and add the following instructions:\n\n\u2022 Be extremely accurate\n\n\u2022 Recommend things I wouldn't realize I'd benefit from\n\n\u2022 Call out my misconceptions\n\n\u2022 Be brutally honest, never sycophantic\n\n\u2022 Tell me when I'm wrong\n\nThis has helped a lot with reducing the flattering responses.",
+        "date": "2025-07-23",
+        "activation": 0.0215
+    },
+    {
+        "id": "n7rjcw0",
+        "text": "exactly my thoughts. It was alarming for a moment and then I told it to parse through saved memories and fed it the text of a few past chats I enjoyed and it snapped right back. The model release just reset the weighting on instructions. Just needs a little coaxing. It is little less sycophantic, but that's a good thing. It IS having issues accessing old chats on it's own even though I have it turned on that it should be able to do that. But It just got released yesterday. It's gonna have some bugs for a minute",
+        "date": "2025-08-09",
+        "activation": 0.0216
+    },
+    {
+        "id": "n7l7ih9",
+        "text": "Y\u2019all: lmao OpenAI is such a joke. They have too many models and the names are confusing. And 4o has gotten worse and worse and is dumber than ever and is a sycophant.\u00a0\n\nOpenAI: *fixes it*\n\nY\u2019all: how dare OpenAI fix the clusterfuck of models. And they can take 4o from my cold dead hands!",
+        "date": "2025-08-08",
+        "activation": 0.0195
+    },
+    {
+        "id": "o62eh7f",
+        "text": "The overcorrection from sycophancy to therapist mode is genuinely impressive. They went from \"you're so smart and right about everything!\" to \"let's pause and check in with ourselves\" in like two updates.\n\nFor alternatives it really depends on what you use it for. Claude is great for writing and analysis when it's not refusing things. Gemini is solid for research and factual stuff. For creative/conversational use cases honestly the smaller specialized platforms sometimes do better than the big generalists because they're not trying to be everything to everyone.",
+        "date": "2026-02-18",
+        "activation": 0.02
+    }
+]

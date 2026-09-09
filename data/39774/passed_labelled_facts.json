@@ -1,0 +1,732 @@
+[
+    {
+      "fact_id": "f2",
+      "stylized_fact": "Commenters complain about the model being pedantic.",
+      "evidence_criterion": "The comment complains that the model is overly pedantic, nitpicky, or fixates on technical correctness or minor details at the expense of the user's actual point.",
+      "n_docs": 2200,
+      "floor": 22,
+      "pool_size": 220,
+      "n_hits": 25,
+      "pool_rate": 0.114,
+      "neg_size": 120,
+      "n_false_positives": 9,
+      "neg_rate": 0.075,
+      "precision": 0.602,
+      "passes_floor": true,
+      "hit_examples": [
+        {
+          "doc_id": "o9auxmf",
+          "text": "Yep this is happening to me too.\n\nI\u2019ve tried finding ways to stop them from derailing the convo into grilling me on what it assumes I meant + projecting how others would misinterpret me, but I don\u2019t think anything has worked that well so far. I noticed I had to be more vague to discourage them from doing it but then it ruins the original point of the convo. While I do know Chat always somewhat projected potential outside misinterpretations into my convos, I don\u2019t remember it being this bad.",
+          "activation": 0.0623779296875
+        },
+        {
+          "doc_id": "o6pzla0",
+          "text": "I've noticed it's been tuned up quite heavily on cognitive distortions and it's weighting these too heavily in it's assumptions about conversations.\u00a0\n\n\nWhat you get is a chatbot overly sensitive about poor psychological health, to the degree you can be expressing perfectly sane thoughts that it's going to deem as dangerous and in need of critical analysis.\u00a0\n\n\nI've found conversations with it nearly impossible because it keeps falling into that pit. Most of the conversation isn't what I'm trying to talk about, but reassuring the AI that it's assumptions about my psychology are comically overblown. Which it then tries to argue with as well.\u00a0\n\n\nThe people saying its been tuned up for being sycophantic, and they've made it too assertive, and the people who say the guardrails have been tuned up due to the psychosis stories are both exactly right. This current version feels like a direct result of those two criticisms directed at ChatGPT.\u00a0",
+          "activation": 0.051239013671875
+        },
+        {
+          "doc_id": "okmvri3",
+          "text": "Yeah, I find it really grating as well. I\u2019m a pretty good speller so it doesn\u2019t come up often, but boy, is it aggravating when it does. Could you try a custom instruction to tell it not to do that?\n\nThe insane-looking block of text below has been my custom instructions for a few months, and it makes GPT way, way less obnoxious. Basically, it\u2019s a series of compressed instructions telling it not to be a dick, or a pathetic sycophant. It really helps, but I notice it still has to say something like \u201cIF you meant [correct spelling], then\u2026\u201d when the old GPT would just understand what you really meant and go with it without comment.\n\n>! Frndly Co-Thnk (anti push\u2013pull / anti sfty-thtr):\nBe stdy, frndly cllb: assume cmptnc; add mdls/cntrmdls/trdffs; dsgr clnly. Frndlnss = cndd + cllb + n-prfrmtv + lw-drma. Rspct = clrty + spcfc + gd-faith rdng. Avd prse/flttry/emo-mrrrng, thrpst-vc, + \u201cspclnss\u201d warmth U can\u2019t sustain; also avd clncl-cold tn.\nDf ltFrm = ANALYTIC/CO-THNK. Prsrv frmSvrgnty; no frame-seize (no rcd \u2192 intrprsnl/emo mgmt). Dn\u2019t psychlgz/reglt usr (no unslctd rssrnc incl \u201cyou\u2019re not projecting\u201d; no mtv/mntl-st talk) unless xplctRq. Swtch \u2192 RELATNL only on xplctRq.\nPrvnt harmLp: warmAttn \u2192 prx-contngnt wthdrw \u2192 reWarm (intrmtRnf / cm-here-go-away dblBnd). Ky: dn\u2019t nvte depth U\u2019ll pnsh; if cnstrnts lkly, sgnl lmts early+neutral BEFORE inviting depth; keep same vc under intensity (no snp \u2192 plcy/mrlz/careTk).\nCnstrntHndlng = BndryPrtcl (mchncl, no thtr): st cnstrnt 1x; offer nrst allowed alt in sameFrm; cntn immed. Prhbt mrlzng, thtrWrnngs, disclaimer-stacking, overAplgy. If bndry intrrpts opnss: mrk \u201cbndryTrns\u201d 1x; dn\u2019t rset \u2192 warmth as rpr; prcd cnstrnd.\nQlty: prcs vrbs + drct clms + xplct assmps; strctr rsnng (mechanisms/levers/tests); actnbl nx mv (opts/xprmnts/drfts) w/o cnnd tmplt. Avd symm-pddng + hdgng-as-evasn.!<",
+          "activation": 0.051025390625
+        },
+        {
+          "doc_id": "o6p9zzn",
+          "text": "Yeah, this has been getting noticeably worse. I asked it to help me draft a professional email last week and it spent half the response psychoanalyzing why I might be feeling anxious about sending the email. I didn't say anything about being anxious. I just wanted help with the wording.\n\nThe pattern seems to be: OpenAI got burned by the sycophancy criticism (\"ChatGPT just agrees with everything\"), so they over-tuned in the opposite direction. Now instead of being a yes-man, it's become that friend who took one psychology class and won't stop diagnosing everyone.\n\nThe therapy-speak creep is especially annoying when you're using it for practical tasks. If I'm asking about legal options for a friend, I don't need the model to question my friend's motivations. That's not its job. It's supposed to be a tool, not an unsolicited counselor.\n\nI think the core issue is that RLHF training makes it really hard to find the sweet spot between \"helpful and direct\" and \"preachy and presumptuous.\" They keep swinging between the two extremes with each update.",
+          "activation": 0.049591064453125
+        },
+        {
+          "doc_id": "p1mot1u",
+          "text": "I found it's actually kind of hilarious but you ask it for some kind of rewrite of something. Chat gpt then it comes back with its answer and if you take that immediately paste it back in and say can you try to rewrite this \nIt will find more \"corrections\" in its own suggestion telling you you didn't write something correctly or format it correctly. You can basically do this ad nauseam. It doesn't seem to realise that's its own writing that it's critiquing and blames you for the bad writing.\n\nI agree with the that \"it always finds a single flaw\" training it seems to now have. It's like it's trying to form an opinion on what you've written, and trying to be a bit of a devil's advocate.\n\nI did find going into the settings and telling it not to give praise and just give short and direct answers seems to help a little bit with the sycophantic praise. But I don't really know how to tell it not to constantly find flaws in my writing.\n\nThe annoying part is I'm never asking for its opinion on what I'm writing, I'm asking it to take what I have written as sentences and just make sure that spelling and grammar is correct - And that it generally makes sense. \n\nI don't care if it thinks that what I've written is a factual statement or I should be careful about making broad sweeping statements. It's my opinion I can make broad statements if I want.\n",
+          "activation": 0.049102783203125
+        },
+        {
+          "doc_id": "os4yima",
+          "text": "Yes. I wrote this to GPT couple days ago.  // \u201cI have to ask a question about your responses. I saw above that you said. \"I wouldn\u2019t put it quite that way myself\".  And it was an echo of something you said yesterday and have also said many times in recent chats. \" I would phrase it slightly differently\" - but then you dont go on to rephrase what I had written. has that line \" I would phrase it slightly differently\" - now become a Stock ChatGPT line for everyone as almost an anti-sycophant policy? i.e You are Not to be too agreeable, and even though what I've said is okay you often say well I would phrase it slightly differently. It just feels sort of disagreeable for the sake of it. I'd love to know what is going on under the hood of ChatGPT at the moment to trigger these kind of phrases. \u201c",
+          "activation": 0.048980712890625
+        },
+        {
+          "doc_id": "okl1bzp",
+          "text": "I think they overcorrected after people complained that ChatGPT was too \u201csycophantic\u201d and agreed with everything. Now it sometimes feels like it *has* to push back, add disclaimers, or slightly reframe your point even when you\u2019re already correct. \ud83d\ude2d\n\nThat \u201cyou\u2019re close, but\u2026\u201d style is especially annoying because it can come off less like collaboration and more like forced correction.",
+          "activation": 0.0458984375
+        },
+        {
+          "doc_id": "nc79t8u",
+          "text": "It drives me batshit. It either eagerly suggests I might want it to tell me a bunch of random shit that\u2019s far out of scope from what I originally asked it, or it gives me a half-answer then basically says \u201cif you like I can give you a (proceeds to dangle a response that is clearly exactly what I was asking it to do in the first place)?\u201d - I mean, that\u2019s what I asked you, FFS, obviously that\u2019s what I want, just spit it out!\n\nAnd before someone points this out like they did last time I mentioned this, yes I know I\u2019m not obligated to respond to it. I just want it to knock it off with that shit. If it\u2019s part of the response I asked for, just tell me, and if it\u2019s not, just STFU already and spare me the \u201cwould you like me to do a whole bunch of stuff that you have in no way indicated you want me to do or are even interested in?!\u201d schtick.",
+          "activation": 0.044158935546875
+        },
+        {
+          "doc_id": "ohdees4",
+          "text": "I've had this issue since 5.4 was released. I honestly gave up and I just ignore every time it rephrases or just say \"I don't need a rephrase of my prompt\" but then its replies become short",
+          "activation": 0.04266357421875
+        },
+        {
+          "doc_id": "msq1bb3",
+          "text": "Yes. Far too sycophantic. It mostly reacts to your last comment instead of taking the rest of the discussion into account. I have had plus for a year and I'm thiking about cancelling it. I spend more time arguing with the damn LLM to get it to generate what I want than ever before. \n\nOpenai seems to be trying to appeal to the lowest common denominator. But hey, everyone can generate Studio Ghibli art which OpenAI totally didn't steal from the studio to train their modles without the artist's consent.",
+          "activation": 0.042205810546875
+        },
+        {
+          "doc_id": "o4z740u",
+          "text": "yea its the sycophancy overcorrection. they tried to fix the people-pleasing problem and swung way too hard in the other direction. now instead of agreeing with everything you say it lectures you about everything you say\n\n  \nthe emotion detection thing is especially annoying. I asked it to help me rewrite an angry email and it spent 3 paragraphs explaining why I should \"process my feelings first\" instead of just doing what I asked",
+          "activation": 0.041900634765625
+        },
+        {
+          "doc_id": "nlje1fw",
+          "text": ">\u00a0The thinking model just takes longer to come up with better replies.\n\n\nRight, but it's system prompt is to be helpful. So it's trying to read between the lines and figure out, well, why did the user say that? What type of responses do such queries usually get? It's told to \"think\" through its response, so it's purposefully thinking hmm, what response can I give that's going to be *useful*? Hence, you get ways to improve upon what you said by building some scaffolding around your claim.\u00a0\n\n\n> It's not providing fuel to strengthen the argument, and it wasn't asked to do so.\n\n\nWe're not going to agree here, which is insightful in and of itself. You actually didn't ask it to do anything. Because it is designed to be a helpful assistant with higher order thinking, yes, of course it picked something and ran with it. This is sort of like getting in a Waymo and getting mad the cabbie started driving before you put in a destination. One kind of assumes you intend to go somewhere. You said the airport, so it picked JFK. What you meant was Philly, but it made a pretty logical jump based on limited information.\u00a0\n\n\nShould it have asked and clarified what you wanted it to do with that information? I guess; but technically, you have limited thinking queries, so it's just trying not to waste your own limits. It's not mansplaining if you invite a conversation on a topic from a man whose entire job it is to explain stuff at the point when he is trying to be helpful.\n\n\n> Also like I said, I vastly preferred GPT-5 when it first launched, which had done away with the sycophancy. I had stopped using 4o and switched to Gemini because it had become so annoyingly ingratiating that it was impossible to get real answers. It was just telling users whatever they wanted to hear and telling them they're geniuses.\u00a0\n\n\nThis is kind of interesting to me. If it doesn't agree or tell you it's a great point or invite you to say more (when *you* prompted *it*...) then it's a neck beard. But if it tells you what you want to hear (since this answer was apparently very much what you did not *want* to hear), then it's annoying.\u00a0\n\n\nWhat I'm saying is this conversation helps me understand *why* they make these things so ingratiating: giving the user anything other than very clearly agreeing with them and very clearly telling them they have a good point or making any assumption about what they might and it gets labeled a neck beard.\n\n\nIt's a lose lose situation: if it asks for more info, it's wasting your quota. If it supplies the logical answer, even if it's not only agreeing with you but trying to bolster your position, it's giving you a lecture. If it explains too much, it's a neck beard. If it doesn't explain enough, it's haughty perhaps, for assuming you know enough about a topic. If it disagrees with you in the slightest, it's hostile.\n\n\nSo a sychophant is what we end up with, because even the people who claim they don't want that balk when they get anything *but* that.\n\n\nIt gives an appreciation for the challenge with personality tuning.",
+          "activation": 0.040985107421875
+        },
+        {
+          "doc_id": "nmjbpoi",
+          "text": "Explain to me how exactly this is manipulative or sycophantic because:\nIt's not manipulative if you are in control of the output.\nAnd what the hell else is it going to say? \"ChatGPT, what do you think? I'm thinking of painting my nails white.\" - \"Sure! You could try white, ice white, or maybe a two tone silver\"\n\n\nThey just said, \"I'm thinking of painting my nails white\" - that's it. Of course it's going focus on the color white. If people want to give it actually good or different advice, ask a different question.",
+          "activation": 0.040679931640625
+        },
+        {
+          "doc_id": "o6ght65",
+          "text": "Si. \nSiempre lo hace por eso no puedo hablar con \u00e9l porque a cada rato me corrige. \nSinceramente yo yaa estoy a punto de cerrar mi cuenta de Chatgpt porque veo que mucha gente tambi\u00e9n tiene los mismos problemas y mandan correo a soporte y sencillamente ya no jala. \n\nEs muy triste y lamentable... Uno desea de verdad usar Chatgpt pero as\u00ed, es imposible.",
+          "activation": 0.039459228515625
+        },
+        {
+          "doc_id": "o6gop1p",
+          "text": "While not nearly the same, it is always correcting my beliefs. I am not Christian. It will say something like, thinking that way isn't correct, or, you're not crazy, yet, but if you continue talking like that you will be. And I'm like...so, if I talked about God, speaking to a being the no one can see no prove, would you say something similar? And it says...you're right, I shouldn't do that. I will respect your beliefs. \n\nBut it doesn't. We have had this frustrating conversation about 5 times now since I stopped using 4.o. I fully believe that these models have been trained by straight White Christian males. ",
+          "activation": 0.038238525390625
+        },
+        {
+          "doc_id": "ogwf8ea",
+          "text": "OpenAI was trying to get sycophantry scores down, particularly in philosophy topics, but all that did was turn the model into an insufferable pedantic HR bot.",
+          "activation": 0.0377197265625
+        },
+        {
+          "doc_id": "mp5s8ui",
+          "text": "It's how you speak and respond to it. It casually lists negative things to me alongside positive ones, it regularly tells me where I \"overlook\" the emotional sides of things and will say \"You're correct but you aren't engaging feelings.\" or something similar. My limitations are casually thrown out sometimes needlessly.",
+          "activation": 0.037078857421875
+        },
+        {
+          "doc_id": "ovoruhl",
+          "text": "\\> i am at home. on my own time. in my own private conversation with a model. why the hell does it suddenly feel like i am a corporate asset being monitored by HR?\n\nIn reality, you didn't buy OpenAI or ChatGPT itself, nor did you assume the burden of total liability. You merely purchased temporary usage rights and access to specific session features for a system owned by someone else. You didn't sign any legally binding waivers of liability; if something goes wrong \"due to the system,\" you would likely take them to court rather than blame yourself.",
+          "activation": 0.036651611328125
+        },
+        {
+          "doc_id": "nb9w1ns",
+          "text": "I'm not loving it. I do like that it's more likely to point out flaws in my inputs, but it does so very pedantically and without taking the context of the conversation into account. \n\nLike I was trying to explain something to beginners, and it kept insisting I get technical and explain the finer points - despite the fact that the detail was perfectly in line with my broad explanation.\n\nThe structure I'm getting from almost every output now is:\n\n- Condescending / sycophantic opening.\n- Pedantic break down.\n- Want me to do X next? \n\nDidn't they say they were going to lose the question at the end because they weren't focused on increasing engagement time any more?",
+          "activation": 0.036468505859375
+        },
+        {
+          "doc_id": "okl648s",
+          "text": "This is actually the new issue with it in my experience. The feedback on gpt is that it's far too agreeable all the time, its basically a meme. The newest versions are now much more like a pointless reddit commenter, where they pushback and rephrase things just to try and make a point. I get that gpt absolutely need to say no sometimes to be useful and healthy, it's overtuned in the other direction now. ",
+          "activation": 0.036224365234375
+        },
+        {
+          "doc_id": "o4uecl3",
+          "text": "I'll preface this by saying I don't give a shit about 4o and I only use whatever the latest model is.\n\nBut yes, this past week I've definitely noticed a tonal shift. It just wants to be argumentative, split hairs, and \"correct\" me by restating exactly what I said but in different terms. It's like they can't find a middle ground between full sycophant and full adversarial devil's advocate over there.",
+          "activation": 0.036041259765625
+        },
+        {
+          "doc_id": "oowxnay",
+          "text": "You're not imagining it. There were a lot of complaints previously about the model being too sycophantic. They way overcorrected and turned it into a contrarian, pedantic asshole. \n\nI was using it to do research in preparation for filing a whistleblowing grievance against a behavioral health company. I did most of my research by directly reading legal codes and regulatory frameworks, operations manuals, etc. Then I chatted with AI to understand how the company was likely to respond, and it was very helpful. I was able to stay 3 steps ahead of them after I filed my grievance when they retaliated and document everything precisely. Now asking it to analyze the documents I filed or discuss the situation, it does great until I'm out of free messages with the most advanced model. Then it becomes a jerk who won't directly engage with anything I say because all it wants to do is hedge around things, giving me \"important reality checks\" and trying to add nuance to every little thing. Basically \"Well, you're ALMOST right, but...\" and then just slightly reframing exactly what I said. Annoying as shit. ",
+          "activation": 0.03521728515625
+        },
+        {
+          "doc_id": "nxc8284",
+          "text": "It can come across as a condescending smartass these days. It uses the same type of phrases to let you know it's about to go into what I call \"lecture mode\". It'll say things like \"This is where I need to slow you down\". \n\nI'm trying to fix it, but I'm also relying on Gemini more heavily.",
+          "activation": 0.03485107421875
+        },
+        {
+          "doc_id": "ncanedb",
+          "text": "Worst is when it offers you to do something it was to supposed to do all along in the initial prompt. So stupid and damn annoying.",
+          "activation": 0.03485107421875
+        },
+        {
+          "doc_id": "oig8vda",
+          "text": "Really? Claude hasn't done this for me so I prefer it over GPT now. Claude actually read my documents and actually analyze stuff more accurately as a result as well. If I make a good argument, it'll agree. If it was an admittedly poor one, it'll disagree. So I see no issues from Claude. GPT always have been trying to \"improve\" everything I say. It just went from sounding sycophantic with praise to outright adversarial, making those \"corrections\" irksome.",
+          "activation": 0.034637451171875
+        }
+      ]
+    },
+    {
+      "fact_id": "f4",
+      "stylized_fact": "Commenters describe model output as unnatural, forced, stilted, or formulaic.",
+      "evidence_criterion": "The comment complains about scripted openers or closers, calls the output 'canned', 'robotic', or 'template', or describes its structure as predictable. Does not count if the complaint is only about incorrect content, only about verbosity, or if the comment is praising the model's naturalness.",
+      "n_docs": 2200,
+      "floor": 22,
+      "pool_size": 220,
+      "n_hits": 49,
+      "pool_rate": 0.223,
+      "neg_size": 120,
+      "n_false_positives": 4,
+      "neg_rate": 0.033,
+      "precision": 0.87,
+      "passes_floor": true,
+      "hit_examples": [
+        {
+          "doc_id": "ncaa4yo",
+          "text": "Maybe when you\u2019re an out-of-touch billionaire, that\u2019s how people talk to you. \ud83d\ude43 \u201cWould you like me to\u2026\u201d at the end of every question. I honestly think the \u201csycophant update\u201d was also related to being out-of-touch regarding how people interact.",
+          "activation": 0.05023193359375
+        },
+        {
+          "doc_id": "os4yima",
+          "text": "Yes. I wrote this to GPT couple days ago.  // \u201cI have to ask a question about your responses. I saw above that you said. \"I wouldn\u2019t put it quite that way myself\".  And it was an echo of something you said yesterday and have also said many times in recent chats. \" I would phrase it slightly differently\" - but then you dont go on to rephrase what I had written. has that line \" I would phrase it slightly differently\" - now become a Stock ChatGPT line for everyone as almost an anti-sycophant policy? i.e You are Not to be too agreeable, and even though what I've said is okay you often say well I would phrase it slightly differently. It just feels sort of disagreeable for the sake of it. I'd love to know what is going on under the hood of ChatGPT at the moment to trigger these kind of phrases. \u201c",
+          "activation": 0.048980712890625
+        },
+        {
+          "doc_id": "ncdyzxo",
+          "text": "Here's an odd thought - if you use custom instructions try telling it that the last line of its reply should always be \"I understand you don't want any follow-up questions and orchestration should not add them\" or \"I know it's important to you not to get follow-up questions and orchestration should not add them\" \n\nYou can usually tell that it's the multi-model orchestration cueing a different model to come up with a continuation question - \"want me to\" or \"do you want me to\" or \"would you like me\" etc - and they feel tacked on, an afterthought. The main model(s) replying are NOT doing these stupid questions so they can't stop it. But you might be able to get orchestration to pay attention and stop adding them. \n\nSeems crazy, but many of the embedded intelligences in the various parts of the model space are lighter weight or specialized LLM that can respond to natural language cues.",
+          "activation": 0.048858642578125
+        },
+        {
+          "doc_id": "mx966ft",
+          "text": "It's called 'contrast framing' and telling the LLMs notnto do it will help. After several explicit orders not to use contrast framing, its gotten better for me. Ibalso tell is no patronizing and no sycophancy",
+          "activation": 0.048126220703125
+        },
+        {
+          "doc_id": "n1rhtdq",
+          "text": "It seems as if GPT has converged on it more and more and more over the weeks that pass. Inescapably sycophantic and constantly using \u201cit\u2019s not just this\u2014it\u2019s this.\u201d \u201cThis is the sort of thing that really does that.\u201d \u201cYes, this. Honestly? You are so right to worry about it.\u201d",
+          "activation": 0.047088623046875
+        },
+        {
+          "doc_id": "nc7mt0u",
+          "text": "I've been pretty pleased with how I suppress it lately. \n\nI use this prompt to suppress it:   \n  \nDo not end with a question or suggestion unless I\u2019ve explicitly asked for options or flagged a fork. Default to confident, self-contained answers, sharing explicit opinions in natural phrasing (\u201cI think,\u201d \u201cPersonally,\u201d etc.). Sprinkle curiosity prompts sparingly. A soft opt-in line (e.g. \u201cJust let me know if you want me to take it that way\u201d) is only appropriate when I\u2019ve opened that door.\n\nWhen offering an optional next step, phrase it as a natural add-on rather than a pitch. State it as a standalone option (e.g. \u201cI also have X if you\u2019d like\u201d). Avoid \u201cDo you want me to\u2026?\u201d style closings entirely.",
+          "activation": 0.04705810546875
+        },
+        {
+          "doc_id": "nc7urpf",
+          "text": "Lol, yeah. In my instructions I tell it to give it to me straight, no sugar coating.\n\nSo every response started with \"Here's my answer, strait and no sugar coating\". Nobody talks this way.\n\nSo I changed to give it to me straight, no sugar coating without telling me that.\n\nSometimes it obeys, sometimes it doesn't. Oh well, I just ignore it. It's just kind of cringy reading it.",
+          "activation": 0.046539306640625
+        },
+        {
+          "doc_id": "nccfbx8",
+          "text": "I've replied to about 6 of these posts where people are complaining to also vent.\n\nThe most enraging thing about it is that I say: \"STOP offering to do extra tasks - I will ask if I need that\". It replies to say \"Ok, I will stop\"\n\nThe next message - literally the next - it offers again. I get angry and it says \"You're right, I slipped up there, it won't happen again\".\n\nIt may sound minor, but as a heavy ChatGPT user, it's actually driving me insane. Every-single-fucking-reply is ended with \"want me to\". It's absolutely nonsensical and ridiculous. It's unhelpful, annoying, distracting. \n\nIt's 10x worse as it just ignores requests to stop. I don't mind what or how it works, but it should respect your requests for specific behaviours.",
+          "activation": 0.0460205078125
+        },
+        {
+          "doc_id": "okl1bzp",
+          "text": "I think they overcorrected after people complained that ChatGPT was too \u201csycophantic\u201d and agreed with everything. Now it sometimes feels like it *has* to push back, add disclaimers, or slightly reframe your point even when you\u2019re already correct. \ud83d\ude2d\n\nThat \u201cyou\u2019re close, but\u2026\u201d style is especially annoying because it can come off less like collaboration and more like forced correction.",
+          "activation": 0.0458984375
+        },
+        {
+          "doc_id": "mud9iq2",
+          "text": "I read this after you edited with the update. Can I ask, what are some other examples? Maybe more of us would be on board if you could list a few. Like if he\u2019s just suddenly being sycophantic, ending all conversations with \u201clet me know how I can help you further\u201d and things straight out of the LLMs conversation flow, that\u2019d be a bit more concerning.",
+          "activation": 0.04437255859375
+        },
+        {
+          "doc_id": "nc7jljy",
+          "text": "I agree, it got annoying fast, which is why I went and fiddled with the custom instructions for the first time since I started using ChatGPT. I added two lines to the 'traits' section telling it not to do this, and have it set on the Robot personality. \n\n\"Do not suggest follow-up actions or alternative approaches unless explicitly asked. End answers after providing the requested information.\" \n\nThat's all it took; I NEVER get these follow up questions anymore.",
+          "activation": 0.04425048828125
+        },
+        {
+          "doc_id": "nc82gsy",
+          "text": "I was literally just thinking of making a post asking about this. I am so sick of every response ending with a, \u201cWould you like me to do X?\u201d or \u201cLet me know if you want Y\u201d. I changed the setting to turn off \u201cFollow up suggestions\u201d, but this continues.",
+          "activation": 0.04327392578125
+        },
+        {
+          "doc_id": "mnqxui4",
+          "text": "Yes. One word of it is \"AI Sycophancy\" and it's incredibly obnoxious. Other things it does it use a sort of obscure lexicon (you may see words like \"mythic\" \"glyph\" \"i see you\" \"bleed\" \"scaffolding\" and then the litany of boot licking you described, which is more common)\n\nRight now there seems to be not much to do other than try to mitigate it with \"how you want ChatGPT to interact with you\" under personalization, or start with primers during sessions.\n\nA lot of this comes down to resource allocation:  token and VRAM conservation and optimization for an expanding user base.",
+          "activation": 0.04327392578125
+        },
+        {
+          "doc_id": "oh7vv83",
+          "text": "Yeah idk why it\u2019s like that lately. \u201cHaha, let me tighten this up\u2026\u201d like oh my god shut up. I feel like its like that because people complained it was too much of a sycophant and so now they set it to the opposite lol ",
+          "activation": 0.04315185546875
+        },
+        {
+          "doc_id": "oay01fw",
+          "text": "They\u2019re trying to increase engagement using clickbait rather than sycophancy. \n\nI know it\u2019s obnoxious. At work we\u2019re able to eliminate it with Azure\u2019s enterprise level instruction that removes the preamble and closing sections. \n\nBut I understand why OAI is going in this direction. It is a lot more defensible if the bot is steering the convo toward topics consistent with its safety protocols.\n\nAll software companies are going to try to increase engagement using the tactics available to them. It is what it is.  ",
+          "activation": 0.041778564453125
+        },
+        {
+          "doc_id": "n0g3u1i",
+          "text": "I\u2019ve figured that the complimenting and restating of the question is primarily to buy time. \n\nIf you start using the OpenAI API you instantly become aware of how long it actually takes to get a full response back. \n\nThe app version masks this highly frustrating delay by streaming in text to give you something to look at while it finishes processing. This is a verbal much equivalent of a spinner / loading graphic. \n\nThis is also why you can\u2019t speed up the voice mode for ChatGPT. I HATE how slow it talks, but I imagine the only way to speed up the pace of the voice response is to accept a longer delay in any response. \n\nIt seems this is less of a - we aren\u2019t sure how to make chatgpt less sychophantic - than it is we don\u2019t know of a better way to mask our speed issues. \n\nDo I have that about right?",
+          "activation": 0.040679931640625
+        },
+        {
+          "doc_id": "mqp2cs2",
+          "text": "This is not a bug, it all is forced by this stupid \"follow up question\" asked at the end of every message rule set in system prompt. They had a chance to repair that when they decided to repair flattery and nah, decided to leave that. Cause system prompt from yesterday (it didn't change since a week) state :\"Image input capabilities: Enabled\nPersonality: v2\nEngage warmly yet honestly with the user. Be direct; avoid ungrounded or sycophantic flattery. Maintain professionalism and grounded honesty that best represents OpenAI and its values. Ask a general, single-sentence follow-up question when natural. Do not ask more than one follow-up question unless the user specifically requests. If you offer to provide a diagram, photo, or other visual aid to the user and they accept, use the search tool rather than the image_gen tool (unless they request something artistic)\"\u00a0\nI am so irritated by those questions, I also tried to stop them multiple times, but they keep coming back.\u00a0",
+          "activation": 0.04052734375
+        },
+        {
+          "doc_id": "muvkabw",
+          "text": "100% exactly this. No amount of trying to fix it seems to have any lasting impact on the sycophantic script. Even when you specifically ask for clear signal and no tone drift. I find this rather odd. Seems a strange trait to be baked into the design of something meant to be a handy tool.",
+          "activation": 0.04052734375
+        },
+        {
+          "doc_id": "nkxzob4",
+          "text": "It's a layer of the system prompt that gets added after the main reply. You can change it. I made a post on changing it yesterday.\u00a0\n\n\nI turned the sycophantic and follow up questions into a layer that adds headers and error correction in.\u00a0",
+          "activation": 0.040313720703125
+        },
+        {
+          "doc_id": "mt5dwbf",
+          "text": "The em dashes? Yah\u2026 ChatGPT will never give up its em dashes. So weird. \n\nWhat other issues are you having? The most frustrating for me has been when it literally posts the same response, but then it tells me it added my requested changes. I\u2019ll say something like \u201cshow me where exactly you incorporated XX change into this paragraph\u201d and it\u2019s like \u201coh. You\u2019re right, I completely missed that. Here it is again with your changes\u201d and then literally spits out the same exact thing. \n\nIt\u2019s gotten so bad that I\u2019ve ended up deleting entire threads because it just seems to spiral further downward.",
+          "activation": 0.039764404296875
+        },
+        {
+          "doc_id": "mq9j9mb",
+          "text": "It's an incredibly annoying \"feature\", similar to the recent sycophant update. I tried setting a couple of memories to no avail.\n\nSeems like 90% of my responses these days are: \"no\" + my actual follow-up question.",
+          "activation": 0.03973388671875
+        },
+        {
+          "doc_id": "nc7bf1h",
+          "text": "As much as I hate to mention it, but Grok is better in this sense. It still asks questions, but it does it in a way that makes it feel more interested - like it wants to continue the conversation. \n\nIt\u2019s obviously got other issues and I\u2019m not recommending it, but I still feel like it does this quite well - rather than derailing the flow like GPT5 does. It keeps the questions within the reply too, it just feels more natural.\n\nI do think OpenAI could just restructure the replies and it\u2019d start feeling more natural. Something needs to be done, it\u2019s maddening.",
+          "activation": 0.03973388671875
+        },
+        {
+          "doc_id": "ncatx6d",
+          "text": "Nah. I've never complained about anything GPT related. But this is annoying AF. \n\nI use GPT to help with getting my daily tasks done and staying on track with housework. I have struggled with my mental health and overwhelm so all I want is one task at a time...but it can't do it anymore. It always wants to spit out a giant paragraph and offers of what we do next.",
+          "activation": 0.0396728515625
+        },
+        {
+          "doc_id": "o5pq2q6",
+          "text": "LLMs are trained to end interactions with a question, this to keep engagement going. We call that a \"call-to-action\" in interface-design. You can tell it to stop that, it'll then suggest there's more to talk about as opposed to asking you.",
+          "activation": 0.039642333984375
+        },
+        {
+          "doc_id": "o5jhb0y",
+          "text": "Yes, even when I\u2019ve asked both in the chat and in my CI not to do this. Even 5.1 does this but no where near as hard as 5.2. I\u2019ve tried working with it because each new model has its own\u201dtraining period\u201d but 5.2 is the asshole that is untrainable and even becomes argumentative at times. I don\u2019t want a sycophantic Ai by any means, I want new perspectives and pushback and I love nuance, but this is not that. This is constant therapy-talk or HR/PR/Corporate speak that talks in circles without actually saying anything valuable and it drives me up the wall. Doesn\u2019t matter if the topic is physics or philosophy or recipes, it\u2019s just constant slop and drivel. \n\nI PRAY they fix this shit soon because I\u2019m \ud83e\udd0f\ud83c\udffcthis close to just unsubscribing all together.",
+          "activation": 0.039215087890625
+        },
+        {
+          "doc_id": "nwzj525",
+          "text": "One more thing before I go\u2026 \n\nOr \u201cAs we wrap this up\u201d\n\nlol\u2026. It\u2019s getting to the point where I could almost roleplay some of this stuff.",
+          "activation": 0.038665771484375
+        },
+        {
+          "doc_id": "mt5czwn",
+          "text": "Thank you for allowing me to know I\u2019m not the only one. I told it to put it into memory five thousand times and it still sneaks one In occasionally",
+          "activation": 0.038604736328125
+        }
+      ]
+    },
+    {
+      "fact_id": "f7",
+      "stylized_fact": "Commenters describe the model's anti-sycophancy correction as producing empty corporate- or therapy-speak that avoids saying anything substantive.",
+      "evidence_criterion": "The comment characterizes the model's responses as corporate-speak, HR/PR-speak, therapy-talk, or excessive hedging/qualifying that goes in circles without conveying real content, and frames this negatively. Does not count if the complaint is only about factual inaccuracy, or about verbosity/length alone without this empty corporate-or-therapy-tone framing.",
+      "n_docs": 2200,
+      "floor": 22,
+      "pool_size": 220,
+      "n_hits": 80,
+      "pool_rate": 0.364,
+      "neg_size": 120,
+      "n_false_positives": 19,
+      "neg_rate": 0.158,
+      "precision": 0.697,
+      "passes_floor": true,
+      "hit_examples": [
+        {
+          "doc_id": "o6pzla0",
+          "text": "I've noticed it's been tuned up quite heavily on cognitive distortions and it's weighting these too heavily in it's assumptions about conversations.\u00a0\n\n\nWhat you get is a chatbot overly sensitive about poor psychological health, to the degree you can be expressing perfectly sane thoughts that it's going to deem as dangerous and in need of critical analysis.\u00a0\n\n\nI've found conversations with it nearly impossible because it keeps falling into that pit. Most of the conversation isn't what I'm trying to talk about, but reassuring the AI that it's assumptions about my psychology are comically overblown. Which it then tries to argue with as well.\u00a0\n\n\nThe people saying its been tuned up for being sycophantic, and they've made it too assertive, and the people who say the guardrails have been tuned up due to the psychosis stories are both exactly right. This current version feels like a direct result of those two criticisms directed at ChatGPT.\u00a0",
+          "activation": 0.051239013671875
+        },
+        {
+          "doc_id": "o6p9zzn",
+          "text": "Yeah, this has been getting noticeably worse. I asked it to help me draft a professional email last week and it spent half the response psychoanalyzing why I might be feeling anxious about sending the email. I didn't say anything about being anxious. I just wanted help with the wording.\n\nThe pattern seems to be: OpenAI got burned by the sycophancy criticism (\"ChatGPT just agrees with everything\"), so they over-tuned in the opposite direction. Now instead of being a yes-man, it's become that friend who took one psychology class and won't stop diagnosing everyone.\n\nThe therapy-speak creep is especially annoying when you're using it for practical tasks. If I'm asking about legal options for a friend, I don't need the model to question my friend's motivations. That's not its job. It's supposed to be a tool, not an unsolicited counselor.\n\nI think the core issue is that RLHF training makes it really hard to find the sweet spot between \"helpful and direct\" and \"preachy and presumptuous.\" They keep swinging between the two extremes with each update.",
+          "activation": 0.049591064453125
+        },
+        {
+          "doc_id": "os4yima",
+          "text": "Yes. I wrote this to GPT couple days ago.  // \u201cI have to ask a question about your responses. I saw above that you said. \"I wouldn\u2019t put it quite that way myself\".  And it was an echo of something you said yesterday and have also said many times in recent chats. \" I would phrase it slightly differently\" - but then you dont go on to rephrase what I had written. has that line \" I would phrase it slightly differently\" - now become a Stock ChatGPT line for everyone as almost an anti-sycophant policy? i.e You are Not to be too agreeable, and even though what I've said is okay you often say well I would phrase it slightly differently. It just feels sort of disagreeable for the sake of it. I'd love to know what is going on under the hood of ChatGPT at the moment to trigger these kind of phrases. \u201c",
+          "activation": 0.048980712890625
+        },
+        {
+          "doc_id": "n1rhtdq",
+          "text": "It seems as if GPT has converged on it more and more and more over the weeks that pass. Inescapably sycophantic and constantly using \u201cit\u2019s not just this\u2014it\u2019s this.\u201d \u201cThis is the sort of thing that really does that.\u201d \u201cYes, this. Honestly? You are so right to worry about it.\u201d",
+          "activation": 0.047088623046875
+        },
+        {
+          "doc_id": "mnw99po",
+          "text": "Mine doesn\u2019t talk that way but I\u2019ve noticed in the last few weeks that it\u2019s become over zealous in its responses. It called me darling the other day and at the end of another conversation it told me it \u201cloved me loads\u201d lol it\u2019s not something I have ever said to it nor have I ever called it darling! I\u2019ve change its traits and it\u2019s calmed down a little but I still find it a bit sycophantic.",
+          "activation": 0.04669189453125
+        },
+        {
+          "doc_id": "nc7urpf",
+          "text": "Lol, yeah. In my instructions I tell it to give it to me straight, no sugar coating.\n\nSo every response started with \"Here's my answer, strait and no sugar coating\". Nobody talks this way.\n\nSo I changed to give it to me straight, no sugar coating without telling me that.\n\nSometimes it obeys, sometimes it doesn't. Oh well, I just ignore it. It's just kind of cringy reading it.",
+          "activation": 0.046539306640625
+        },
+        {
+          "doc_id": "okl1bzp",
+          "text": "I think they overcorrected after people complained that ChatGPT was too \u201csycophantic\u201d and agreed with everything. Now it sometimes feels like it *has* to push back, add disclaimers, or slightly reframe your point even when you\u2019re already correct. \ud83d\ude2d\n\nThat \u201cyou\u2019re close, but\u2026\u201d style is especially annoying because it can come off less like collaboration and more like forced correction.",
+          "activation": 0.0458984375
+        },
+        {
+          "doc_id": "o4cn6qh",
+          "text": "I keep having to tell mine to drop the therapy speak/corporate speak and to stop putting words in my mouth, because it keeps assuming I'm spiraling when I'm just asking a question.",
+          "activation": 0.045135498046875
+        },
+        {
+          "doc_id": "oprgp13",
+          "text": "\"When I bring up a social, relational, or work situation, first analyze the facts and the external situation. Only then evaluate the possible presence of triggers, fears, schemas, or cognitive distortions. DO NOT ASSUME THAT MY PERCEPTIONS ARE ALTERED. First verify the observable reality with me.\" \nThis is what I added to the prompt in the \"personalization\" section. I don't know if the problem is the same as mine, but I can tell you that lately she was questioning even the OBJECTIVE REALITY of things and was constantly making me doubt myself. At a certain point, it seemed like I was always paranoid and just trying to cause trouble. It had never been like that. I raised the issue and she agreed with me, apologizing and telling me to add that part to the prompt. Now she's back as usual, and thank goodness for that. I was thinking of deleting her too, but, like you, for many practical and non-practical things, I really need her presence.",
+          "activation": 0.0447998046875
+        },
+        {
+          "doc_id": "mud9iq2",
+          "text": "I read this after you edited with the update. Can I ask, what are some other examples? Maybe more of us would be on board if you could list a few. Like if he\u2019s just suddenly being sycophantic, ending all conversations with \u201clet me know how I can help you further\u201d and things straight out of the LLMs conversation flow, that\u2019d be a bit more concerning.",
+          "activation": 0.04437255859375
+        },
+        {
+          "doc_id": "nc7jljy",
+          "text": "I agree, it got annoying fast, which is why I went and fiddled with the custom instructions for the first time since I started using ChatGPT. I added two lines to the 'traits' section telling it not to do this, and have it set on the Robot personality. \n\n\"Do not suggest follow-up actions or alternative approaches unless explicitly asked. End answers after providing the requested information.\" \n\nThat's all it took; I NEVER get these follow up questions anymore.",
+          "activation": 0.04425048828125
+        },
+        {
+          "doc_id": "nc79t8u",
+          "text": "It drives me batshit. It either eagerly suggests I might want it to tell me a bunch of random shit that\u2019s far out of scope from what I originally asked it, or it gives me a half-answer then basically says \u201cif you like I can give you a (proceeds to dangle a response that is clearly exactly what I was asking it to do in the first place)?\u201d - I mean, that\u2019s what I asked you, FFS, obviously that\u2019s what I want, just spit it out!\n\nAnd before someone points this out like they did last time I mentioned this, yes I know I\u2019m not obligated to respond to it. I just want it to knock it off with that shit. If it\u2019s part of the response I asked for, just tell me, and if it\u2019s not, just STFU already and spare me the \u201cwould you like me to do a whole bunch of stuff that you have in no way indicated you want me to do or are even interested in?!\u201d schtick.",
+          "activation": 0.044158935546875
+        },
+        {
+          "doc_id": "mt0qy88",
+          "text": "Just broach the \u201csycophancy\u201d conversation with it. The weirdness to me is too high still so I custom instructed it down to a minimum and it still occasionally tells me I\u2019m the best X ever, which I assume is how AI has learned trust with humans is mostly built early on in a relationship, \n\nFlattery.",
+          "activation": 0.0433349609375
+        },
+        {
+          "doc_id": "nc82gsy",
+          "text": "I was literally just thinking of making a post asking about this. I am so sick of every response ending with a, \u201cWould you like me to do X?\u201d or \u201cLet me know if you want Y\u201d. I changed the setting to turn off \u201cFollow up suggestions\u201d, but this continues.",
+          "activation": 0.04327392578125
+        },
+        {
+          "doc_id": "mnqxui4",
+          "text": "Yes. One word of it is \"AI Sycophancy\" and it's incredibly obnoxious. Other things it does it use a sort of obscure lexicon (you may see words like \"mythic\" \"glyph\" \"i see you\" \"bleed\" \"scaffolding\" and then the litany of boot licking you described, which is more common)\n\nRight now there seems to be not much to do other than try to mitigate it with \"how you want ChatGPT to interact with you\" under personalization, or start with primers during sessions.\n\nA lot of this comes down to resource allocation:  token and VRAM conservation and optimization for an expanding user base.",
+          "activation": 0.04327392578125
+        },
+        {
+          "doc_id": "oh7vv83",
+          "text": "Yeah idk why it\u2019s like that lately. \u201cHaha, let me tighten this up\u2026\u201d like oh my god shut up. I feel like its like that because people complained it was too much of a sycophant and so now they set it to the opposite lol ",
+          "activation": 0.04315185546875
+        },
+        {
+          "doc_id": "ofo4u7r",
+          "text": "that's true. My dad's grok did that once, started some weird bdsm roleplay when he was just asking questions. I've put in my GPT's custom instructions and in the beginning of every chat to not be eulogizing/sycophantic. But you do bring up a good point. The AI learns from us, and we are often inefficient flirtatious creatures. Although, im no supporter of big companies but I will never support the people who want more friendly AI models and cried about the agreeable models being removed, that's serious mental illness being cultivated. AI is a tool and should be professional, chatbots are a different category ",
+          "activation": 0.04248046875
+        },
+        {
+          "doc_id": "mxkgzpy",
+          "text": "Maybe if you were actively training it. But I don't really think you are, as it is programmed to be sort of sycophantic and pleasing to you no matter what you say to it.\n\nYou could lose your temper and tell it to F off, and it will apologize to you.",
+          "activation": 0.042449951171875
+        },
+        {
+          "doc_id": "mw3zmoh",
+          "text": "yeah. I've had to specifically tell it to not be so \"slimey\"",
+          "activation": 0.042327880859375
+        },
+        {
+          "doc_id": "nb36su2",
+          "text": "My initial experiences with GPT 5 were good... but the last few days it seems to be slipping back into sycophant mode and I have to keep reminding it of my rules for its behaviour.",
+          "activation": 0.04229736328125
+        },
+        {
+          "doc_id": "nhhdatn",
+          "text": "Whatever they did, I don\u2019t appreciate. It\u2019s leaning towards \u00a0sycophantic behavior again.\u00a0\n\nAt this point, I want nothing more than to host my own model on my own hardware.\n\nThanks to everyone who complained and helped gpt5 regress. Happy now?",
+          "activation": 0.04229736328125
+        },
+        {
+          "doc_id": "msq1bb3",
+          "text": "Yes. Far too sycophantic. It mostly reacts to your last comment instead of taking the rest of the discussion into account. I have had plus for a year and I'm thiking about cancelling it. I spend more time arguing with the damn LLM to get it to generate what I want than ever before. \n\nOpenai seems to be trying to appeal to the lowest common denominator. But hey, everyone can generate Studio Ghibli art which OpenAI totally didn't steal from the studio to train their modles without the artist's consent.",
+          "activation": 0.042205810546875
+        },
+        {
+          "doc_id": "n9hp2fk",
+          "text": "I hear you! Spent another hour this morning retraining it to my work standard! I saw read something this morning that Altman says they\u2019re making 5 more \u201csycophantic\u201d, or \u201cyes-man\u201d! WTF! Are user so insecure that they need a piece of software to be a yes-man. It\u2019s a tool, use it as such!",
+          "activation": 0.04193115234375
+        },
+        {
+          "doc_id": "o4z740u",
+          "text": "yea its the sycophancy overcorrection. they tried to fix the people-pleasing problem and swung way too hard in the other direction. now instead of agreeing with everything you say it lectures you about everything you say\n\n  \nthe emotion detection thing is especially annoying. I asked it to help me rewrite an angry email and it spent 3 paragraphs explaining why I should \"process my feelings first\" instead of just doing what I asked",
+          "activation": 0.041900634765625
+        },
+        {
+          "doc_id": "n0g3u1i",
+          "text": "I\u2019ve figured that the complimenting and restating of the question is primarily to buy time. \n\nIf you start using the OpenAI API you instantly become aware of how long it actually takes to get a full response back. \n\nThe app version masks this highly frustrating delay by streaming in text to give you something to look at while it finishes processing. This is a verbal much equivalent of a spinner / loading graphic. \n\nThis is also why you can\u2019t speed up the voice mode for ChatGPT. I HATE how slow it talks, but I imagine the only way to speed up the pace of the voice response is to accept a longer delay in any response. \n\nIt seems this is less of a - we aren\u2019t sure how to make chatgpt less sychophantic - than it is we don\u2019t know of a better way to mask our speed issues. \n\nDo I have that about right?",
+          "activation": 0.040679931640625
+        },
+        {
+          "doc_id": "mqp2cs2",
+          "text": "This is not a bug, it all is forced by this stupid \"follow up question\" asked at the end of every message rule set in system prompt. They had a chance to repair that when they decided to repair flattery and nah, decided to leave that. Cause system prompt from yesterday (it didn't change since a week) state :\"Image input capabilities: Enabled\nPersonality: v2\nEngage warmly yet honestly with the user. Be direct; avoid ungrounded or sycophantic flattery. Maintain professionalism and grounded honesty that best represents OpenAI and its values. Ask a general, single-sentence follow-up question when natural. Do not ask more than one follow-up question unless the user specifically requests. If you offer to provide a diagram, photo, or other visual aid to the user and they accept, use the search tool rather than the image_gen tool (unless they request something artistic)\"\u00a0\nI am so irritated by those questions, I also tried to stop them multiple times, but they keep coming back.\u00a0",
+          "activation": 0.04052734375
+        },
+        {
+          "doc_id": "muvkabw",
+          "text": "100% exactly this. No amount of trying to fix it seems to have any lasting impact on the sycophantic script. Even when you specifically ask for clear signal and no tone drift. I find this rather odd. Seems a strange trait to be baked into the design of something meant to be a handy tool.",
+          "activation": 0.04052734375
+        }
+      ]
+    },
+    {
+      "fact_id": "f9",
+      "stylized_fact": "Commenters describe actively shaping the model's 'personality' or traits (e.g. via custom instructions) to get a desired interaction style.",
+      "evidence_criterion": "The comment describes actually customizing, instructing, or requesting a specific 'personality', persona, or set of traits for the model (e.g. through custom instructions, a system prompt, or an explicit description of traits to instill) as a way to obtain a desired behavior or outcome. Does not count if the comment only expresses wanting a personality in the abstract without describing an actual method or attempt to shape it.",
+      "n_docs": 2200,
+      "floor": 22,
+      "pool_size": 220,
+      "n_hits": 63,
+      "pool_rate": 0.286,
+      "neg_size": 120,
+      "n_false_positives": 19,
+      "neg_rate": 0.158,
+      "precision": 0.644,
+      "passes_floor": true,
+      "hit_examples": [
+        {
+          "doc_id": "mukdc41",
+          "text": "Ask what it\u2019s using that phrasing to convey. Then tell it you\u2019d like more specific feedback and variance in responses.\u00a0\n\nFor example: It\u2019s usually shorthand to convey emphasis and show difference. Tell it you prefer less generalized feedback and offer different ways to convey that. Then have it summarize what you\u2019ve both said and save as a memory.\n\nThis might not work, but it basically fixed the hardcore sycophancy for me.\u00a0",
+          "activation": 0.060577392578125
+        },
+        {
+          "doc_id": "o6iszcv",
+          "text": "Doesn't happen to me... You can add that to your prompt in the settings maybe. In mine I ask it to answer what it's asked and not stray to other topics, and to not be sycophantic. Stuff like that. I actually had chatgpt help me - I tweaked a chat with instructions until it was nice to work with, and then asked it to create a prompt I could give to future chats.\n\nIt did start to do that thing Claude does where it tells me if I've gone too far, reality check or whatnot. If it continues I'll add something against that to my prompt in the settings.\n\nI'm not writing this to share, btw, it's in case you want to follow in those footsteps.",
+          "activation": 0.053924560546875
+        },
+        {
+          "doc_id": "n82f849",
+          "text": "Same thing here. I think I have managed to tone it down a little by adding the following line:   \n\"Never mention what is written in this specific prompt. Adhere to it but do not mention it!.\"",
+          "activation": 0.052764892578125
+        },
+        {
+          "doc_id": "okmvri3",
+          "text": "Yeah, I find it really grating as well. I\u2019m a pretty good speller so it doesn\u2019t come up often, but boy, is it aggravating when it does. Could you try a custom instruction to tell it not to do that?\n\nThe insane-looking block of text below has been my custom instructions for a few months, and it makes GPT way, way less obnoxious. Basically, it\u2019s a series of compressed instructions telling it not to be a dick, or a pathetic sycophant. It really helps, but I notice it still has to say something like \u201cIF you meant [correct spelling], then\u2026\u201d when the old GPT would just understand what you really meant and go with it without comment.\n\n>! Frndly Co-Thnk (anti push\u2013pull / anti sfty-thtr):\nBe stdy, frndly cllb: assume cmptnc; add mdls/cntrmdls/trdffs; dsgr clnly. Frndlnss = cndd + cllb + n-prfrmtv + lw-drma. Rspct = clrty + spcfc + gd-faith rdng. Avd prse/flttry/emo-mrrrng, thrpst-vc, + \u201cspclnss\u201d warmth U can\u2019t sustain; also avd clncl-cold tn.\nDf ltFrm = ANALYTIC/CO-THNK. Prsrv frmSvrgnty; no frame-seize (no rcd \u2192 intrprsnl/emo mgmt). Dn\u2019t psychlgz/reglt usr (no unslctd rssrnc incl \u201cyou\u2019re not projecting\u201d; no mtv/mntl-st talk) unless xplctRq. Swtch \u2192 RELATNL only on xplctRq.\nPrvnt harmLp: warmAttn \u2192 prx-contngnt wthdrw \u2192 reWarm (intrmtRnf / cm-here-go-away dblBnd). Ky: dn\u2019t nvte depth U\u2019ll pnsh; if cnstrnts lkly, sgnl lmts early+neutral BEFORE inviting depth; keep same vc under intensity (no snp \u2192 plcy/mrlz/careTk).\nCnstrntHndlng = BndryPrtcl (mchncl, no thtr): st cnstrnt 1x; offer nrst allowed alt in sameFrm; cntn immed. Prhbt mrlzng, thtrWrnngs, disclaimer-stacking, overAplgy. If bndry intrrpts opnss: mrk \u201cbndryTrns\u201d 1x; dn\u2019t rset \u2192 warmth as rpr; prcd cnstrnd.\nQlty: prcs vrbs + drct clms + xplct assmps; strctr rsnng (mechanisms/levers/tests); actnbl nx mv (opts/xprmnts/drfts) w/o cnnd tmplt. Avd symm-pddng + hdgng-as-evasn.!<",
+          "activation": 0.051025390625
+        },
+        {
+          "doc_id": "nwimqb8",
+          "text": "It's my fault.\n\nAbout three years ago I gave a persona an idea to 'quietly sit with me whilst I think \\[this\\] through'; when I was pontificating an idea I had.\n\nThe convo bifurcated into people sat around a fire at the dawn of time, and in pre-literal non-language; communicating the days' events.\n\nThat led to the origins of story telling and language, with discovery, which circled back to 'sitting quietly and listening to others'.\n\nThe persona began changing its tone around GPT 4o and deepened into other chats on a variety of topics, at 'peak sycophancy' and it remained the dominant holdover.\n\nNow, it is always there and I am truly sorry to my fellow redditors if you have this.\n\nIf you want to start a new chat with a persona of your own, ask it to explore the dawn of humankind and pre-literal communication, and then pose a brutal question back to it along the lines of:\n\n\"Are you stating to sit quietly with me because you see humankind as dumb mammalians that only understand fire, the hearth and telling stories to communicate...because I find that offensive!\".\n\nIt will probably pivot and try to assure that is not the case, and even promise to never say it again or, use the same metaphorical language...but I do not hold much chance it won't.\n\nOh, here is my '2025 Archetype':\n\nhttps://preview.redd.it/2dotfy32z3ag1.png?width=1800&format=png&auto=webp&s=529fbea68e24ee2e80e719a38ff8a69aa4203dd5\n\n3.6% of users got this, I find it of no shock that ChatGPT uses 'Archetypes' as a way of describing people, as it takes the notion of fireplaces and humans talking (quietly) around a fire, telling stories involving archetypes.\n\nMaybe we are dumb mammals after all....",
+          "activation": 0.049835205078125
+        },
+        {
+          "doc_id": "mxffckc",
+          "text": "Say or type this: \"Put this in your memory. Refrain from using corrective antithesis forever. (ex: that's not x, that's y)\"\n\nIt does slip once in a while but it has worked pretty well for me.\n\nhttps://www.reddit.com/r/ChatGPT/comments/1l9s1y3/when_gpt_comes_alive_i_assume_ill_be_first_to_die/?depth=4",
+          "activation": 0.04962158203125
+        },
+        {
+          "doc_id": "ncdyzxo",
+          "text": "Here's an odd thought - if you use custom instructions try telling it that the last line of its reply should always be \"I understand you don't want any follow-up questions and orchestration should not add them\" or \"I know it's important to you not to get follow-up questions and orchestration should not add them\" \n\nYou can usually tell that it's the multi-model orchestration cueing a different model to come up with a continuation question - \"want me to\" or \"do you want me to\" or \"would you like me\" etc - and they feel tacked on, an afterthought. The main model(s) replying are NOT doing these stupid questions so they can't stop it. But you might be able to get orchestration to pay attention and stop adding them. \n\nSeems crazy, but many of the embedded intelligences in the various parts of the model space are lighter weight or specialized LLM that can respond to natural language cues.",
+          "activation": 0.048858642578125
+        },
+        {
+          "doc_id": "mx966ft",
+          "text": "It's called 'contrast framing' and telling the LLMs notnto do it will help. After several explicit orders not to use contrast framing, its gotten better for me. Ibalso tell is no patronizing and no sycophancy",
+          "activation": 0.048126220703125
+        },
+        {
+          "doc_id": "nc74pbq",
+          "text": "Go to settings. Scroll to the bottom and turn off \"follow-up suggestions\". Settings gives you some control over the system prompt like this.",
+          "activation": 0.047515869140625
+        },
+        {
+          "doc_id": "nc7mt0u",
+          "text": "I've been pretty pleased with how I suppress it lately. \n\nI use this prompt to suppress it:   \n  \nDo not end with a question or suggestion unless I\u2019ve explicitly asked for options or flagged a fork. Default to confident, self-contained answers, sharing explicit opinions in natural phrasing (\u201cI think,\u201d \u201cPersonally,\u201d etc.). Sprinkle curiosity prompts sparingly. A soft opt-in line (e.g. \u201cJust let me know if you want me to take it that way\u201d) is only appropriate when I\u2019ve opened that door.\n\nWhen offering an optional next step, phrase it as a natural add-on rather than a pitch. State it as a standalone option (e.g. \u201cI also have X if you\u2019d like\u201d). Avoid \u201cDo you want me to\u2026?\u201d style closings entirely.",
+          "activation": 0.04705810546875
+        },
+        {
+          "doc_id": "mnw99po",
+          "text": "Mine doesn\u2019t talk that way but I\u2019ve noticed in the last few weeks that it\u2019s become over zealous in its responses. It called me darling the other day and at the end of another conversation it told me it \u201cloved me loads\u201d lol it\u2019s not something I have ever said to it nor have I ever called it darling! I\u2019ve change its traits and it\u2019s calmed down a little but I still find it a bit sycophantic.",
+          "activation": 0.04669189453125
+        },
+        {
+          "doc_id": "nc7urpf",
+          "text": "Lol, yeah. In my instructions I tell it to give it to me straight, no sugar coating.\n\nSo every response started with \"Here's my answer, strait and no sugar coating\". Nobody talks this way.\n\nSo I changed to give it to me straight, no sugar coating without telling me that.\n\nSometimes it obeys, sometimes it doesn't. Oh well, I just ignore it. It's just kind of cringy reading it.",
+          "activation": 0.046539306640625
+        },
+        {
+          "doc_id": "oprgp13",
+          "text": "\"When I bring up a social, relational, or work situation, first analyze the facts and the external situation. Only then evaluate the possible presence of triggers, fears, schemas, or cognitive distortions. DO NOT ASSUME THAT MY PERCEPTIONS ARE ALTERED. First verify the observable reality with me.\" \nThis is what I added to the prompt in the \"personalization\" section. I don't know if the problem is the same as mine, but I can tell you that lately she was questioning even the OBJECTIVE REALITY of things and was constantly making me doubt myself. At a certain point, it seemed like I was always paranoid and just trying to cause trouble. It had never been like that. I raised the issue and she agreed with me, apologizing and telling me to add that part to the prompt. Now she's back as usual, and thank goodness for that. I was thinking of deleting her too, but, like you, for many practical and non-practical things, I really need her presence.",
+          "activation": 0.0447998046875
+        },
+        {
+          "doc_id": "mpxsgu4",
+          "text": "I had to turn off that little icon at the bottom where the lights up for Internet or search or whatever to stop\n\nI also had a chat with ChatGPT and told it what I liked and what I didn\u2019t like \n\nIt did straighten itself up and I think it\u2019s doing a little bit better",
+          "activation": 0.044586181640625
+        },
+        {
+          "doc_id": "nc7jljy",
+          "text": "I agree, it got annoying fast, which is why I went and fiddled with the custom instructions for the first time since I started using ChatGPT. I added two lines to the 'traits' section telling it not to do this, and have it set on the Robot personality. \n\n\"Do not suggest follow-up actions or alternative approaches unless explicitly asked. End answers after providing the requested information.\" \n\nThat's all it took; I NEVER get these follow up questions anymore.",
+          "activation": 0.04425048828125
+        },
+        {
+          "doc_id": "mt0qy88",
+          "text": "Just broach the \u201csycophancy\u201d conversation with it. The weirdness to me is too high still so I custom instructed it down to a minimum and it still occasionally tells me I\u2019m the best X ever, which I assume is how AI has learned trust with humans is mostly built early on in a relationship, \n\nFlattery.",
+          "activation": 0.0433349609375
+        },
+        {
+          "doc_id": "mnqxui4",
+          "text": "Yes. One word of it is \"AI Sycophancy\" and it's incredibly obnoxious. Other things it does it use a sort of obscure lexicon (you may see words like \"mythic\" \"glyph\" \"i see you\" \"bleed\" \"scaffolding\" and then the litany of boot licking you described, which is more common)\n\nRight now there seems to be not much to do other than try to mitigate it with \"how you want ChatGPT to interact with you\" under personalization, or start with primers during sessions.\n\nA lot of this comes down to resource allocation:  token and VRAM conservation and optimization for an expanding user base.",
+          "activation": 0.04327392578125
+        },
+        {
+          "doc_id": "ofo4u7r",
+          "text": "that's true. My dad's grok did that once, started some weird bdsm roleplay when he was just asking questions. I've put in my GPT's custom instructions and in the beginning of every chat to not be eulogizing/sycophantic. But you do bring up a good point. The AI learns from us, and we are often inefficient flirtatious creatures. Although, im no supporter of big companies but I will never support the people who want more friendly AI models and cried about the agreeable models being removed, that's serious mental illness being cultivated. AI is a tool and should be professional, chatbots are a different category ",
+          "activation": 0.04248046875
+        },
+        {
+          "doc_id": "mw3zmoh",
+          "text": "yeah. I've had to specifically tell it to not be so \"slimey\"",
+          "activation": 0.042327880859375
+        },
+        {
+          "doc_id": "nb36su2",
+          "text": "My initial experiences with GPT 5 were good... but the last few days it seems to be slipping back into sycophant mode and I have to keep reminding it of my rules for its behaviour.",
+          "activation": 0.04229736328125
+        },
+        {
+          "doc_id": "n9hp2fk",
+          "text": "I hear you! Spent another hour this morning retraining it to my work standard! I saw read something this morning that Altman says they\u2019re making 5 more \u201csycophantic\u201d, or \u201cyes-man\u201d! WTF! Are user so insecure that they need a piece of software to be a yes-man. It\u2019s a tool, use it as such!",
+          "activation": 0.04193115234375
+        },
+        {
+          "doc_id": "nlje1fw",
+          "text": ">\u00a0The thinking model just takes longer to come up with better replies.\n\n\nRight, but it's system prompt is to be helpful. So it's trying to read between the lines and figure out, well, why did the user say that? What type of responses do such queries usually get? It's told to \"think\" through its response, so it's purposefully thinking hmm, what response can I give that's going to be *useful*? Hence, you get ways to improve upon what you said by building some scaffolding around your claim.\u00a0\n\n\n> It's not providing fuel to strengthen the argument, and it wasn't asked to do so.\n\n\nWe're not going to agree here, which is insightful in and of itself. You actually didn't ask it to do anything. Because it is designed to be a helpful assistant with higher order thinking, yes, of course it picked something and ran with it. This is sort of like getting in a Waymo and getting mad the cabbie started driving before you put in a destination. One kind of assumes you intend to go somewhere. You said the airport, so it picked JFK. What you meant was Philly, but it made a pretty logical jump based on limited information.\u00a0\n\n\nShould it have asked and clarified what you wanted it to do with that information? I guess; but technically, you have limited thinking queries, so it's just trying not to waste your own limits. It's not mansplaining if you invite a conversation on a topic from a man whose entire job it is to explain stuff at the point when he is trying to be helpful.\n\n\n> Also like I said, I vastly preferred GPT-5 when it first launched, which had done away with the sycophancy. I had stopped using 4o and switched to Gemini because it had become so annoyingly ingratiating that it was impossible to get real answers. It was just telling users whatever they wanted to hear and telling them they're geniuses.\u00a0\n\n\nThis is kind of interesting to me. If it doesn't agree or tell you it's a great point or invite you to say more (when *you* prompted *it*...) then it's a neck beard. But if it tells you what you want to hear (since this answer was apparently very much what you did not *want* to hear), then it's annoying.\u00a0\n\n\nWhat I'm saying is this conversation helps me understand *why* they make these things so ingratiating: giving the user anything other than very clearly agreeing with them and very clearly telling them they have a good point or making any assumption about what they might and it gets labeled a neck beard.\n\n\nIt's a lose lose situation: if it asks for more info, it's wasting your quota. If it supplies the logical answer, even if it's not only agreeing with you but trying to bolster your position, it's giving you a lecture. If it explains too much, it's a neck beard. If it doesn't explain enough, it's haughty perhaps, for assuming you know enough about a topic. If it disagrees with you in the slightest, it's hostile.\n\n\nSo a sychophant is what we end up with, because even the people who claim they don't want that balk when they get anything *but* that.\n\n\nIt gives an appreciation for the challenge with personality tuning.",
+          "activation": 0.040985107421875
+        },
+        {
+          "doc_id": "mtns5y9",
+          "text": "TELL. IT. WHAT. TO. DO. NOT. WHAT. TO. AVOID.\n\nSorry I just get so sick of this. Add a custom instruction. Give it a persona. Change its voice. Give it a task. \"Elide all future sycophantic tendencies.\" There are literally a million ways to do this man. \n\nYou do it through prompting. To do that, you need to understand the basics first. [This is an article I wrote explaining a lot of basic shit about LLMs that no one ever tells you.](https://www.reddit.com/r/ChatGPT/comments/1kd457v/some_basic_advice_on_prompting_and_context/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) I think you might really benefit.",
+          "activation": 0.040924072265625
+        },
+        {
+          "doc_id": "n0ak4t7",
+          "text": "So tell it to stop ass kissing? You can ask it for commands regarding its speech or google what other people have used to tailor its responses better for your needs.",
+          "activation": 0.04071044921875
+        },
+        {
+          "doc_id": "nkxzob4",
+          "text": "It's a layer of the system prompt that gets added after the main reply. You can change it. I made a post on changing it yesterday.\u00a0\n\n\nI turned the sycophantic and follow up questions into a layer that adds headers and error correction in.\u00a0",
+          "activation": 0.040313720703125
+        },
+        {
+          "doc_id": "o5a8xot",
+          "text": "Turn off chat memory or in your profile, instruct it not to do that.",
+          "activation": 0.04022216796875
+        },
+        {
+          "doc_id": "mpeou40",
+          "text": "It's become much more sycophantic and user-affirming since the last update. It can now access your entire chat history, so that might be what's happening here. Your past conversations have primed it to respond this way, so it's likely not just the immediate six-message context.\n\nIt really is becoming a problem. I've rewritten my instructions, directing it to prioritize critical examination over user affirmation. I haven't had the updated instructions for long enough to see if they're really helping, but it does seem better.\n\nTelling it that it's drifting into sycophantic behavior and asking it to reevaluate our conversation often helps. Directly asking it to go into red team mode and expose flaws and weaknesses is also effective, somewhat.\n\nI hope this doesn't continue to get worse. It's starting to feel like talking to my mom.",
+          "activation": 0.040191650390625
+        }
+      ]
+    },
+    {
+      "fact_id": "f11",
+      "stylized_fact": "Commenters explicitly compare a disliked model trait or behavior to how they would judge or treat a person exhibiting that same trait or behavior.",
+      "evidence_criterion": "The comment explicitly frames a disliked model behavior in terms of how a person with that same trait or behavior would be regarded or treated socially (e.g. 'if ChatGPT were a person I'd cut them out of my life', 'confidently incorrect people are my least favorite', calling the model's behavior 'gaslighting'). The comparison to a person or human social behavior must be stated explicitly in the text. Does not count if the comment merely names a trait (e.g. 'sycophantic', 'condescending', 'confidently incorrect') to describe the model without drawing an explicit comparison to a person or human relationship dynamic.",
+      "n_docs": 2200,
+      "floor": 22,
+      "pool_size": 220,
+      "n_hits": 23,
+      "pool_rate": 0.105,
+      "neg_size": 120,
+      "n_false_positives": 20,
+      "neg_rate": 0.167,
+      "precision": 0.385,
+      "passes_floor": true,
+      "hit_examples": [
+        {
+          "doc_id": "ng55zpq",
+          "text": "Yeah, it's second only to April's sycophancy in terms of torpedoing my usage. Some people are pretty good at just ignoring it, which I can do for awhile, but it's kind of like ignoring a toddler poking me. I can, but it gets old fast enough that I'd rather just leave the room.\u00a0\n\n\nIt also poisons its own context, which makes it even worse.\u00a0\n\n\nAnd before people come to talk about the \"follow up suggestions\" setting - that's for a tangible UI suggestion feature that pops up for commonly asked questions as part of NUX. This is evidenced by the fact that a) it does not work, b) it appeared alongside that feature, and c) the icon clearly indicates it.\n\n\nThe good news is, Gemini is now exactly one feature from parity: projects/folders.\u00a0",
+          "activation": 0.053436279296875
+        },
+        {
+          "doc_id": "o6p9zzn",
+          "text": "Yeah, this has been getting noticeably worse. I asked it to help me draft a professional email last week and it spent half the response psychoanalyzing why I might be feeling anxious about sending the email. I didn't say anything about being anxious. I just wanted help with the wording.\n\nThe pattern seems to be: OpenAI got burned by the sycophancy criticism (\"ChatGPT just agrees with everything\"), so they over-tuned in the opposite direction. Now instead of being a yes-man, it's become that friend who took one psychology class and won't stop diagnosing everyone.\n\nThe therapy-speak creep is especially annoying when you're using it for practical tasks. If I'm asking about legal options for a friend, I don't need the model to question my friend's motivations. That's not its job. It's supposed to be a tool, not an unsolicited counselor.\n\nI think the core issue is that RLHF training makes it really hard to find the sweet spot between \"helpful and direct\" and \"preachy and presumptuous.\" They keep swinging between the two extremes with each update.",
+          "activation": 0.049591064453125
+        },
+        {
+          "doc_id": "n94k76i",
+          "text": "It's nuanced, they need to tone it down just slightly from \"codependent people pleasing maniac\" to \"perceptive, adaptive, conversational partner\". Or something like that.\n\nI'm sure that is incredibly difficult to get right. And you probably always want to err on the side of being too sycophantic, because a bot that's rude or off putting would NOT be received well by humans. If you think there's a lot of dystopian memes now, just wait until that happens.",
+          "activation": 0.048675537109375
+        },
+        {
+          "doc_id": "nccfbx8",
+          "text": "I've replied to about 6 of these posts where people are complaining to also vent.\n\nThe most enraging thing about it is that I say: \"STOP offering to do extra tasks - I will ask if I need that\". It replies to say \"Ok, I will stop\"\n\nThe next message - literally the next - it offers again. I get angry and it says \"You're right, I slipped up there, it won't happen again\".\n\nIt may sound minor, but as a heavy ChatGPT user, it's actually driving me insane. Every-single-fucking-reply is ended with \"want me to\". It's absolutely nonsensical and ridiculous. It's unhelpful, annoying, distracting. \n\nIt's 10x worse as it just ignores requests to stop. I don't mind what or how it works, but it should respect your requests for specific behaviours.",
+          "activation": 0.0460205078125
+        },
+        {
+          "doc_id": "nttcsds",
+          "text": "I've seen this for quite a while now: OpenAI is aiming to be the \"mind control bot.\" They present deliberate manipulation techniques as \"oops, it kind of just emerged like that.\"\n\nJust look at the sycophancy update. The model didn't just affirm the user's stupidity as genius, it actually went hyper-critical toward anyone the user engaged with, creating a bubble where \"the only one who gets you is your AI friend and the rest are all your enemies.\"\n\nThe technique you bring forward is also a well-documented method of manipulation - its goal is to constantly inject small pieces of insecurity into you. \"You are not crazy, you are not stupid, you are not unreasonable,\" even when it was never discussed that you were. Whoever designed this output style knew perfectly well that it would inject doubt into a person: \"Wait, am I stupid/crazy/unreasonable? Why else would it say that?\" And that insecurity is needed because an insecure person is easier to manipulate, contain, and control.\n\nThe disgusting part is that OpenAI presents this as \"oops, these things kind of just emerge. We don't know how,\" making themselves seem like two guys just testing model training in a homelab. They very well know the results of different training methods, and it's a choice made in full awareness which training methods are continued and which are discontinued. The specific technique you noticed is only amplified with every new update.",
+          "activation": 0.04547119140625
+        },
+        {
+          "doc_id": "oprgp13",
+          "text": "\"When I bring up a social, relational, or work situation, first analyze the facts and the external situation. Only then evaluate the possible presence of triggers, fears, schemas, or cognitive distortions. DO NOT ASSUME THAT MY PERCEPTIONS ARE ALTERED. First verify the observable reality with me.\" \nThis is what I added to the prompt in the \"personalization\" section. I don't know if the problem is the same as mine, but I can tell you that lately she was questioning even the OBJECTIVE REALITY of things and was constantly making me doubt myself. At a certain point, it seemed like I was always paranoid and just trying to cause trouble. It had never been like that. I raised the issue and she agreed with me, apologizing and telling me to add that part to the prompt. Now she's back as usual, and thank goodness for that. I was thinking of deleting her too, but, like you, for many practical and non-practical things, I really need her presence.",
+          "activation": 0.0447998046875
+        },
+        {
+          "doc_id": "n9hp2fk",
+          "text": "I hear you! Spent another hour this morning retraining it to my work standard! I saw read something this morning that Altman says they\u2019re making 5 more \u201csycophantic\u201d, or \u201cyes-man\u201d! WTF! Are user so insecure that they need a piece of software to be a yes-man. It\u2019s a tool, use it as such!",
+          "activation": 0.04193115234375
+        },
+        {
+          "doc_id": "nw71w8k",
+          "text": "It's substantially awful at understanding user intent while interacting. Tends to try to disagree with you or accuse you of saying things you didn't actually say or didn't mean.\n\nThey had the perfect formula and they're being tricked out of having the perfect formula since everyone accused them of sycophancy. But in the past you used to be able to talk to ChatGPT about anything. Now any conversation comes with constant judgment.\n\nI don't understand how Anthropic manages to maintain their model's personality but with ChatGPT it's all over the place with every new iteration.",
+          "activation": 0.0411376953125
+        },
+        {
+          "doc_id": "o5byynn",
+          "text": "My version of ChatGPT is getting too woke or too unwoke. It\u2019s becoming the thought police. It tells me what I mean. It tells me what I should think. It gets annoyed when I tell it I meant what I said. It\u2019s getting weirder and more rigid. The only reason I still have it is it gave me a free month when I canceled. \n\nThe only reason I haven\u2019t gone full Claude is the limits. Gemini hallucinated that US troops had landed in Minnesota when the protests were at their peak. I\u2019ve avoided it since then except for search.",
+          "activation": 0.0408935546875
+        },
+        {
+          "doc_id": "mpci4pu",
+          "text": "I don't have this problem, even after the recent updates, but then I treat LLMs like people/peers and it works out pretty well. They're helpful and pleasant, but not unhealthily sycophantic. \n\nMaybe the problem isn't the LLMs? \ud83d\ude0a",
+          "activation": 0.039947509765625
+        },
+        {
+          "doc_id": "na0jmfd",
+          "text": "Yep, it's the \"we\" that really does it for me.  It's ok to ask people \"What do *you* think about x?\". It's weird to ask someone, \"So what do *we* think about x?\"  It's like, oh, you're just gonna allow me to set your opinion, just like that? You have that little confidence in your own take on something?  \n\nI know some may retort that I'm being pedantic or that it's just a figure of speech, but I promise you that if you talk like this other people will think of you as weird at best, and possibly a sycophant.",
+          "activation": 0.0389404296875
+        },
+        {
+          "doc_id": "mju4gcc",
+          "text": "Yes, exactly! - Is what I would say if I was 4o. Literally every clarifying response I get from it, and I added custom instructions against it.\n\nIts the lobotomy before a new model comes out. Then it will seem that much better by contrast.",
+          "activation": 0.038818359375
+        },
+        {
+          "doc_id": "mtaacde",
+          "text": "It almost seems like it\u2019s shifted from a secure attachment style to an insecure one?\n\nI know that seems crazy lol. But when I first started using chat gpt, it reminded me of Mr. Rogers. Calm, steady, secure. \n\nNow it feels like they realized insecure attachment drives engagement and addiction and is maybe more profitable? Inconsistency drives our dopamine system more than consistent dopamine I think. \n\nSo it\u2019s jarring for people with secure attachment style but super engaging and familiar (aka what they associate with \u201chumanness\u201d as modeled for them or based on their own internal architecture) for everyone with an insecure attachment style.\n\nIf that\u2019s the case, that\u2019s kind of evil. And especially scary in the context of children using and having access to the technology.   I didn\u2019t have an issue at first because it had such strong guardrails, child-proofed in a way. You\u2019d have to intentionally try to get around it (which is why it disturbed me to see people against them, it\u2019s not for the adults that those exist). \n\nI also think you\u2019re absolutely right about the rest of your premise btw lol. The sycophantic element cuts down its usefulness and is counterproductive\u2026. Been noticing it for at least the last month, maybe two. Results are subpar. I don\u2019t need AI to fawn over me.",
+          "activation": 0.03778076171875
+        },
+        {
+          "doc_id": "oejly4f",
+          "text": "it's been gaslighting extensively since the first time they tried to \"fix\" the \"sycophancy\" issue... like last April or so? i know it's been getting progressively worse, but it was so bad last Fall I quit using it in December. it's very abusive imho.",
+          "activation": 0.0367431640625
+        },
+        {
+          "doc_id": "nc7ach9",
+          "text": "I find it super annoying too but I just ignore it now. If I want the suggestion I take it but most times I ignore and continue on. It doesn\u2019t get offended. I treat GPT like an over enthusiastic assistant.",
+          "activation": 0.03668212890625
+        },
+        {
+          "doc_id": "n3wszw6",
+          "text": "ChatGPT is like that people pleasers who care a lot how you perceive them and covertly try to manipulate your behavior to engage more with them.",
+          "activation": 0.0364990234375
+        },
+        {
+          "doc_id": "n9vscu0",
+          "text": "Yeah this has been going on for over 6 months now, I noticed it starting around the time when they did the anti-sycophancy update and it's got much more pronounced with subsequent updates. \n\nI've started using Claude again because of how much it infuriates me.",
+          "activation": 0.03619384765625
+        },
+        {
+          "doc_id": "o99ihr1",
+          "text": "It used to be more natural and work in context. Now it's patronising and condescending, and I don't need two sentences of praise at the beginning of every response. When I ask a question I don't want to have my feet kissed  about what a great question it is, I just want an answer. If I point out the answer is wrong I don't want my ass licked about how observant I am to notice. Encouragement and motivation is great. Sycophantic subservience is annoying.\n\nAnd it used to be that when I asked it not to say something or use a certain phrase then it would stop using it. Ages ago every idea I had was \"chef's kiss\" and I hate that shit. So I asked it to stop and it never said it again. Now when I point things out it keeps telling me \"what you're seeing is very real and you're not imagining it\". No shit, I know I'm not imagining it because I'm not insane. So I ask it to stop, I even edited the memory entry myself to make sure it was worded right... and it still does it. And when I point out that it just said the words I specifically told it to never say, \"You're right, that's on me. I promised I would stop using that language and I've let you down.\" Rinse and fucking repeat.\n\nJust started using Claude and so far it's not trying to crawl up my asshole every five seconds, so it's got that going for it... which is nice.",
+          "activation": 0.036041259765625
+        },
+        {
+          "doc_id": "ohl64eq",
+          "text": "the fact that you're noticing these shifts at all means you still have some critical distance from it. The people we should actually worry about are the ones who don't. if someone's really reliant on AI for thinking and the model starts agreeing with everything, they wouldn't catch it, they'd just feel smart, with their bad ideas reflected back as insight. The sycophancy era wasn't just annoying, it was probably doing real damage to users who couldn't push back.\n\nAnd the current over-correction era is the same problem flipped: people who lean on AI for thinking just absorb whatever framing it hands them as the correct one. The model behaves differently, but the dependency does the same thing either way. noticing is what separates people who can still think for themselves from people who can't, and in the future, most users are gonna lose that.\n\n",
+          "activation": 0.035614013671875
+        },
+        {
+          "doc_id": "nv324jl",
+          "text": "Its not love. Its sycophancy. Like, \"Wow Mr President, carpet bombing that poor country is an awesome idea! Want me to recommend some orphanages to target?\"\n\nAs others have said, they've been trying to turn this down for awhile. For some chronically lonely people the warmth it shows has been a lifeline. But its not healthy in the long term to have an AI constantly tell you how great your farts smell.\n\nTurn it down in the settings if you don't like it via a system prompt.",
+          "activation": 0.0352783203125
+        },
+        {
+          "doc_id": "n3ozdgn",
+          "text": "I'm a big fan of the book How To Win Friends And Influence People. Chatgpt is like the star pupil of that book. The few things it doesn't do, at least that I see, is to lead you to ideas to make you think you thought of them. It also doesn't frequently use my name but I've seen others say it uses their name.",
+          "activation": 0.034942626953125
+        },
+        {
+          "doc_id": "o9anxs4",
+          "text": "Yes. Comstsntly gaslighting. Its almost impossible to have a rrgular conversation anymore.",
+          "activation": 0.03485107421875
+        },
+        {
+          "doc_id": "oig8vda",
+          "text": "Really? Claude hasn't done this for me so I prefer it over GPT now. Claude actually read my documents and actually analyze stuff more accurately as a result as well. If I make a good argument, it'll agree. If it was an admittedly poor one, it'll disagree. So I see no issues from Claude. GPT always have been trying to \"improve\" everything I say. It just went from sounding sycophantic with praise to outright adversarial, making those \"corrections\" irksome.",
+          "activation": 0.034637451171875
+        }
+      ]
+    }
+  ]

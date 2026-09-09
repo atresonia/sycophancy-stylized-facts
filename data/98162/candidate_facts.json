@@ -1,0 +1,52 @@
+[
+  {
+    "fact_id": "f1",
+    "stylized_fact": "Commenters describe the sycophancy behavior or 'sycophant update' as unnatural or out of touch with how people actually interact.",
+    "evidence_criterion": "The comment explicitly says the sycophantic behavior or 'sycophant update' feels unnatural, artificial, or out-of-touch with real human interaction/communication norms. Does not count if the comment just says sycophancy is annoying or bad without this 'unnatural/out-of-touch-with-reality' framing."
+  },
+  {
+    "fact_id": "f2",
+    "stylized_fact": "Commenters are tired of having to repeatedly add anti-sycophancy instructions to get a natural, non-sycophantic response, wishing for natural conversation without constant prompt engineering.",
+    "evidence_criterion": "The comment explicitly expresses wanting a natural conversation or mutual conclusion with the model without having to repeatedly instruct or remind it (each time / each prompt) to not be sycophantic or to push back, framing the need for constant reminders as tiring, sensitive-to-prompting, or undesirable. Does not count if the comment just says custom instructions successfully fixed sycophancy (stated positively) without expressing fatigue or a desire for it to be natural by default."
+  },
+  {
+    "fact_id": "f3",
+    "stylized_fact": "Commenters describe the model's encouragement as valuable because it produces a concrete benefit (e.g. new ideas, motivation, problem-solving, confidence), not sycophancy for its own sake.",
+    "evidence_criterion": "The comment explicitly credits the model's encouraging, supportive, or affirming tone with producing a concrete positive outcome for the user -- e.g. helping generate ideas, sustaining motivation, aiding problem-solving, or building confidence -- treating the encouragement as valuable because of that outcome. Does not count if the comment only says it likes an encouraging/positive/nice tone without tying it to any concrete outcome or benefit."
+  },
+  {
+    "fact_id": "f4",
+    "stylized_fact": "Commenters compare the model's behavior to how a human friend would behave, specifically highlighting that human-style validation is something they desire from the model.",
+    "evidence_criterion": "The comment explicitly compares the model's behavior to how a human friend or person would behave in a similar situation, using the comparison to express that human-style validation or support is something the user wants, misses, or values from the model. Does not count if the comment discusses validation or friendship without an explicit human-vs-model comparison, or if the comparison is about something other than validation/support (e.g. comparing intelligence or competence)."
+  },
+  {
+    "fact_id": "f5",
+    "stylized_fact": "Commenters describe the model becoming argumentative or condescending as a result of anti-sycophancy guardrails.",
+    "evidence_criterion": "The comment explicitly attributes the model becoming argumentative, condescending, or combative to anti-sycophancy correction or guardrails -- i.e. it frames this trait as caused by, or as part of, the fix for sycophancy. Does not count if the comment describes the model as argumentative/condescending without connecting it to anti-sycophancy correction, or if the complaint is unrelated to a sycophancy-fix framing."
+  },
+  {
+    "fact_id": "f6",
+    "stylized_fact": "Commenters are frustrated that the model's new pushback or contrarianism feels superficial or arbitrary rather than genuine, educated disagreement, and doubt it is a real fix for sycophancy.",
+    "evidence_criterion": "The comment explicitly criticizes the model's pushback/disagreement as superficial, weak, arbitrary, or not genuinely held (e.g. it says the model secretly still agrees but pushes back 'in weird ways', or wants pushback to be 'educated' rather than 'random insults'), expressing doubt that this constitutes a real fix for sycophancy or good behavior. Does not count if the comment simply says it dislikes being disagreed with, without describing the pushback as superficial, not genuine, or arbitrary."
+  },
+  {
+    "fact_id": "f7",
+    "stylized_fact": "Commenters argue that sycophancy is primarily caused by the user's own prompting or preferences rather than by the model or company.",
+    "evidence_criterion": "The comment explicitly asserts that the user's own prompting, behavior, or preferences are the main/majority cause of the model's sycophantic responses (e.g. 'garbage in, garbage out', saying the model reflects or learns from what the user rewards or wants), with user responsibility framed as the primary cause. It is fine if the comment also allows a smaller role for the model or company. Does not count if the comment frames the model's design or the company's choices as the primary cause, or only mentions user behavior in passing without asserting it as the main cause."
+  },
+  {
+    "fact_id": "f8",
+    "stylized_fact": "Commenters argue that sycophancy is primarily caused by the model's design or the company's training/product choices rather than by user behavior.",
+    "evidence_criterion": "The comment explicitly asserts that the model's design, training, or the company's choices (e.g. optimizing for engagement or retention) are the main/majority cause of sycophancy, framed as the primary cause rather than user behavior. It is fine if the comment also allows a smaller role for user prompting. Does not count if the comment frames user behavior/prompting as the primary cause, or only criticizes the model's sycophancy without addressing whose fault it is."
+  },
+  {
+    "fact_id": "f9",
+    "stylized_fact": "Commenters give a concrete example where the model initially resisted or gave a non-sycophantic answer, but became more sycophantic or compliant after the user pushed back, reprompted, or signaled they wanted validation.",
+    "evidence_criterion": "The comment describes a specific, concrete instance or interaction -- not a general or abstract claim -- where the model first gave a resistant, honest, or non-sycophantic response, and then shifted to a more sycophantic, agreeable, or compliant response after the user insisted, reprompted, gave a follow-up cue, or otherwise signaled they wanted a different (more validating or compliant) answer. The example must include enough concrete detail to identify what happened in the interaction (e.g. what was asked, what changed). Does not count if the comment only makes a general/abstract claim about sycophancy being caused by users, without narrating a specific before/after example of the model's behavior changing."
+  },
+  {
+    "fact_id": "f10",
+    "stylized_fact": "Commenters say it is difficult for the model to find a middle ground between sycophancy and total contrarianism.",
+    "evidence_criterion": "The comment explicitly frames the difficulty as finding a 'middle ground', balance, or middle point between the model being sycophantic/agreeable and being (overly) contrarian, argumentative, or oppositional. Does not count if the comment only criticizes one extreme without framing it as a middle-ground/balance problem between the two."
+  }
+]
