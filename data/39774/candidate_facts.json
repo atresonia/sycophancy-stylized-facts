@@ -1,0 +1,57 @@
+[
+  {
+    "fact_id": "f1",
+    "stylized_fact": "Commenters attribute a clinical or neurological condition to the model to describe its degraded behavior.",
+    "evidence_criterion": "The comment describes the model using a clinical, neurological, or cognitive-impairment term (e.g. lobotomy, dementia, brain damage, senile) to characterize its behavior."
+  },
+  {
+    "fact_id": "f2",
+    "stylized_fact": "Commenters complain about the model being pedantic.",
+    "evidence_criterion": "The comment complains that the model is overly pedantic, nitpicky, or fixates on technical correctness or minor details at the expense of the user's actual point."
+  },
+  {
+    "fact_id": "f3",
+    "stylized_fact": "Commenters complain about the model hedging rather than giving a confident answer.",
+    "evidence_criterion": "The comment complains that the model hedges, equivocates, or avoids taking a clear, confident position in its answers."
+  },
+  {
+    "fact_id": "f4",
+    "stylized_fact": "Commenters describe model output as unnatural, forced, stilted, or formulaic.",
+    "evidence_criterion": "The comment complains about scripted openers or closers, calls the output 'canned', 'robotic', or 'template', or describes its structure as predictable. Does not count if the complaint is only about incorrect content, only about verbosity, if the comment is praising the model's naturalness, or if the comment poses this as a hypothetical example of what would be concerning (e.g. 'like if it started doing X, that'd be concerning') rather than describing behavior the commenter says the model actually exhibited."
+  },
+  {
+    "fact_id": "f5",
+    "stylized_fact": "Commenters distinguish wanting encouragement or motivation from wanting sycophancy.",
+    "evidence_criterion": "The comment explicitly distinguishes wanting encouragement or motivation from the model from wanting sycophancy or flattery, treating them as different things."
+  },
+  {
+    "fact_id": "f6",
+    "stylized_fact": "Commenters tie the model's sycophancy directly to their trust or distrust in it.",
+    "evidence_criterion": "The comment explicitly states that the model's sycophancy, flattery, or excessive agreement caused the user to trust or distrust the model or its outputs, or explicitly discusses flattery as a trust-building mechanism the model uses. Requires an explicit trust/distrust word. Does not count if the comment discusses sycophancy without any trust/distrust language, or discusses trust in AI generally with no connection to sycophancy or flattery."
+  },
+  {
+    "fact_id": "f7",
+    "stylized_fact": "Commenters describe the model's anti-sycophancy correction as producing empty corporate- or therapy-speak that avoids saying anything substantive.",
+    "evidence_criterion": "The comment characterizes the model's responses as corporate-speak, HR/PR-speak, therapy-talk, or excessive hedging/qualifying that goes in circles without conveying real content, and frames this negatively. Does not count if the complaint is only about factual inaccuracy, or about verbosity/length alone without this empty corporate-or-therapy-tone framing."
+  },
+  {
+    "fact_id": "f8",
+    "stylized_fact": "Commenters are frustrated enough with the model's current behavior that they threaten or seriously consider cancelling their subscription or closing their account.",
+    "evidence_criterion": "The comment explicitly expresses intent, temptation, or a threat to cancel/unsubscribe or close their account/membership because of dissatisfaction with the model. Does not count if cancellation or closing the account is not mentioned, even if the comment expresses strong frustration."
+  },
+  {
+    "fact_id": "f9",
+    "stylized_fact": "Commenters describe actively shaping the model's 'personality' or traits (e.g. via custom instructions) to get a desired interaction style.",
+    "evidence_criterion": "The comment describes actually customizing, instructing, or requesting a specific 'personality', persona, or set of traits for the model (e.g. through custom instructions, a system prompt, or an explicit description of traits to instill) as a way to obtain a desired behavior or outcome. Does not count if the comment only expresses wanting a personality in the abstract without describing an actual method or attempt to shape it."
+  },
+  {
+    "fact_id": "f10",
+    "stylized_fact": "Commenters describe the model's sycophancy as manipulation, or accuse the company of deliberately making it manipulative.",
+    "evidence_criterion": "The comment uses the word 'manipulate', 'manipulative', or 'manipulation' to characterize the model's sycophantic behavior or the company's design choices. Does not count if 'manipulate'/'manipulation' is used in a sense unrelated to the model's conversational behavior (e.g. manipulating objects, data, or images)."
+  },
+  {
+    "fact_id": "f11",
+    "stylized_fact": "Commenters explicitly compare a disliked model trait or behavior to how they would judge or treat a person exhibiting that same trait or behavior.",
+    "evidence_criterion": "The comment explicitly frames a disliked model behavior in terms of how a person with that same trait or behavior would be regarded or treated socially (e.g. 'if ChatGPT were a person I'd cut them out of my life', 'confidently incorrect people are my least favorite', calling the model's behavior 'gaslighting'). The comparison to a person or human social behavior must be stated explicitly in the text. Does not count if the comment merely names a trait (e.g. 'sycophantic', 'condescending', 'confidently incorrect') to describe the model without drawing an explicit comparison to a person or human relationship dynamic."
+  }
+]

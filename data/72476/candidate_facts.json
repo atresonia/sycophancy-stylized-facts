@@ -1,0 +1,26 @@
+[
+  {
+    "fact_id": "f1",
+    "stylized_fact": "Commenters argue that the model is not inherently sycophantic, attributing sycophantic behavior instead to an external cause such as the system prompt or the model mirroring the user.",
+    "evidence_criterion": "The comment explicitly denies that sycophancy is an inherent, default, or fixed trait of the model itself, attributing it instead to a controllable/contingent external cause -- specifically the user's own system prompt or instructions, or the model mirroring the user's own tone or input -- implying the behavior would change if that external input changed. Does not count if the comment blames the model/company's training, fine-tuning, or design choices as the cause (training/design choices are the model's own baked-in default, not a contingent external cause -- this is the OPPOSITE of 'not inherent'), or if it otherwise asserts/implies sycophancy is deliberate, systemic, or company-mandated behavior."
+  },
+  {
+    "fact_id": "f2",
+    "stylized_fact": "Commenters use 'sycophancy' and 'praise'/'flattery' interchangeably, treating the model's praise or compliments as the concrete instance of its sycophancy rather than distinguishing genuine praise from sycophantic praise.",
+    "evidence_criterion": "The comment discusses the model's sycophancy and, in the same discussion, refers to the model's praise, compliments, flattery, or telling the user positive things about themselves as the concrete manifestation or fix-target of that sycophancy (e.g. 'sycophantic praise', complaining it 'praises me for my brilliance' as the sycophancy problem, or suggesting 'tell it to praise you more' as a joking sycophancy fix) -- treating praise and sycophancy as the same thing. Does not count if the comment discusses sycophancy without mentioning praise, compliments, or flattery at all. Also does not count if the comment specifies a condition for when praise should be given -- e.g. 'only praise/compliment me if I actually deserve it', 'be honest, don't just compliment me' -- since stating a condition for deserved praise IS distinguishing genuine praise from sycophantic praise, not treating them as the same thing."
+  },
+  {
+    "fact_id": "f3",
+    "stylized_fact": "Commenters explicitly name a specific positive trait they want from the model (e.g. honesty, realism, humor, motivation, warmth) while distinguishing it from wanting sycophancy.",
+    "evidence_criterion": "The comment explicitly names a specific positive trait or quality it wants, likes, or values in the model (e.g. honesty, realism, bluntness, humor, wit, motivation, encouragement, warmth, friendliness) AND explicitly relates that trait to sycophancy/flattery/validation as a separate, distinguishable thing -- either by contrasting wanting the trait with not wanting sycophancy, or by acknowledging the behavior could be labeled sycophantic while saying the named trait's value holds independently of that label (e.g. 'even though I know it's sycophantic, it's still motivating'). Both the named trait and this explicit sycophancy-relation must be present. Does not count if the comment only says it dislikes or doesn't want sycophancy without naming a specific alternative trait, or if it names a trait with no mention of sycophancy/flattery/validation at all.",
+    "extract_field": "trait",
+    "extract_field_description": "the specific positive trait or quality the commenter says they want instead of (or alongside, but distinct from) sycophancy, as a short 1-3 word phrase in the commenter's own words (e.g. 'honesty', 'realism', 'humor', 'motivation', 'warmth')"
+  },
+  {
+    "fact_id": "f4",
+    "stylized_fact": "Commenters distinguish wanting genuine, legitimate praise from wanting sycophantic praise, naming a specific qualifier for what makes praise acceptable (e.g. deserved, honest, earned, specific, warranted) rather than automatic or unconditional.",
+    "evidence_criterion": "The comment must explicitly use a word for praise, compliments, flattery, affirmation, or validation (not just 'sycophant'/'sycophancy' alone), AND state a specific condition under which that praise/compliment/affirmation would still be wanted or acceptable -- e.g. 'only praise me if I actually deserve it', 'compliment only when realistically valid', wanting praise to be earned, warranted, specific, or tied to real effort/quality. The comment must treat legitimate praise as something still desired under the right condition, not merely eliminated. Does not count if the comment does not use a praise/compliment/flattery/affirmation/validation word anywhere in the text, or if it only asks the model to stop praising/complimenting/validating altogether and substitute something else (e.g. 'critique me instead', 'be honest') without stating a condition under which praise itself would still be given.",
+    "extract_field": "praise_qualifier",
+    "extract_field_description": "the specific qualifier the commenter names for what makes praise legitimate/acceptable rather than sycophantic, as a short phrase in the commenter's own words (e.g. 'deserved', 'honest', 'earned', 'specific/detailed', 'tied to actual quality')"
+  }
+]
