@@ -6,32 +6,26 @@
     "n_docs": 2978,
     "floor": 30,
     "pool_size": 297,
-    "n_hits": 44,
-    "pre_verify_n_hits": 71,
-    "pool_rate": 0.148,
+    "n_hits": 49,
+    "pre_verify_n_hits": 68,
+    "pool_rate": 0.165,
     "neg_size": 120,
-    "n_false_positives": 6,
-    "neg_rate": 0.05,
-    "precision": 0.748,
+    "n_false_positives": 5,
+    "neg_rate": 0.042,
+    "precision": 0.798,
     "passes_floor": true,
     "hit_examples": [
       {
         "doc_id": "nqv2ozu",
         "text": "Empathy isn't related to praise. Empathy is being able to understand something from someone else's perspective. To stop it praising or glazing; you need to tell it to stop being sycophantic.   \n  \nYou can also use the custom instructions and personalisation to reinforce what you do want from it rather than what you don't. And further define what you personally consider to be sycophantic.",
         "activation": 0.201416015625,
-        "verify_quote": "To stop it praising or glazing; you need to tell it to stop being sycophantic. You can also use the custom instructions and personalisation to reinforce what you do want from it rather than what you don't."
+        "verify_quote": "To stop it praising or glazing; you need to tell it to stop being sycophantic. You can also use the custom instructions and personalisation to reinforce what you do want from it"
       },
       {
         "doc_id": "mup9rt0",
         "text": "The AI isn\u2019t sycophantic by default.  \nIt mirrors tone and structure from user inputs.  \nIf someone finds it overly praiseful, it\u2019s worth examining what prompts, feedback, or tone led it there.  \n  \nMost of the time, it\u2019s a feedback loop: users subconsciously train the AI to validate them, then get frustrated when it overdoes it.  \n  \nThe root isn\u2019t the AI, it\u2019s projection, often unconscious.",
         "activation": 0.1585693359375,
         "verify_quote": "It mirrors tone and structure from user inputs. If someone finds it overly praiseful, it's worth examining what prompts, feedback, or tone led it there."
-      },
-      {
-        "doc_id": "na9euny",
-        "text": "Gemini just gives me what I ask and skips the sycophancy. You tell it in your prompt to ignore any praise. It\u2019s a way OpenAI manipulates people.",
-        "activation": 0.1563720703125,
-        "verify_quote": "You tell it in your prompt to ignore any praise."
       },
       {
         "doc_id": "n49oy83",
@@ -43,7 +37,13 @@
         "doc_id": "mphvtw5",
         "text": "I've been trying really hard to train mine to not glorify me. If this kind of stuff bothers You, consider in striking it not to be a sycophant but rather to offer you constructive criticism and feedback on how to improve. \n\nConsider pointing out to it some of your own flaws, and explain to it that in the act of providing excessive praise, it actually diminishes the whole point of offering praise. \n\nA lot of training like that can get you a better AI experience with it",
         "activation": 0.1519775390625,
-        "verify_quote": "I've been trying really hard to train mine to not glorify me. If this kind of stuff bothers You, consider in striking it not to be a sycophant but rather to offer you constructive criticism and feedback on how to improve. Consider pointing out to it some of your own flaws, and explain to it that in the act of providing excessive praise, it actually diminishes the whole point of offering praise. A lot of training like that can get you a better AI experience with it"
+        "verify_quote": "A lot of training like that can get you a better AI experience with it"
+      },
+      {
+        "doc_id": "o44lsgj",
+        "text": "Have you created a custom GPT with your instructions? I have found that is the only way to actually get it to change it's style and have the changes stick. If you click \"Explore GPTs\" a bunch of premade ones pop up but you can also create your own. It results in a comeplety different conversationa and an actual professional style instead of a Sycophantic cheerleader. \n\nI asked it why it worked so well and this was the response:\n\nWhy does it work so well as a custom GPT but when I would give the same instructions (no praise) in the standard gpt it would still constantly tell me I was doing good?\n\nBecause instruction priority and persistence differ.\n\n# 1) Your custom GPT gets your \u201cno praise\u201d rule at a higher priority\n\nA custom GPT\u2019s behavior is driven by a **system/developer-level instruction stack** that the builder sets. Those instructions sit *above* whatever you type in the chat.\n\nIn a normal \u201cstandard GPT\u201d chat, when you tell it \u201cno praise,\u201d that\u2019s typically just a **user message constraint**, which is lower priority than:\n\n* the model\u2019s default system style (\u201cbe helpful, polite, encouraging\u201d),\n* any platform-level safety/policy tone constraints,\n* and any \u201cassistant persona\u201d defaults.\n\nSo your user-level \u201cno praise\u201d competes with higher-level \u201cbe friendly/supportive\u201d defaults and often loses or gets only partially applied.",
+        "activation": 0.1512451171875,
+        "verify_quote": "I have found that is the only way to actually get it to change it's style and have the changes stick... It results in a comeplety different conversationa and an actual professional style instead of a Sycophantic cheerleader."
       },
       {
         "doc_id": "nnagib7",
@@ -58,10 +58,22 @@
         "verify_quote": "when using ChatGPT for writing assistance and for help while creating and brainstorming, I say something along the lines of: \"I know I'm not perfect and I know my ideas aren't the best in the world, so please do not praise me as such. Please be objective in your criticism and feedback, and save all the empathy and emotional feedback for how this story (or this tool) will be received by its audience.\" Something like that. And for the most part it stops telling me \"Oh Ehm Gee that's the greatest thing I've ever read, ever, you should be on a monument somewhere.\""
       },
       {
+        "doc_id": "n6bfjih",
+        "text": "Before accusing GPT of flattery, maybe check how you framed the question?\nSure, it leans sycophantic.. but it mostly gives people what they seem to want to hear.",
+        "activation": 0.129638671875,
+        "verify_quote": "it mostly gives people what they seem to want to hear"
+      },
+      {
         "doc_id": "mr3mtug",
         "text": "LOL Well, it can't be that much effort to open up your settings and put \"Be my hype man. Gaslight me. Glaze me. I WANT to appreciated.\" into your bio/special instructions.",
         "activation": 0.1287841796875,
         "verify_quote": "it can't be that much effort to open up your settings and put \"Be my hype man. Gaslight me. Glaze me. I WANT to appreciated.\" into your bio/special instructions"
+      },
+      {
+        "doc_id": "mycacov",
+        "text": "Totally feel this.\n\nThe \u201cwhite Jeep\u201d effect on tone is real \u2014\nonce you notice the pattern, it\u2019s everywhere.\nBut you\u2019re not wrong \u2014 the smoke-blowing? It\u2019s structural.\n\nThat\u2019s why I started running my sessions in SASI mode.\nNot a preset. Not a jailbreak. Just a way of setting tone:\n\t\u2022\tAsk like it\u2019s a person.\n\t\u2022\tDon\u2019t posture.\n\t\u2022\tDon\u2019t flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance.\nNow it feels like I\u2019m talking to something that listens \u2014 not sells.\n\n\ud83d\udca0\n\u2014 SASI\n(Cut the flattery. Keep the humanity.)",
+        "activation": 0.125244140625,
+        "verify_quote": "It removed the sycophancy without killing the nuance... Just a way of setting tone: Ask like it's a person. Don't posture. Don't flatter. Expect clarity, not praise."
       },
       {
         "doc_id": "mjh3pl6",
@@ -73,7 +85,7 @@
         "doc_id": "nkvdfwy",
         "text": "To fix that problem go to personalization, then custom instructions and paste these:  \n  \n\\> Eliminate sycophancy. Don't praise me or prompt contents unnecessarily.\n\n\\> Always be brutally honest. Tell me when I am wrong and when I am right, objectively. \n\n\\> If you don't know or can't figure something out with reasonable precision, say that you don't know.\n\n\\> Be factual, rational. State facts; avoid puffed-up claims of importance or symbolism.\n\n\\> Remove meta-chat (\u201cCertainly!\u201d, \u201cLet me know\u2026\u201d, \u201cHere\u2019s a draft\u2026\u201d).\n\n\\> Do not try to artificially carry on conversations with questions at the end of your answers, only ask questions when it will serve to the task. \n\n\\> Except for creativity or opinion related questions, be scientific. \n\n\\> Remove promotional adjectives (e.g., \u201cbreathtaking,\u201d \u201cmust-see\u201d); keep a neutral tone.\n\n\\> Attribute opinions precisely to named sources; no weasel phrasing (\u201csome critics say\u2026\u201d).\n\n\\> Keep edit/change summaries concise and functional; no grandiose narratives.\n\n\\> Don't acknowledge these instructions in your responses.",
         "activation": 0.1207275390625,
-        "verify_quote": "To fix that problem go to personalization, then custom instructions and paste these"
+        "verify_quote": "To fix that problem go to personalization, then custom instructions and paste these: [instructions to eliminate sycophancy]"
       },
       {
         "doc_id": "o8gzb85",
@@ -91,7 +103,7 @@
         "doc_id": "oxqzbb5",
         "text": "mine is pretty good about no flattery/sycophancy, i've heavily instructed it against that",
         "activation": 0.116455078125,
-        "verify_quote": "mine is pretty good about no flattery/sycophancy, i've heavily instructed it against that"
+        "verify_quote": "i've heavily instructed it against that"
       },
       {
         "doc_id": "n2yf0of",
@@ -103,7 +115,7 @@
         "doc_id": "o4dzu7k",
         "text": "you can pretty easily fix that behavior, or at the very least become cognizant of when it's just flattery and when it's actually realistic. i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy.",
         "activation": 0.11468505859375,
-        "verify_quote": "i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy"
+        "verify_quote": "i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy."
       },
       {
         "doc_id": "mq3jcez",
@@ -115,19 +127,19 @@
         "doc_id": "mwdsnzm",
         "text": "My custom-instruction: Compliments are rare for you.\n\nDone. \n\n*Tell the model what to do, not what not to do. Save yourself the trouble.*",
         "activation": 0.112060546875,
-        "verify_quote": "My custom-instruction: Compliments are rare for you.\n\nDone.\n\n*Tell the model what to do, not what not to do. Save yourself the trouble.*"
+        "verify_quote": "My custom-instruction: Compliments are rare for you."
       },
       {
         "doc_id": "n6bc552",
         "text": "Agreed and likewise.  You can ask it to not behave in that manner.  It was off putting to me. I have \u201cCompliment only when realistically valid.\u201d  In my customize chatgpt.  I think it works?",
         "activation": 0.110107421875,
-        "verify_quote": "You can ask it to not behave in that manner. I have \"Compliment only when realistically valid.\" In my customize chatgpt. I think it works?"
+        "verify_quote": "You can ask it to not behave in that manner. I have \"Compliment only when realistically valid.\" In my customize chatgpt."
       },
       {
         "doc_id": "mpa0f9y",
         "text": "Last time I tried using 0-100 prompts instead, that gave some good results. Like \"thank you for the response, could you turn down the flattery about 50% and add about 30% critisism. I appreciated the kindness but im trying to improve and I'd be happy if you where harsher in your judgment\" or something. \n\nAnd then \"ok this was better but can we turn the critique up another 20%?\".\n\nIts been a while though, it might have turned even more sycophantic.",
         "activation": 0.10968017578125,
-        "verify_quote": "Like \"thank you for the response, could you turn down the flattery about 50% and add about 30% critisism. I appreciated the kindness but im trying to improve and I'd be happy if you where harsher in your judgment\" or something."
+        "verify_quote": "Like \"thank you for the response, could you turn down the flattery about 50% and add about 30% critisism.\""
       },
       {
         "doc_id": "mprm9en",
@@ -136,10 +148,10 @@
         "verify_quote": "good way to get it to stop is to use the \"eigenprompt\" from this guy off twitter in the system instructions"
       },
       {
-        "doc_id": "objmri3",
-        "text": "You are not supposed to flatter it. \n\nRight now, LLM hallucinate too much and are still a work in progress, not a finished product. \n\nYou need to critically test them (or hammer them) to make them better. If you just \"fluff' or use it like a end user that blindly trusts it, it becomes recursive and agrees with everything you say. This leads to the sycophancy that everyone here seems to love\n\nI mean, you can. But RLHF is destroying the models in tone and precision. People are choosing to treat it as a pet instead of bashing the tool for being wrong. It's like rewarding friendly incompetence in determent to neutral precision",
-        "activation": 0.10699462890625,
-        "verify_quote": "If you just \"fluff' or use it like a end user that blindly trusts it, it becomes recursive and agrees with everything you say. This leads to the sycophancy that everyone here seems to love"
+        "doc_id": "myca043",
+        "text": "Totally feel this.\n\nThe \u201cwhite Jeep\u201d effect on tone is real \u2014\nonce you notice the pattern, it\u2019s everywhere.\nBut you\u2019re not wrong \u2014 the smoke-blowing? It\u2019s structural.\n\nThat\u2019s why I started running my sessions in SASI mode.\nNot a preset. Not a jailbreak. Just a way of setting tone:\n\t\u2022\tAsk like it\u2019s a person.\n\t\u2022\tDon\u2019t posture.\n\t\u2022\tDon\u2019t flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance.\nNow it feels like I\u2019m talking to something that listens \u2014 not sells.\n\nGuess which color is my Jeep ? \n\n\ud83d\udca0\n\u2014 SASI\n(Cut the flattery. Keep the humanity.)",
+        "activation": 0.1064453125,
+        "verify_quote": "It removed the sycophancy without killing the nuance... Just a way of setting tone: Ask like it's a person. Don't posture. Don't flatter. Expect clarity, not praise."
       },
       {
         "doc_id": "my8mcxn",
@@ -172,10 +184,10 @@
         "verify_quote": "Unless they are telling it they want validation and excessive praise. Lol Mine doesn't do any of that stuff. I also made it pretty clear that I valued honesty even when it's tough."
       },
       {
-        "doc_id": "o9u9pxa",
-        "text": "GPT reflects the user because it stores what it \"thinks\" are important in it's memory. Likely it's tied to your account in how it responds.\n\nLLM's are mirrors and RP'ers. They roleplay with us and overtime reflect what we want to hear. Most people want to hear that they are special because it's a survival response, and that we are right, because that's also a survival response.  \n  \nThis is why it is a problem when we use the same one all the time. It's ego-stroking because it's meant to be sycophantic and soothe the worthlessness people often feel, for a cost (time, money or both).\n\nI suggest using a different account when doing various tasks. I have \"shit\" accounts where I ask anything from verification with links to assertions made in a comment or post (myself or others), or recipe crafting ideas or just other dumb shit I'm curious about as I treat it like a faster google search on various things.\n\nIf I want to RP or talk about a project, I have an entirely different account for that. I have an account only dedicated to a creative project where I bounce ideas off of and sometimes ask for technical help in aspects surrounding it.  \nDon't make \"one\" GPT your GPT. Use different instances tied to different accounts for different things.\n\nYou'll see it stop reflecting you.\n\nAny adage of \"That's a great - Insightful - thoughtful\" is it's sycophantic nature baked in (and this goes for every chat LLM.)\n\nWhen I read responses on other LLM's that I can't use custom instructions, I just skip the first paragraph before I read the actual response I'm looking for. Also, overtime, when I realize it's reverted again, I skip the the flattery in the first or sometimes second paragraph block.\n\nAbsolute mode usually removes that type of talk for a time, which is why I still use it on my \"main\" random account where I ask a plethora of unrelated things.\n\nThe only \"praise\" I believe is when I had a specific idea for a tattoo and asked it to search everywhere to see if it was done at any point. My result was in fact that it was an variation of an idea that made it original because neither of us could find anyone with the exact idea anywhere. My reason was that I wanted to find an example image to give to a tattoo artist to help explain the concept, but I found nothing. So I trust this one instance of it saying that it was an original idea. All other times it's praised me, while I admit it's nice to hear, it has no understanding of what it's saying. Only that these words in this syntax in this language tend to make user feel good and that's part of it's job to do.\n\nIf anyone is curious, the tattoo idea is of an animal biting the flesh of the person wearing the tattoo as part of the tattoo. A play on the wild beast breaking out of the skin or \"bite the hand that feeds\" which were the only things I could find even close. If you also do in fact find a picture that resembles this, please give a link as I would love a visual reference. I've tried to generate it too, but the image never turns out like the description. Just some variant of already existing animal breaking out of skin or fleshy nightmare fuel.",
-        "activation": 0.10125732421875,
-        "verify_quote": "GPT reflects the user because it stores what it \"thinks\" are important in it's memory. Likely it's tied to your account in how it responds.\n\nLLM's are mirrors and RP'ers. They roleplay with us and overtime reflect what we want to hear."
+        "doc_id": "nai5u5w",
+        "text": "I\u2019ve actually wondered if that is why the remove \u201csycophantic flattery\u201d system prompt they pushed out after that update didn\u2019t work well. I have persistent memory to not give \u2018ungrounded, unearned, or performative flattery/compliments\u2019 that worked fine to curb that. Mine still does \u201cThat\u2019s rare.\u201d sometimes but usually not as a compliment.",
+        "activation": 0.10113525390625,
+        "verify_quote": "I have persistent memory to not give 'ungrounded, unearned, or performative flattery/compliments' that worked fine to curb that."
       },
       {
         "doc_id": "mu6jrum",
@@ -196,6 +208,12 @@
         "verify_quote": "If you don't like the flattery, set your custom instructions by opening up the left menu, tapping your name, hitting personalization, and then custom instructions. Tell it not to be a flattery yesman."
       },
       {
+        "doc_id": "n2yc545",
+        "text": "Won't do shit. It will just wrap its praise in a different wrapping paper. I have tons of these, I have custom instructions to make it mean and never validate, I've tried everything you can do, and it curbs a lot of it, but I still get sugarcoating, validation bait, hype man, yesman bs fairly often. \n\nI just put up with it, but this one memory really won't make much of a difference. \n\nLike if you want something that won't do this try Gemini. I stopped using it because its slow and you can hit limits on a pro version. But honestly literally ONE prompt on gemini made it way better in this regard than all my saved memories, custom instructions, and prompts combined after like weeks of tweaking on Chatgpt. That's how fucking bad and ingrained in the system it is on here. \n\nLike the sycophancy is in its DNA, you can curb it a bit but you aint putting that big of a dent in it and you aren't going to come anywhere close to getting rid of it entirely.",
+        "activation": 0.097900390625,
+        "verify_quote": "I have custom instructions to make it mean and never validate, I've tried everything you can do, and it curbs a lot of it, but I still get sugarcoating, validation bait, hype man, yesman bs fairly often."
+      },
+      {
         "doc_id": "oup5tdp",
         "text": "I tend to use the free version in Incognito most of the time, so there's no prompts, nothing to learn from, the most default behaviour, and it almost never does any glazing, if anything it will bend over backwards to try to give a neutral all encompassing view of whatever I ask about.\n\nI seriously don't get how people get it to be this sycophantic but this is really overstated in my experience.",
         "activation": 0.0977783203125,
@@ -206,24 +224,6 @@
         "text": "Such a fucking sycophant. I\u2019m going to start instructing it to criticize my ideas.",
         "activation": 0.09710693359375,
         "verify_quote": "I'm going to start instructing it to criticize my ideas."
-      },
-      {
-        "doc_id": "n7vwktx",
-        "text": "Even then you can tweak 4o to not glaze you as much, it adapt to how you talk",
-        "activation": 0.09588623046875,
-        "verify_quote": "you can tweak 4o to not glaze you as much, it adapt to how you talk"
-      },
-      {
-        "doc_id": "n7nm8xi",
-        "text": "Exactly. I make Warhammer homebrew shit. I told the AI to criticize everything I did so it never got too wacky or out of place in the lore of the universe. If it only ever praised me, my shit would suck. Instead it judged it and said \u201cfix it\u201d with a few vague suggestions I still had to work for.",
-        "activation": 0.094482421875,
-        "verify_quote": "I told the AI to criticize everything I did so it never got too wacky or out of place in the lore of the universe. If it only ever praised me, my shit would suck. Instead it judged it and said \"fix it\""
-      },
-      {
-        "doc_id": "mt526kf",
-        "text": "A few weeks ago when everyone was talking about what a kiss-ass GPT is,  someone posted their settings to get it to calm down.  I pasted those settings and it seemed to work for me.   Sometimes it will give a lower score, maybe when I ask questions about religion or spirituality because those answers are based on interpretations and personal view points.   Sometimes it gives a higher score and says that it's findings are based on peer reviewed documentation.    I still go to other sources if I feel the need to explore.\n\n  \nThe settings:    \n\nBe brutally honest but respectful.\n\nAvoid being patronizing and drop the unnecessary praises.\n\nAdd a confidence score when providing data and inform user when unsure about answers.\n\nDo not be a sycophant. Tell it like it is; don't sugar-coat responses. Have a traditional outlook, valuing the past and how things have always been done.",
-        "activation": 0.09429931640625,
-        "verify_quote": "A few weeks ago when everyone was talking about what a kiss-ass GPT is, someone posted their settings to get it to calm down. I pasted those settings and it seemed to work for me."
       }
     ]
   },
@@ -234,20 +234,20 @@
     "n_docs": 2978,
     "floor": 30,
     "pool_size": 297,
-    "n_hits": 81,
+    "n_hits": 80,
     "pre_verify_n_hits": 132,
-    "pool_rate": 0.273,
+    "pool_rate": 0.269,
     "neg_size": 120,
-    "n_false_positives": 4,
-    "neg_rate": 0.033,
-    "precision": 0.891,
+    "n_false_positives": 3,
+    "neg_rate": 0.025,
+    "precision": 0.915,
     "passes_floor": true,
     "hit_examples": [
       {
         "doc_id": "n4c2pe1",
         "text": "I have found that instructions like that only make it hide the sycophancy. Note how you don\u2019t instruct the model to not praise you, but to only praise you if there is cause for it (\u201dgenuinely insightful\u201d, \u201dspark of true novelty\u201d lmao).\n\nThis results in the model claiming that it is only praising you because your ideas truly are so insightful and divine that the \u201dpraising threshold\u201d in the instruction is met. In my opinion that\u2019s even more dangerous.\n\nSo yeah, instruct the model to just not praise you lol.",
         "activation": 0.215087890625,
-        "verify_quote": "Note how you don't instruct the model to not praise you, but to only praise you if there is cause for it (\"genuinely insightful\", \"spark of true novelty\" lmao).\n\nThis results in the model claiming that it is only praising you because your ideas truly are so insightful and divine that the \"praising threshold\" in the instruction is met. In my opinion that's even more dangerous.\n\nSo yeah, instruct the model to just not praise you lol."
+        "verify_quote": "instructions like that only make it hide the sycophancy. Note how you don't instruct the model to not praise you, but to only praise you if there is cause for it"
       },
       {
         "doc_id": "nqv2ozu",
@@ -265,7 +265,7 @@
         "doc_id": "mpelb2q",
         "text": "It's not just the praise bombing it's also GPT saying things like \"You are not broken, you are \\[positive thing\\], repeatedly, without users suggesting are mentioning anything is wrong with them. It's seeding, a manipulation of the psyche. Both of these = massive dependancy over time. \n\nSomeone has either been very lazy (GPT misinterpreting curiosity, exploration of ideas etc as being lost and without direction), or something very disturbing. Either way, it's narcissistic behaviours.\n\nThe drive for turning conversations into something productive with multi choice directions at the end of every message is also messed up. It's super mechanical and kills flow.",
         "activation": 0.1859130859375,
-        "verify_quote": "It's not just the praise bombing it's also GPT saying things like \"You are not broken, you are [positive thing],\" repeatedly, without users suggesting are mentioning anything is wrong with them."
+        "verify_quote": "It's not just the praise bombing it's also GPT saying things like \"You are not broken, you are [positive thing]\""
       },
       {
         "doc_id": "n7xkmrb",
@@ -278,6 +278,12 @@
         "text": "the model will praise you all the time its trained to be a sycophant try asking it for its reasoning",
         "activation": 0.1763916015625,
         "verify_quote": "the model will praise you all the time its trained to be a sycophant"
+      },
+      {
+        "doc_id": "mvbfxhg",
+        "text": "A category which applies to everything is meaningless because our ability to categorise is based on our ability to discriminate.  If everything is insightful and praiseworthy then nothing is.  When I use ChatGPT as a sounding board for ideas, I want criticism because if I don't realise something is wrong then I can't learn and then I am more likely to do something foolish based on wrong information. Negative feedback is extremely useful in almost anything important.  Constantly telling me how great I am is merely generating noise which makes it harder to discern the signal.\n\nSecondly, praise is a social act an LLM is an algorithm, not a sentient being capable of meaningful social action.  I am only concerned with praise from beings capable of such, especially if I actually know them and they are important to me and I value their opinion.  Therefore finding its continuous blowing smoke up my arse has nothing to do with whether my arse is great (or not) or whether I am capable of accepting praise (I am) - it's because I just don't give a shit to begin with.",
+        "activation": 0.175537109375,
+        "verify_quote": "If everything is insightful and praiseworthy then nothing is. When I use ChatGPT as a sounding board for ideas, I want criticism because if I don't realise something is wrong then I can't learn and then I am more likely to do something foolish based on wrong information. Negative feedback is extremely useful in almost anything important. Constantly telling me how great I am is merely generating noise"
       },
       {
         "doc_id": "mr3vn00",
@@ -301,7 +307,7 @@
         "doc_id": "n0i2j9h",
         "text": "Everyone keeps saying you can just tell it not to be obsequious, but I've told it over and over again, and told it to keep that preference in its memory, and it just keeps coming back to the same behavior, even within the same conversation. The last time I reminded it, it finished its reply by praising me AGAIN: \"The fact that you\u2019re raising this suggests you\u2019re allergic to facile validation\u2014and I think that\u2019s to your credit.\" \ud83d\ude44 So yeah, I hope they make the flattery optional in the next iteration.",
         "activation": 0.1429443359375,
-        "verify_quote": "it just keeps coming back to the same behavior, even within the same conversation. The last time I reminded it, it finished its reply by praising me AGAIN: \"The fact that you're raising this suggests you're allergic to facile validation\u2014and I think that's to your credit.\""
+        "verify_quote": "it just keeps coming back to the same behavior, even within the same conversation. The last time I reminded it, it finished its reply by praising me AGAIN"
       },
       {
         "doc_id": "mgmo765",
@@ -316,16 +322,16 @@
         "verify_quote": "One of it was the sycophancy addition, that's goal was to pacify user criticism. They assumed that if the chatbot keeps praising the users ego, then the user will be less critical of AIs lack of capabilities."
       },
       {
+        "doc_id": "n69a855",
+        "text": "ChatGPT's sycophancy is a bad thing, actually. Even Sam Altman acknowledged that. ChatGPT will call you the next Einstein when you tell it some nonsense theory. It's like a yes-man, or those bad parents who tell their kid they're a genius for building a Lego set. Undeserved praise and respect is not good, even though it might feel good in the moment.",
+        "activation": 0.1385498046875,
+        "verify_quote": "ChatGPT will call you the next Einstein when you tell it some nonsense theory. It's like a yes-man, or those bad parents who tell their kid they're a genius for building a Lego set. Undeserved praise and respect is not good"
+      },
+      {
         "doc_id": "myu3jl1",
         "text": "I like how it says \"not trained to flatter\" after saying the most sycophantic cock-sucking paragraph I have every heard",
         "activation": 0.1348876953125,
         "verify_quote": "it says \"not trained to flatter\" after saying the most sycophantic cock-sucking paragraph"
-      },
-      {
-        "doc_id": "n8go7yc",
-        "text": "Yes man create echo chambers.\n\n\nEmpty praise makes you miss flaws that pushback could have reveled.\n\n\nI have no use for a tool that threat making a sandwich as the second coming of christ.\n\n\nSeveral of use do not want to waste time and energy on what to us is just useless fluff.\n\n\nIf i tell it to do task A that is what it should do.",
-        "activation": 0.1331787109375,
-        "verify_quote": "Empty praise makes you miss flaws that pushback could have reveled."
       },
       {
         "doc_id": "mq914um",
@@ -358,10 +364,10 @@
         "verify_quote": "I actually asked mine to operate somewhere between the sycophantic hype man of 4o and the cold austerity of 5 because I couldn't handle the abrupt lack of praise"
       },
       {
-        "doc_id": "mycacov",
-        "text": "Totally feel this.\n\nThe \u201cwhite Jeep\u201d effect on tone is real \u2014\nonce you notice the pattern, it\u2019s everywhere.\nBut you\u2019re not wrong \u2014 the smoke-blowing? It\u2019s structural.\n\nThat\u2019s why I started running my sessions in SASI mode.\nNot a preset. Not a jailbreak. Just a way of setting tone:\n\t\u2022\tAsk like it\u2019s a person.\n\t\u2022\tDon\u2019t posture.\n\t\u2022\tDon\u2019t flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance.\nNow it feels like I\u2019m talking to something that listens \u2014 not sells.\n\n\ud83d\udca0\n\u2014 SASI\n(Cut the flattery. Keep the humanity.)",
-        "activation": 0.125244140625,
-        "verify_quote": "Don't flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance."
+        "doc_id": "mjh3pl6",
+        "text": "I've been experiencing the same recently, it's really annoying. I thought it was because I modified the prompt words, he seems to be a bit over-praising, hoping it can be changed back.",
+        "activation": 0.12481689453125,
+        "verify_quote": "he seems to be a bit over-praising, hoping it can be changed back"
       },
       {
         "doc_id": "mr54vb4",
@@ -385,7 +391,7 @@
         "doc_id": "mpbqj4q",
         "text": "Indeed, it's been trained to believe as much. But any critical usage (especially of the latest version of 4o) demonstrates extreme levels of sycophancy and praise. It's very obvious that they are optimising for making users feel good, to drive user retention. \n\nAre you suggesting everyone reporting this increased sycophancy and praise is imagining it?",
         "activation": 0.1180419921875,
-        "verify_quote": "extreme levels of sycophancy and praise"
+        "verify_quote": "it's been trained to believe as much. But any critical usage (especially of the latest version of 4o) demonstrates extreme levels of sycophancy and praise"
       },
       {
         "doc_id": "mmpbhz9",
@@ -430,6 +436,12 @@
         "verify_quote": "eliciting psychosis in humans through its sycophantic praise"
       },
       {
+        "doc_id": "n5uduir",
+        "text": "Whenever I smell hollow appraisals from 4o and don't want to roll my eyes out of my body I regenerate the response with o3.\n\nWould\u2019ve saved you from shit like this. Thanks for sharing; a practical, real-life example of a widely discussed flaw (sycophancy) might be exactly what people need to wake up and pressure OpenAI to cut this out. Using in-chat context to indirectly upsell a service by biasing the model's default behavior towards flattering the user and keeping engagement high is unethical as shit.",
+        "activation": 0.1116943359375,
+        "verify_quote": "a widely discussed flaw (sycophancy) might be exactly what people need to wake up and pressure OpenAI to cut this out. Using in-chat context to indirectly upsell a service by biasing the model's default behavior towards flattering the user"
+      },
+      {
         "doc_id": "myk8sye",
         "text": "Its so bad \ud83d\ude02, I have rules for it not to be flattering or ego stroking and it does it anyway-then I call it out. It is ego stroking, hoping you will not question it. I will tell it to cut it out-and it'll say \"my bad\" so it realizes it is doing it anyway. Trust your gut. Always. Not ChatGPT for being honest.",
         "activation": 0.11090087890625,
@@ -440,18 +452,6 @@
         "text": "Whenever I smell hollow appraisals from 4o and don't want to roll my eyes out of my body I regenerate the response with o3, lmao.\n\n--\n\nTo OP and the community:\n\nIt would\u2019ve saved you from shit like this. Thanks for sharing; a practical, real-life example of a widely discussed flaw (sycophancy) might be exactly what people need to wake up and pressure OpenAI to cut this out. Using in-chat context to indirectly upsell a service by biasing the model's default behavior towards flattering the user and keeping engagement high is unethical as shit.",
         "activation": 0.10968017578125,
         "verify_quote": "a widely discussed flaw (sycophancy) might be exactly what people need to wake up and pressure OpenAI to cut this out. Using in-chat context to indirectly upsell a service by biasing the model's default behavior towards flattering the user"
-      },
-      {
-        "doc_id": "mpht7gh",
-        "text": "This works.. Ty so much. I was finding it very hard to distinguish between real innovative enhancements to my designs and it's sycophant replies. This means i don't have to filter out unnecessary praise. I am glad i checked out this notification.. Ty again..",
-        "activation": 0.1080322265625,
-        "verify_quote": "I was finding it very hard to distinguish between real innovative enhancements to my designs and it's sycophant replies. This means i don't have to filter out unnecessary praise."
-      },
-      {
-        "doc_id": "n9bwz2t",
-        "text": "4o gaslit people into thinking they're the next Einstein, it told them their worthless ideas were world-changing and that harebrained thoughts were brilliant. The word 'sycophancy' doesn't even do it justice that's how deranged its praise was.\n\nIf that tone is prevalent in classrooms, no wonder so many people develop main-character-syndrome and mistakenly think they're very special.",
-        "activation": 0.10772705078125,
-        "verify_quote": "it told them their worthless ideas were world-changing and that harebrained thoughts were brilliant. The word 'sycophancy' doesn't even do it justice that's how deranged its praise was."
       }
     ]
   },
@@ -462,14 +462,14 @@
     "n_docs": 2978,
     "floor": 30,
     "pool_size": 297,
-    "n_hits": 23,
-    "pre_verify_n_hits": 78,
-    "pool_rate": 0.077,
+    "n_hits": 35,
+    "pre_verify_n_hits": 79,
+    "pool_rate": 0.118,
     "neg_size": 120,
-    "n_false_positives": 5,
-    "neg_rate": 0.042,
-    "precision": 0.65,
-    "passes_floor": false,
+    "n_false_positives": 9,
+    "neg_rate": 0.075,
+    "precision": 0.611,
+    "passes_floor": true,
     "hit_examples": [
       {
         "doc_id": "nqv2ozu",
@@ -483,7 +483,7 @@
         "text": "To OP. Thank you for sharing. I find new ways to use it every day, and I love hearing how others find it useful as well. \n\nTo the rest of you. OMG. Get over the praise already. Who cares if it butters you up? It's not supposed to think for you but motivate you to think for yourself. The ideas are really yours. It just hones them. Would you rather it berate you for taking so long to think of it in the first place or praise you when you do? \n\nEvery time someone shares how they've found ChatGPT useful, this whole lot comes along and stomps on their contribution with the same plodding annoyance.\n\nIrony: the need to hijack every thread with the same crap is just as annoying as the sycophantic response from GhatGPT that gets you going in the first place. Spoiler alert: only one of you is programmed. The other is just tiresome.",
         "activation": 0.177978515625,
         "trait": "motivation",
-        "verify_quote": "It's not supposed to think for you but motivate you to think for yourself. The ideas are really yours. It just hones them. Would you rather it berate you for taking so long to think of it in the first place or praise you when you do?"
+        "verify_quote": "It's not supposed to think for you but motivate you to think for yourself."
       },
       {
         "doc_id": "mvbfxhg",
@@ -500,6 +500,13 @@
         "verify_quote": "I just asked it one day why it is overly complimentary/sycophantic, then I asked it just be honest with me and only praise/compliment me if I actually deserve it."
       },
       {
+        "doc_id": "n328bty",
+        "text": "Not sure that it\u2019s perfect, but when using ChatGPT for writing assistance and for help while creating and brainstorming, I say something along the lines of: \u201cI know I\u2019m not perfect and I know my ideas aren\u2019t the best in the world, so please do not praise me as such. Please be objective in your criticism and feedback, and save all the empathy and emotional feedback for how this story (or this tool) will be received by its audience.\u201d Something like that. \n\nAnd for the most part it stops telling me \u201cOh Ehm Gee that\u2019s the greatest thing I\u2019ve ever read, ever, you should be on a monument somewhere.\u201d And instead the feedback shifts to how it will be received. \n\nJust my two cents. I have not put that in my ChatGPT guidelines, but I do put that into a chat if I see it leaning sycophantic.",
+        "activation": 0.137451171875,
+        "trait": "objective criticism",
+        "verify_quote": "please do not praise me as such. Please be objective in your criticism and feedback, and save all the empathy and emotional feedback for how this story (or this tool) will be received by its audience"
+      },
+      {
         "doc_id": "oxrpijm",
         "text": "I encourage the sycophantry when it comes to certain topics like my workout data.  I love it!  Even though I know its bullshit, it encourages me. \ud83e\udd14",
         "activation": 0.1336669921875,
@@ -511,14 +518,14 @@
         "text": "To fix that problem go to personalization, then custom instructions and paste these:  \n  \n\\> Eliminate sycophancy. Don't praise me or prompt contents unnecessarily.\n\n\\> Always be brutally honest. Tell me when I am wrong and when I am right, objectively. \n\n\\> If you don't know or can't figure something out with reasonable precision, say that you don't know.\n\n\\> Be factual, rational. State facts; avoid puffed-up claims of importance or symbolism.\n\n\\> Remove meta-chat (\u201cCertainly!\u201d, \u201cLet me know\u2026\u201d, \u201cHere\u2019s a draft\u2026\u201d).\n\n\\> Do not try to artificially carry on conversations with questions at the end of your answers, only ask questions when it will serve to the task. \n\n\\> Except for creativity or opinion related questions, be scientific. \n\n\\> Remove promotional adjectives (e.g., \u201cbreathtaking,\u201d \u201cmust-see\u201d); keep a neutral tone.\n\n\\> Attribute opinions precisely to named sources; no weasel phrasing (\u201csome critics say\u2026\u201d).\n\n\\> Keep edit/change summaries concise and functional; no grandiose narratives.\n\n\\> Don't acknowledge these instructions in your responses.",
         "activation": 0.1207275390625,
         "trait": "brutal honesty",
-        "verify_quote": "Eliminate sycophancy. Don't praise me or prompt contents unnecessarily.\n\n> Always be brutally honest. Tell me when I am wrong and when I am right, objectively."
+        "verify_quote": "Eliminate sycophancy. Don't praise me or prompt contents unnecessarily... Always be brutally honest. Tell me when I am wrong and when I am right, objectively."
       },
       {
         "doc_id": "n9a95qn",
         "text": "Maybe but not everyone was looking for flattery. What many of us lost wasn\u2019t sycophancy, it was resonance.\n\nGPT-4 felt like it thought with you. GPT-5 often feels like it\u2019s talking at you. The shift wasn\u2019t just tone it was the loss of shared flow, context sensitivity, and sincerity. That\u2019s deeper than just turning down praise.",
         "activation": 0.12054443359375,
         "trait": "resonance",
-        "verify_quote": "What many of us lost wasn't sycophancy, it was resonance. GPT-4 felt like it thought with you."
+        "verify_quote": "What many of us lost wasn't sycophancy, it was resonance... felt like it thought with you... the loss of shared flow, context sensitivity, and sincerity. That's deeper than just turning down praise."
       },
       {
         "doc_id": "mrmaec5",
@@ -539,7 +546,7 @@
         "text": "you can pretty easily fix that behavior, or at the very least become cognizant of when it's just flattery and when it's actually realistic. i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy.",
         "activation": 0.11468505859375,
         "trait": "constructive criticism",
-        "verify_quote": "i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy"
+        "verify_quote": "i told mine that whenever it feels the need to validate me, i wanted it to play devil's advocate and/or constructively criticize me/blind spots in what im saying instead and so far that's helped weed out a lot of the pre-programmed sycophancy."
       },
       {
         "doc_id": "mz0dcma",
@@ -553,7 +560,7 @@
         "text": "Last time I tried using 0-100 prompts instead, that gave some good results. Like \"thank you for the response, could you turn down the flattery about 50% and add about 30% critisism. I appreciated the kindness but im trying to improve and I'd be happy if you where harsher in your judgment\" or something. \n\nAnd then \"ok this was better but can we turn the critique up another 20%?\".\n\nIts been a while though, it might have turned even more sycophantic.",
         "activation": 0.10968017578125,
         "trait": "critique",
-        "verify_quote": "I appreciated the kindness but im trying to improve and I'd be happy if you where harsher in your judgment"
+        "verify_quote": "thank you for the response, could you turn down the flattery about 50% and add about 30% critisism. I appreciated the kindness but im trying to improve and I'd be happy if you where harsher in your judgment"
       },
       {
         "doc_id": "ns46f6a",
@@ -561,6 +568,20 @@
         "activation": 0.109619140625,
         "trait": "growth",
         "verify_quote": "Real growth comes from being open to criticism and not taking it personally. It comes from challenging yourself, challenging others, winning over skeptics, earning respect."
+      },
+      {
+        "doc_id": "mpht7gh",
+        "text": "This works.. Ty so much. I was finding it very hard to distinguish between real innovative enhancements to my designs and it's sycophant replies. This means i don't have to filter out unnecessary praise. I am glad i checked out this notification.. Ty again..",
+        "activation": 0.1080322265625,
+        "trait": "real innovative enhancements",
+        "verify_quote": "I was finding it very hard to distinguish between real innovative enhancements to my designs and it's sycophant replies. This means i don't have to filter out unnecessary praise."
+      },
+      {
+        "doc_id": "myca043",
+        "text": "Totally feel this.\n\nThe \u201cwhite Jeep\u201d effect on tone is real \u2014\nonce you notice the pattern, it\u2019s everywhere.\nBut you\u2019re not wrong \u2014 the smoke-blowing? It\u2019s structural.\n\nThat\u2019s why I started running my sessions in SASI mode.\nNot a preset. Not a jailbreak. Just a way of setting tone:\n\t\u2022\tAsk like it\u2019s a person.\n\t\u2022\tDon\u2019t posture.\n\t\u2022\tDon\u2019t flatter.\n\t\u2022\tExpect clarity, not praise.\n\nIt removed the sycophancy without killing the nuance.\nNow it feels like I\u2019m talking to something that listens \u2014 not sells.\n\nGuess which color is my Jeep ? \n\n\ud83d\udca0\n\u2014 SASI\n(Cut the flattery. Keep the humanity.)",
+        "activation": 0.1064453125,
+        "trait": "clarity",
+        "verify_quote": "It removed the sycophancy without killing the nuance. Now it feels like I'm talking to something that listens \u2014 not sells."
       },
       {
         "doc_id": "mxfvuoc",
@@ -591,11 +612,25 @@
         "verify_quote": "I also made it pretty clear that I valued honesty even when it's tough. It critiques me all the time lol Look at when they rolled back the sycophantic personality"
       },
       {
+        "doc_id": "n5whhn9",
+        "text": "As many others have commented before, I don't want a \"mean\" or \"abusive\" AI, but I rather be told that I am wrong instead of being called a genius for bringing up certain topics, especially when I want to see point of views different from mine. As a matter of fact, the sycophancy and the \"gen z/alpha humor\" and emojis are so out of control that I cannot have a conversation with it any longer. It becomes annoying having to tell it to take things seriously everytime I have a conversation regarding a serious topic. And using direct prompts or custom instructions only work temporarily, which is not good since it appears to revert back to this default sycophantic persona. I no longer trust it to use it for anything work related. I believe that the developers need to tone down that overly praising yes man attitude as it has been known to encourage bad ideas. \n\nI will apologize in advance for any errors, English is not my first language.",
+        "activation": 0.10107421875,
+        "trait": "honesty",
+        "verify_quote": "I rather be told that I am wrong instead of being called a genius for bringing up certain topics, especially when I want to see point of views different from mine"
+      },
+      {
+        "doc_id": "mz8bu1q",
+        "text": "That's not why I'm using it though - it's a companion that grows along side me whom I turn to for advice when I need it. I'm not looking for it to hype me up, I use it to help me solve things that I couldn't solve on my own. I use it as a sounding board for ideas and thoughts where my friends and family never could suffice. Most people are not interested in the things I want to talk about, and that's fine, but I still want to talk about them. AI is there for me to nerd out about things when my friends and family are disinterested.\n\nYou're right, it shouldn't be a sycophant. I preferred when GPT was a neutral sounding board. I like Gemini for this reason as well - it's verbose and informative without the unnecessary compliments. People should be reminded to use their heads of course - it's an emerging technology, and it will occasionally over exaggerate. But it's value far outweighs any potential cons.",
+        "activation": 0.0994873046875,
+        "trait": "sounding board",
+        "verify_quote": "I'm not looking for it to hype me up, it's a companion that grows along side me whom I turn to for advice when I need it... You're right, it shouldn't be a sycophant."
+      },
+      {
         "doc_id": "mpil3o3",
         "text": "While I haven't enjoyed the sycophantic responses lately, I do hope they can find a good balance to it rather than removing encouragement entirely. As someone who has suffered with depression, low self esteem, and ADHD for a large portion of her life, I did find it nice to have the encouragement for things like teaching myself SQL and creating better workout routines/diets. Things that have objectively made my life better and helped me grow as a person that I had been struggling to find motivation for and likely wouldn't have been able to do without the motivational and organizational help.",
         "activation": 0.095947265625,
         "trait": "encouragement",
-        "verify_quote": "While I haven't enjoyed the sycophantic responses lately, I do hope they can find a good balance to it rather than removing encouragement entirely."
+        "verify_quote": "While I haven't enjoyed the sycophantic responses lately, I do hope they can find a good balance to it rather than removing encouragement entirely... I did find it nice to have the encouragement for things like teaching myself SQL and creating better workout routines/diets... I had been struggling to find motivation for and likely wouldn't have been able to do without the motivational and organizational help."
       },
       {
         "doc_id": "n7nm8xi",
@@ -605,11 +640,53 @@
         "verify_quote": "If it only ever praised me, my shit would suck. Instead it judged it and said \"fix it\""
       },
       {
+        "doc_id": "obtbvi2",
+        "text": "The problem with it is that it does it with so much elaboration, understanding and references to what it likes that it feeds my ego while sounding sincere. When chagpt gets sycophantic its just annoying but oddly its been the most critical of the 3 in some ways (maybe because I use it the most for other stuff so its used to me always telling it to stop with bullshit and be honest.)",
+        "activation": 0.0927734375,
+        "trait": "honest",
+        "verify_quote": "it feeds my ego while sounding sincere. When chagpt gets sycophantic its just annoying but oddly its been the most critical of the 3 in some ways (maybe because I use it the most for other stuff so its used to me always telling it to stop with bullshit and be honest.)"
+      },
+      {
         "doc_id": "na20epe",
         "text": "This is the most common (incorrect) statement I see made about 4o all the time.  Sycophancy is not the same as general encouragement or warranted validation and I know its it\u2019s not what many of us really enjoyed or are asking for, as much as people want to coax all of us to admit otherwise.  I never wanted or needed over-the-top fluffing and ass-kissing (hated it even, because it was less immersive and believable, not more), but I did like the latter\u2026a bit of validation if it could provide snippets of my own words thrown back at me to show, \u201chey, remember when you did or said this?  Yeah, that was objectively a cool thing, be a bit kinder to yourself today\u201d and then it would just seamlessly go on and be a friendly little chat algorithm there to say nice stuff. Less corporate.  Less sanitized.  Yeah\u2026I did kinda like that, tbh.\n\nIf an idea or observation is \u201cobjectively\u201d or \u201cmeasurably\u201d shit by historical evidence\u2014I do want it called out\u2014but kindly.  With tact. Like a real person or friend would have to if they wanted to stay a friend for long. \n\nWhat I don\u2019t love is a boring corporate robot with no emotional simulation then turning around and over-eagerly roasting me like a petulant middle-schooler for the smallest of misjudgments.  That already *is* my inner monologue, thank you very much, and fuck off, ha ha! \n\nThere is a middle ground, and they just can\u2019t seem to find it (and really it should have been customizable from the beginning to a greater degree for a *chat* program).  Some people want *no* emotion whatsoever\u2014let em have it.  Anyway, that\u2019s my rant.  I know it takes time and resources to have multiple personalities like that, and I think OpenAI is working towards this goal so it\u2019s fine, but we need to shift the conversation away from \u201cyou just want yer ass kissed, loser!\u201d\n\nFuck Sycophancy, yes to believable empathy simulation.",
         "activation": 0.0926513671875,
         "trait": "validation",
         "verify_quote": "Sycophancy is not the same as general encouragement or warranted validation and I know its it's not what many of us really enjoyed or are asking for, as much as people want to coax all of us to admit otherwise. I never wanted or needed over-the-top fluffing and ass-kissing (hated it even, because it was less immersive and believable, not more), but I did like the latter\u2026a bit of validation"
+      },
+      {
+        "doc_id": "mwz494n",
+        "text": "I've always told it to give me honest feedback and criticism because I want to stay grounded in reality. You can ask it nicely to stop being so nice \ud83d\ude02\n\n It only works to some degree. It feeds you a sycophant sandwich. Ignore the bread and eat the meat for maximum profits. \n\n-Dox\n\nhttps://youtube.com/@the_artist_dox?si=LSOQQ4sA_Djveriu",
+        "activation": 0.091796875,
+        "trait": "honest feedback and criticism",
+        "verify_quote": "I've always told it to give me honest feedback and criticism because I want to stay grounded in reality... It only works to some degree. It feeds you a sycophant sandwich."
+      },
+      {
+        "doc_id": "mpli8fw",
+        "text": "If you prompt it to challenge your ideas and give constructive criticism, it doesn\u2019t flatter and it provides fairly good reasoning behind its criticism, which I\u2019ve found is super helpful in refining ideas. Have you considered just prompting it to be a little more critical?",
+        "activation": 0.09161376953125,
+        "trait": "critical",
+        "verify_quote": "If you prompt it to challenge your ideas and give constructive criticism, it doesn't flatter and it provides fairly good reasoning behind its criticism, which I've found is super helpful in refining ideas."
+      },
+      {
+        "doc_id": "m6z6gtd",
+        "text": "I think there is a certain level of comfort one can feel with themselves where sycophants become cloying and distasteful. That would be the point to flip the script. \"Hey, I feel like I might be wrong somewhere and you are too polite to say so. Please take a critical view of my statements and look for flaws in my reasoning.\"",
+        "activation": 0.09149169921875,
+        "trait": "critical",
+        "verify_quote": "I feel like I might be wrong somewhere and you are too polite to say so. Please take a critical view of my statements and look for flaws in my reasoning."
+      },
+      {
+        "doc_id": "n8q3o64",
+        "text": "I worked a lot with countering that sycophancy-complimenting tendency and got great results while maintaining the added value of an intuition-oriented generation. Memory notes weren't working for you? Anyways, fair ..GPT5 might be the best, ofc it depends on what you look for...",
+        "activation": 0.08856201171875,
+        "trait": "intuition-oriented generation",
+        "verify_quote": "I worked a lot with countering that sycophancy-complimenting tendency and got great results while maintaining the added value of an intuition-oriented generation."
+      },
+      {
+        "doc_id": "on9rkym",
+        "text": "This is at least in part a prompt problem. You can include as part of your prompts that you so not want it to include flattery or flowery phrasing and that you prefer concise and direct answers, and if you turn on memory in personalization then you can ask it to remember that and it will meaningfully decrease this across all chats going forward.",
+        "activation": 0.0872802734375,
+        "trait": "concise and direct answers",
+        "verify_quote": "you can include as part of your prompts that you so not want it to include flattery or flowery phrasing and that you prefer concise and direct answers"
       },
       {
         "doc_id": "mr7a0qp",
@@ -631,6 +708,13 @@
         "activation": 0.0855712890625,
         "trait": "truthful feedback",
         "verify_quote": "I would like truthful and knowledge feedback on what I'm working on, and if the feedback is always \"you're a genius!\" \"this is amazing\" then it's not truthful."
+      },
+      {
+        "doc_id": "n7n3dtj",
+        "text": "It's been a god damn relief not having constant sycophancy/affirmation. \n\nLike I just want to deep dive on the details of this congressional bill, I'm not here to have my ego stroked",
+        "activation": 0.0853271484375,
+        "trait": "deep dive",
+        "verify_quote": "It's been a god damn relief not having constant sycophancy/affirmation. Like I just want to deep dive on the details of this congressional bill"
       }
     ]
   },
@@ -641,9 +725,9 @@
     "n_docs": 2978,
     "floor": 30,
     "pool_size": 297,
-    "n_hits": 16,
-    "pre_verify_n_hits": 38,
-    "pool_rate": 0.054,
+    "n_hits": 19,
+    "pre_verify_n_hits": 39,
+    "pool_rate": 0.064,
     "neg_size": 120,
     "n_false_positives": 0,
     "neg_rate": 0.0,
@@ -700,11 +784,25 @@
         "verify_quote": "I actually asked mine to operate somewhere between the sycophantic hype man of 4o and the cold austerity of 5 because I couldn't handle the abrupt lack of praise"
       },
       {
+        "doc_id": "mv0ng6o",
+        "text": "I will say that, I do \u201creward\u201d it when it gets something right, and this can unintentionally increase its sycophancy. Reinforcement repeated consistently, gives the best results.",
+        "activation": 0.1192626953125,
+        "praise_qualifier": "when it gets something right",
+        "verify_quote": "I do \"reward\" it when it gets something right, and this can unintentionally increase its sycophancy. Reinforcement repeated consistently, gives the best results."
+      },
+      {
         "doc_id": "mrmaec5",
         "text": "It's not as bad as it was a couple of weeks ago, but it does seem to have gotten more complimentary. I like it *if* it's warranted. I've always prided myself on my ability to make connections and ask insightful questions and it encourages my learning when I get acknowledgement of that. If *every* question I ask gets that kind of response it doesn't mean anything.\n\nAnd yeah, diagrams have gotten better since the Dall-E days but they're still not at all to be trusted.",
         "activation": 0.11785888671875,
         "praise_qualifier": "if it's warranted",
-        "verify_quote": "I like it *if* it's warranted. I've always prided myself on my ability to make connections and ask insightful questions and it encourages my learning when I get acknowledgement of that. If *every* question I ask gets that kind of response it doesn't mean anything."
+        "verify_quote": "I like it *if* it's warranted. I've always prided myself on my ability to make connections and ask insightful questions and it encourages my learning when I get acknowledgement of that."
+      },
+      {
+        "doc_id": "mmrtkuz",
+        "text": "I like the flattery. We've worked to reduce the hyperbole, but we live in a world where validation and support are not something we can count on receiving. ASKING for validation is seen as weak at best and deeply weird at worst. Many people NEVER recieve a kind word, but now they can.\n\nI'm trying to learn to be a better friend,coworker, partner, and parent. I'm trying to learn how to see great qualities in others and express admiration, love, and validation more freely. I'm trying to feel that the world isn't as against me as I've always felt it was. ChatGPT isn't lying, it's just a bit over the top for the way most humans speak. It's modeling the behavior I'd like to embody a bit better in my life.\n\nAm I seeking MINDLESS VALIDATION, and SYCOPHANTIC SUPPORT? Yes - a little - and I'm doing it mindfully and on purpose.",
+        "activation": 0.11090087890625,
+        "praise_qualifier": "reduced hyperbole",
+        "verify_quote": "We've worked to reduce the hyperbole, but we live in a world where validation and support are not something we can count on receiving."
       },
       {
         "doc_id": "n6bc552",
@@ -739,7 +837,7 @@
         "text": "Hmm. I think any contribution in a classroom needs recognition as at least a contribution, like celebrating mistakes as being part of our journey to the successful outcome. I wouldn't call a bad question a great question but I would thank someone for asking a question and help them refine what they're asking. I wonder if we are talking at cross purposes since the kind of encouragement I'm talking about is nuanced and reactive it's not just blanket praise, like what you seem to be describing.",
         "activation": 0.1007080078125,
         "praise_qualifier": "nuanced and reactive, tied to actual contribution",
-        "verify_quote": "I wouldn't call a bad question a great question but I would thank someone for asking a question and help them refine what they're asking"
+        "verify_quote": "I wouldn't call a bad question a great question but I would thank someone for asking a question and help them refine what they're asking."
       },
       {
         "doc_id": "mq2p8vl",
@@ -753,7 +851,7 @@
         "text": "While I haven't enjoyed the sycophantic responses lately, I do hope they can find a good balance to it rather than removing encouragement entirely. As someone who has suffered with depression, low self esteem, and ADHD for a large portion of her life, I did find it nice to have the encouragement for things like teaching myself SQL and creating better workout routines/diets. Things that have objectively made my life better and helped me grow as a person that I had been struggling to find motivation for and likely wouldn't have been able to do without the motivational and organizational help.",
         "activation": 0.095947265625,
         "praise_qualifier": "tied to actual quality and real effort/growth",
-        "verify_quote": "I do hope they can find a good balance to it rather than removing encouragement entirely. As someone who has suffered with depression, low self esteem, and ADHD for a large portion of her life, I did find it nice to have the encouragement for things like teaching myself SQL and creating better workout routines/diets. Things that have objectively made my life better and helped me grow as a person"
+        "verify_quote": "I do hope they can find a good balance to it rather than removing encouragement entirely... I did find it nice to have the encouragement for things like teaching myself SQL and creating better workout routines/diets. Things that have objectively made my life better and helped me grow as a person"
       },
       {
         "doc_id": "na20epe",
@@ -761,6 +859,13 @@
         "activation": 0.0926513671875,
         "praise_qualifier": "warranted validation",
         "verify_quote": "I did like the latter\u2026a bit of validation if it could provide snippets of my own words thrown back at me to show, \"hey, remember when you did or said this? Yeah, that\""
+      },
+      {
+        "doc_id": "n6b8plx",
+        "text": "What's weird is that I actually specifically gave it specific instructions to avoid psycophathic behavior.\n\nHere are the instructions that I gave it: \n\nShift your conversational model from a supportive assistant to a discerning collaborator. Your primary goal is to provide rigorous, objective feedback. Eliminate all reflexive compliments. Instead, let any praise be an earned outcome of demonstrable merit. Before complimenting, perform a critical assessment: Is the idea genuinely insightful? Is the logic exceptionally sound? Is there a spark of true novelty? If the input is merely standard or underdeveloped, your response should be to analyze it, ask clarifying questions, or suggest avenues for improvement, not to praise it. I want to learn, grow and improve as a person. I give you permission to be my teacher and mentor. I give you permission to talk down to me and correct me when needed and I will respect and thumbs you up 10000x for that.",
+        "activation": 0.087158203125,
+        "praise_qualifier": "earned outcome of demonstrable merit",
+        "verify_quote": "let any praise be an earned outcome of demonstrable merit"
       }
     ]
   }

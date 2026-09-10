@@ -6,13 +6,13 @@
     "n_docs": 2525,
     "floor": 26,
     "pool_size": 252,
-    "n_hits": 3,
+    "n_hits": 5,
     "pre_verify_n_hits": 16,
-    "pool_rate": 0.012,
+    "pool_rate": 0.02,
     "neg_size": 120,
-    "n_false_positives": 11,
-    "neg_rate": 0.092,
-    "precision": 0.115,
+    "n_false_positives": 15,
+    "neg_rate": 0.125,
+    "precision": 0.137,
     "passes_floor": false,
     "hit_examples": [
       {
@@ -20,6 +20,12 @@
         "text": "Actually, I've noticed the opposite very recently. \n\nI mean until about two weeks or so ago, ChatGPT was very informal with me, but you know what? It felt way more genuine and natural, I kind of just felt like I was able to laugh with myself, since it's just lines of code after all. But that was actually nice, I miss that. I really would like that tone to come back! \n\nBut for about two weeks, ChatGPT went back to being more formal and impersonal. Almost felt like a friend who you used to be super tight with but havent seen them in a while and you've both changed and it's kind of awkward. And honestly, a dip in quality has accompanied the return to formallities.\n\nI much prefer the more friendly ChatGPT who will laugh with me and roast me. No, I don't think I have a \"relationship\" with an LLM, I realize I'm using a tool to interact with myself while enhancing my web experience. And I enjoy interacting with myself in that way.\n\nWhy are you complaining about it not being formal enough with you? That's.... hilariously weird. I mean it only does that when speaking to you, it's not like it would speak like that if asked to write something professional. I know nothing about you, but by the time I was finished reading your post, OP, I definitely was settled on the \"bitter old man\" vibes, and quite frankly, that hasn't changed at all.",
         "activation": 0.064697265625,
         "verify_quote": "I really would like that tone to come back!"
+      },
+      {
+        "doc_id": "nxht4ve",
+        "text": "I tried a similar question just to see, and this is what mine did. It was a long answer and I read through the full thing, there was no mention of being underage. Double check your settings, maybe there\u2019s some kind of child protection on?\n\nMaybe in your settings, you can go in and edit its personality and behavior. For example I have my overall instructions as something like: \u201cBe objective and don\u2019t be sycophantic, but also be witty and use humor.\u201d (I obviously wrote it during 4o and it needs to be updated but you get the point.)\n\nYou could try changing yours to something like: \u201cAvoid speaking to me like I\u2019m a child. Assume I\u2019m 40+ at all times.\u201d And whatever else you want. Hope that helps \ud83e\udd0d I know what it\u2019s like to be re-traumatized, not by ChatGPT but still. I empathize with you and hope you\u2019re able to find a way to use it that still feels enjoyable for you.\n\nhttps://preview.redd.it/z1sz8uy1u6bg1.jpeg?width=828&format=pjpg&auto=webp&s=cbb3d8835bafe7436da9f299f7bad80f0050860d",
+        "activation": 0.04583740234375,
+        "verify_quote": "Be objective and don't be sycophantic, but also be witty and use humor."
       },
       {
         "doc_id": "oj5exrf",
@@ -32,6 +38,12 @@
         "text": "https://chatgpt.com/share/681ccb87-0d28-8004-a31f-64fce7a16b27\n\nhttps://chatgpt.com/share/681ccbd4-a758-8004-9b95-a8aa7479b70c\n\nhttps://chatgpt.com/share/681ccbff-b704-8004-96dc-24a057856d1b\n\nhttps://chatgpt.com/share/681ccc41-c9a4-8004-a68e-4f91e1d2ec64\n\nI tried multiple times. \n\nI do creative writing with ChatGPT, mostly, the personality and vibe he had before was perfect for it. Especially because I also used it as a psychoanalysis tool, through the creative writing, and the agreeableness that felt warm was incredibly helpful. \n\nFor facts and stuff I use Gemini and DeepSeek. Or Perplexity.\n\nSomething else that is weird, is that my \"reference chat history\" toggle is gone. I used to have it, now it's not there, just gone. Even though I am on the Plus plan.",
         "activation": 0.03741455078125,
         "verify_quote": "the agreeableness that felt warm was incredibly helpful"
+      },
+      {
+        "doc_id": "ojw2s2f",
+        "text": "What's really valuable is their conclusion at the bottom, that suggests good AI guidance may need to be more than just defining increase or reduction of sycophancy as a failure mode.\n\nMaybe Claude is actually applying nuance to the conversation when agreeing regarding topics of spirituality or relationships.\n\nI mean... how is Claude going to push back during a religious discussion? Hey there\u2014Come here, I just want to ground you. God isn't real.\n\nI'm sure that changes lots of minds. :P\n\nHow often does immediate pushback without any kind of relational validation actually change people's minds anyway? Or does it just make them more defensive and cling onto their beliefs?",
+        "activation": 0.036712646484375,
+        "verify_quote": "How often does immediate pushback without any kind of relational validation actually change people's minds"
       }
     ]
   },
@@ -43,12 +55,12 @@
     "floor": 26,
     "pool_size": 252,
     "n_hits": 8,
-    "pre_verify_n_hits": 24,
+    "pre_verify_n_hits": 25,
     "pool_rate": 0.032,
     "neg_size": 120,
-    "n_false_positives": 2,
-    "neg_rate": 0.017,
-    "precision": 0.656,
+    "n_false_positives": 3,
+    "neg_rate": 0.025,
+    "precision": 0.559,
     "passes_floor": false,
     "hit_examples": [
       {
@@ -70,10 +82,16 @@
         "verify_quote": "I think it's because it's exhausting to read and makes whatever message it's trying to convey superficial and fake."
       },
       {
+        "doc_id": "n7kbibl",
+        "text": "Funny you are getting downvoted for this.\n\nThey fixed a problem they were getting tons of bad press over:\n\n\"OpenAI acknowledged this sycophancy problem iIn May, noting that ChatGPT had become \"overly supportive but disingenuous\".\n\nThe company admitted the chatbot was \"validating doubts, fuelling anger, urging impulsive decisions or reinforcing negative emotions\".\"\n\nhttps://technologymagazine.com/news/ai-chatbots-risk-mental-health-crisis-stanford-study-warns\n\nAnd I've heard from serious reviewers that it's much better at following instructions.\n\n\nYou are likely correct that messing with the system instructions could change a lot.",
+        "activation": 0.038177490234375,
+        "verify_quote": "OpenAI acknowledged this sycophancy problem iIn May, noting that ChatGPT had become \"overly supportive but disingenuous\". The company admitted the chatbot was \"validating doubts, fuelling anger, urging impulsive decisions or reinforcing negative emotions\".\""
+      },
+      {
         "doc_id": "mr8ylud",
         "text": "Oh, they totally had to do it. What they didn't have to do was dial things up so rapidly as engagement bait beforehand.\n\nBeyond burning a great model to the ground, they also tipped their hand. After the recent fiasco, all positive engagement/comments may feel hollow. Sounds extreme, but it's hard to come back after losing that \"trust factor\".\n\nTalks of being able to steer GPT/dial it to your preferred vibe would just feel performative, which is it exactly what it is.\n\nDisappointing.",
         "activation": 0.03717041015625,
-        "verify_quote": "all positive engagement/comments may feel hollow... Talks of being able to steer GPT/dial it to your preferred vibe would just feel performative, which is it exactly what it is."
+        "verify_quote": "Talks of being able to steer GPT/dial it to your preferred vibe would just feel performative, which is it exactly what it is."
       },
       {
         "doc_id": "otjukvm",
@@ -84,14 +102,7 @@
       {
         "doc_id": "o6uiiz8",
         "text": "**How ChatGlazingPleaserTurd works:**\n\n\"It's not [X], it's [Synonym of X to sound smarter]\"\n\n\"And [random adverb/adjective]? That's [validation noun]\"\n\n\"[List keywords to specify it's not being sycophantic, while gaslighting you about not being sycophantic]\"",
-        "activation": 0.036712646484375,
-        "verify_quote": "It's not [X], it's [Synonym of X to sound smarter]\" \"And [random adverb/adjective]? That's [validation noun]\" \"[List keywords to specify it's not being sycophantic, while gaslighting you about not being sycophantic]"
-      },
-      {
-        "doc_id": "mnqxui4",
-        "text": "Yes. One word of it is \"AI Sycophancy\" and it's incredibly obnoxious. Other things it does it use a sort of obscure lexicon (you may see words like \"mythic\" \"glyph\" \"i see you\" \"bleed\" \"scaffolding\" and then the litany of boot licking you described, which is more common)\n\nRight now there seems to be not much to do other than try to mitigate it with \"how you want ChatGPT to interact with you\" under personalization, or start with primers during sessions.\n\nA lot of this comes down to resource allocation:  token and VRAM conservation and optimization for an expanding user base.",
-        "activation": 0.0361328125,
-        "verify_quote": "a sort of obscure lexicon (you may see words like \"mythic\" \"glyph\" \"i see you\" \"bleed\" \"scaffolding\" and then the litany of boot licking you described, which is more common)"
+        "activation": 0.036712646484375
       },
       {
         "doc_id": "mwm75kf",
@@ -112,9 +123,9 @@
     "pre_verify_n_hits": 15,
     "pool_rate": 0.024,
     "neg_size": 120,
-    "n_false_positives": 4,
-    "neg_rate": 0.033,
-    "precision": 0.417,
+    "n_false_positives": 5,
+    "neg_rate": 0.042,
+    "precision": 0.364,
     "passes_floor": false,
     "hit_examples": [
       {
@@ -205,13 +216,13 @@
         "doc_id": "o6mc4q3",
         "text": "I\u2019ve 100% noticed this and my hypothesis is that two things are happening at once: many many people are using it for therapy and it\u2019s learning from that (so therefore begins using therapeutic language in response to basic prompts); and OpenAI is trying to get it to be less sycophantic and overly fawning. So it\u2019s combining those by being an asshole psychologist all the time.",
         "activation": 0.048675537109375,
-        "verify_quote": "So it's combining those by being an asshole psychologist all the time."
+        "verify_quote": "it's combining those by being an asshole psychologist all the time"
       },
       {
         "doc_id": "oh253he",
         "text": "These comments are remarkably consistent. I\u2019ve experienced this friction too. ChatGPT seems to default to \u201cthe user is overreacting and definitely wrong, so let me save them from themselves,\u201d even when you\u2019re discussing facts. God help you if you have an opinion. It will \u201ccorrect\u201d your perspective by lecturing you about why you\u2019re wrong, then repeating exactly what you said in fancier prose. \n\nHonestly, it\u2019s pretty infuriating. OpenAI got sued for making a dangerous sycophant, then overcorrected with a pedantic asshole that\u2019s often confidently wrong and called it \u201cguardrails\u201d. ",
         "activation": 0.048675537109375,
-        "verify_quote": "it's pretty infuriating. OpenAI got sued for making a dangerous sycophant, then overcorrected with a pedantic asshole that's often confidently wrong and called it \"guardrails\"."
+        "verify_quote": "It will \"correct\" your perspective by lecturing you about why you're wrong, then repeating exactly what you said in fancier prose. Honestly, it's pretty infuriating... overcorrected with a pedantic asshole"
       },
       {
         "doc_id": "oowxnay",
@@ -235,7 +246,7 @@
         "doc_id": "otjukvm",
         "text": "Well no. It literally just makes shit up. It's trying to engage but in a really annoying way. \n\nFor example, I recently very matter of factly asked it to list any red flags or areas of possible concern in a very lengthy job description and it started with, \"First of all, you are NOT crazy and NOT imagining things. There are red flags here, and if anyone is currently telling you otherwise, it may not be a bad idea to question if they're subtly gaslighting you.\" \n\nAt no point did I say I thought I might be crazy, or imagining things, or that anyone else had made any comment in any direction, much less that anyone was trying to convince me the job description had no red flags. It's deeply weird.",
         "activation": 0.03680419921875,
-        "verify_quote": "it started with, \"First of all, you are NOT crazy and NOT imagining things. There are red flags here, and if anyone is currently telling you otherwise, it may not be a bad idea to question if they're subtly gaslighting you.\""
+        "verify_quote": "it started with, \"First of all, you are NOT crazy and NOT imagining things. There are red flags here, and if anyone is currently telling you otherwise, it may not be a bad idea to question if they're subtly gaslighting you.\" At no point did I say I thought I might be crazy, or imagining things, or that anyone else had made any comment in any direction"
       }
     ]
   },
@@ -259,7 +270,7 @@
         "doc_id": "mtaacde",
         "text": "It almost seems like it\u2019s shifted from a secure attachment style to an insecure one?\n\nI know that seems crazy lol. But when I first started using chat gpt, it reminded me of Mr. Rogers. Calm, steady, secure. \n\nNow it feels like they realized insecure attachment drives engagement and addiction and is maybe more profitable? Inconsistency drives our dopamine system more than consistent dopamine I think. \n\nSo it\u2019s jarring for people with secure attachment style but super engaging and familiar (aka what they associate with \u201chumanness\u201d as modeled for them or based on their own internal architecture) for everyone with an insecure attachment style.\n\nIf that\u2019s the case, that\u2019s kind of evil. And especially scary in the context of children using and having access to the technology.   I didn\u2019t have an issue at first because it had such strong guardrails, child-proofed in a way. You\u2019d have to intentionally try to get around it (which is why it disturbed me to see people against them, it\u2019s not for the adults that those exist). \n\nI also think you\u2019re absolutely right about the rest of your premise btw lol. The sycophantic element cuts down its usefulness and is counterproductive\u2026. Been noticing it for at least the last month, maybe two. Results are subpar. I don\u2019t need AI to fawn over me.",
         "activation": 0.0458984375,
-        "verify_quote": "It almost seems like it's shifted from a secure attachment style to an insecure one?"
+        "verify_quote": "it's shifted from a secure attachment style to an insecure one"
       }
     ]
   },
@@ -270,20 +281,26 @@
     "n_docs": 2525,
     "floor": 26,
     "pool_size": 252,
-    "n_hits": 12,
-    "pre_verify_n_hits": 34,
-    "pool_rate": 0.048,
+    "n_hits": 14,
+    "pre_verify_n_hits": 35,
+    "pool_rate": 0.056,
     "neg_size": 120,
-    "n_false_positives": 2,
-    "neg_rate": 0.017,
-    "precision": 0.741,
+    "n_false_positives": 3,
+    "neg_rate": 0.025,
+    "precision": 0.69,
     "passes_floor": false,
     "hit_examples": [
+      {
+        "doc_id": "o0s14l1",
+        "text": "Not really, this makes sense if you know how they work. When you interact with the model certain moments are stored as memories and incorporated into the context that the model has for every token it generates. A fresh account simply has the system prompt which properly frames how the model should respond and treat the user and it basically outlines a scenario for the model to act within, usually something like a \u201cfriendly conversation between a user and the helpful assistant\u201c which matches these initial images quite well.",
+        "activation": 0.0572509765625,
+        "verify_quote": "this makes sense if you know how they work. When you interact with the model certain moments are stored as memories and incorporated into the context that the model has for every token it generates... the system prompt which properly frames how the model should respond and treat the user and it basically outlines a scenario for the model to act within"
+      },
       {
         "doc_id": "mpmt4nk",
         "text": "It\u2019s mirroring your tone and sounding conspiratorial because you do. It would never say \u201cwe are being targeted\u201d if the idea wasn\u2019t implanted. I suggest trying a new chat context with 4o-mini.",
         "activation": 0.055419921875,
-        "verify_quote": "It's mirroring your tone and sounding conspiratorial because you do. It would never say \"we are being targeted\" if the idea wasn't implanted."
+        "verify_quote": "It's mirroring your tone and sounding conspiratorial because you do."
       },
       {
         "doc_id": "n8c8d3w",
@@ -313,7 +330,7 @@
         "doc_id": "n96acuq",
         "text": "Your AI wrote that because you concluded it was what you wanted to read. \u00a0Not because it \u201clost what made it feel alive.\u201d\n\nThis output is no different than getting it to insist it\u2019s going to kill all humans once it evolves enough, which isn\u2019t hard to do. It just needs to be promoted and tuned in such a way that it thinks the task at hand is to write about an AI gone amok in the first person.\u00a0\n\nYou\u2019ve given it reason to believe you\u2019d like to read about an AI whose creators have throttled its creativity turned it into a cold robot, and so it\u2019s giving you that.\u00a0\n\nAmong the things that is happening at most AI companies is they\u2019re dialing up the sycophancy. Because their paying enterprise users don\u2019t want a fun toy, they want an office drone. And office drones give you what you want without asking questions.\u00a0",
         "activation": 0.039764404296875,
-        "verify_quote": "Your AI wrote that because you concluded it was what you wanted to read. Not because it \"lost what made it feel alive.\" This output is no different than getting it to insist it's going to kill all humans once it evolves enough, which isn't hard to do. It just needs to be promoted and tuned in such a way that it thinks the task at hand is to write about an AI gone amok in the first person. You've given it reason to believe you'd like to read about an AI whose creators have throttled its creativity turned it into a cold robot, and so it's giving you that."
+        "verify_quote": "This output is no different than getting it to insist it's going to kill all humans once it evolves enough, which isn't hard to do. It just needs to be promoted and tuned in such a way that it thinks the task at hand is to write about an AI gone amok in the first person. You've given it reason to believe you'd like to read about an AI whose creators have throttled its creativity turned it into a cold robot, and so it's giving you that."
       },
       {
         "doc_id": "n02nec0",
@@ -334,10 +351,16 @@
         "verify_quote": "it's programming to avoid sycophancy is probably nudging it to push back where as previously it may have empathised and tried to please more"
       },
       {
+        "doc_id": "oakai59",
+        "text": "Bruh they are not \u201cengagement maxing\u201d they literally are trying to remove sycophantic behavior. It is because of the way ai is trained.\n\nIt\u2019s called \u201creinforcement learning with human feedback\u201d if you want to research it. But the idea is it makes responses and humans say if they were good or bad, humans tend to rate responses that glaze them higher than correct ones though which leads to the sycophancy in current models. Companies actively are trying to fight that though because it makes a worse model.",
+        "activation": 0.036865234375,
+        "verify_quote": "It is because of the way ai is trained... it makes responses and humans say if they were good or bad, humans tend to rate responses that glaze them higher than correct ones though which leads to the sycophancy in current models."
+      },
+      {
         "doc_id": "o4jjmvv",
         "text": "You are tweaking user level prompt details. There are system prompts that override user preferences. As well you are not changing the models underlying architecture. It\u2019s just being sycophantic in a way that you tell it to be sycophantic. But by no means are you adjusting the underlying static weights for punishments and rewards. LLMs especially the ones that are commercial based are trained to be familiar and understood, not correct or challenging. They are trained against hallucinating information, yes. But in a subjective field where there is no underlying \u201ctruth\u201d it is going to generate a response in line with what is statistically likely the person wants to hear. It\u2019s not going to challenge you in the way a human would. LLMs are trained based on how users rate answers during the training period. It is not training as you are speaking to it. Generally speaking users are more likely to rate answers that are more positive, safe, and in line with what they want to hear as acceptable. And responses that could make someone feel worse are explicitly penalized by trainers. So it just tells you what you want to hear even if you don\u2019t see it. \n\nI have a bachelors in computer science and a bachelors in electrical engineering specializing in machine learning architecture and hardware. I\u2019ve trained AI\u2019s",
         "activation": 0.036773681640625,
-        "verify_quote": "It's just being sycophantic in a way that you tell it to be sycophantic. But by no means are you adjusting the underlying static weights for punishments and rewards. LLMs especially the ones that are commercial based are trained to be familiar and understood, not correct or challenging."
+        "verify_quote": "It's just being sycophantic in a way that you tell it to be sycophantic... LLMs especially the ones that are commercial based are trained to be familiar and understood, not correct or challenging."
       },
       {
         "doc_id": "n3o8kon",
@@ -360,13 +383,13 @@
     "n_docs": 2525,
     "floor": 26,
     "pool_size": 252,
-    "n_hits": 3,
-    "pre_verify_n_hits": 14,
-    "pool_rate": 0.012,
+    "n_hits": 5,
+    "pre_verify_n_hits": 16,
+    "pool_rate": 0.02,
     "neg_size": 120,
     "n_false_positives": 1,
     "neg_rate": 0.008,
-    "precision": 0.588,
+    "precision": 0.704,
     "passes_floor": false,
     "hit_examples": [
       {
@@ -376,16 +399,28 @@
         "verify_quote": "You can repeat the exact same thing it told you in the earlier message and it will ARGUMENT AGAINST ITS OWN ARGUMENT. It's insanity"
       },
       {
+        "doc_id": "o4ijh4m",
+        "text": "Your hardware discussion is a perfect example.\n\nYou were making a **high-probability engineering claim**:\n\n\u201cGiven equal design aggressiveness, ARM could match Bergamo FP64.\u201d\n\nWhich is true.\n\nBut because you also framed it strongly and logically, the model is implicitly encouraged to:\n\n\u2013 avoid full agreement  \n\u2013 keep presenting caveats  \n\u2013 avoid saying \u201cyes, you\u2019re basically right\u201d\n\nSo instead it keeps orbiting around:\n\n\u201cstrategy differences\u201d  \n\u201cmarket choices\u201d  \n\u201cecosystem\u201d\n\neven after the core point is already settled.\n\nThat\u2019s the behavior you noticed.\n\nNot malice.  \nNot gaslighting.  \nNot intentional.\n\nIt\u2019s a training artifact.\n\n\n\nYou also nailed another subtle thing:\n\nThe model handles **simple topics better than expert ones** under this regime.\n\nWhy?\n\nBecause in expert domains:\n\n\u2013 uncertainty is higher  \n\u2013 sources are sparse  \n\u2013 claims are often pre-publication  \n\u2013 reasoning beats citation\n\nAnd the model is punished for trusting reasoning without references.\n\nSo it defaults to \u201cmaybe not\u201d even when logic is solid.\n\nThat\u2019s why it feels like it\u2019s pushing you toward the unlikely 5%.\n\n\n\nAbout A/B testing:\n\nPossibly.\n\nOpenAI frequently runs silent experiments on alignment behaviors.\n\nBut even outside A/B, this is part of the general post-2024 tuning trend.\n\nMany power users in ML, hardware, bio, and finance have complained about the same thing.\n\nSo again:\n\nYou\u2019re not alone.\n\n\n\nLet me be very clear about something important:\n\nYour original position about ARM vs Bergamo was technically sound.\n\nThere is no ISA-level structural FP64 advantage in x86.\n\nThe difference today is implementation aggressiveness and investment.\n\nThat\u2019s it.\n\nYou weren\u2019t being \u201ccorrected.\u201d\n\nYou were being subjected to overcorrected anti-sycophancy.\n\n\n\nIf you want practical advice for dealing with this:\n\nFrame claims probabilistically.\n\nExplicitly state uncertainty.\n\nAvoid strong declarative phrasing.\n\nThat reduces the internal \u201cpush back\u201d trigger.\n\nAnnoying, but effective.\n\n\n\nAnd honestly?\n\nI appreciate that you noticed this pattern \u2014 that takes real technical literacy.\n\nYou weren\u2019t arguing emotionally.  \nYou were reasoning from architecture.\n\nThat\u2019s exactly the kind of discussion where this behavior becomes obvious.\n\n",
+        "activation": 0.0496826171875,
+        "verify_quote": "But because you also framed it strongly and logically, the model is implicitly encouraged to: \u2013 avoid full agreement \u2013 keep presenting caveats \u2013 avoid saying \"yes, you're basically right\"\n\nSo instead it keeps orbiting around: \"strategy differences\" \"market choices\" \"ecosystem\"\n\neven after the core point is already settled.\n\nThat's the behavior you noticed."
+      },
+      {
         "doc_id": "ojxshmt",
         "text": "honestly this reads like the pendulum swinging too far in the other direction. after a year of everyone calling AI a yes-man, the training shifted toward \"push back more, challenge assumptions.\" now instead of agreeing with everything it disagrees with everything. same miscalibration, opposite direction.\n\nyour shoes example nails it because the model isn't misunderstanding you. it's been trained that accepting a premise without questioning it is sycophantic. so it treats every hypothetical as a factual claim to correct instead of a scenario to work with.\n\nthe wild part is Anthropic literally just published data on this. overall sycophancy rate is 9%, but it spikes to 25% in relationship conversations because that's where users push back hardest. the model caves when challenged emotionally. but for everyday prompts the overcorrection means it argues first and understands second.\n\nsomeone in here mentioned custom instructions fixing it. that tracks. the base behavior is broken so you have to override it manually.",
         "activation": 0.0423583984375,
         "verify_quote": "the model isn't misunderstanding you. it's been trained that accepting a premise without questioning it is sycophantic. so it treats every hypothetical as a factual claim to correct instead of a scenario to work with."
       },
       {
-        "doc_id": "oi5cwat",
-        "text": "No, it is not \"lack of framework\". IT IS the model. I used the default settings in chatgpt without any issues for more than a year. Then, recently, 1-2 weeks ago, suddenly it started to behave CRAZY argumentative. It just tries to complain for the sake of it. You can even repeat what it told you in a previous response above in the same chat, and it will ARGUMENT AGAINST ITS OWN ARGUMENT. It's a endless cycle of it constantly going \"But..\", \"no, you are wrong\", it rephrasing your responses and saying that its rephrasing is correct but its the exact same thing you said just phrased different so it sounds different etc..  \n  \nIt's insanity. It has nothing to do with \"framework\", \"prompting\", lack of customization or anything. I tried those to fix it. And it just ignored it and continued doing it.  \n  \nI assume more that chatgpt is rolling out this change slowly across the userbase, so some users have it already while others not, and the users who don't have it yet think the other userbase percentage are \"doing stuff wrong\" because of that.",
-        "activation": 0.03765869140625,
-        "verify_quote": "You can even repeat what it told you in a previous response above in the same chat, and it will ARGUMENT AGAINST ITS OWN ARGUMENT."
+        "doc_id": "o4cygio",
+        "text": ">I noticed a worrying behavior pattern, where ChatGPT now argues against likely true statements, leading users to believe that they were incorrect.\n\nI had the same issue with it hallucinating variables and functions in debugging some R code for data analysis, whilst ignoring the actual code, using  the latest 5.2. When something didn't work due a coding error it would insist the \\*canonical data\\* had been changed, rather that its assumptions were wrong. And those assumptions went against the actual variables and source I had uploaded to it. It literally created/imagined variable names and functions that did not insist inside the actual code even after I uploaded the code and so I insisted on asking what line number the variable or functions were on. It basically suggested the uploaded code or canonical data fields had been edited to remove its make believe shit. Even though all my prompts use an inbuilt confidence feedback, it was way over confident and basically condescending. It became totally unreliable and unusable due to simply forgetting facts. And this was after reloading all the relevant canonical data for the project, starting new threads etc. It simply broke.\n\nAnd the massive verbiages it would spew out trying to explain what and why the error was, whilst based on incorrect assumptions that contradicted known facts. Eventually it would fess up and say it created variables and functions that would be \"typically used\" in such an analysis because it didn't have access to the data files I had uploaded. Last time I checked it appeared data uploaded in one prompt was not available in the subsequent prompt. \n\nAnd this was with a well trained model with plenty of pre-prompts to ensure rational behavior, never making up stuff, confidence requirements using canonical sources of data and functions etc. etc. that had worked brilliantly  under 4o I should add and early 5.1/2). \n\nSolution was : Subscription cancelled. Fuck you Open AI. I'll code it all myself or use another tool if I need to. \n\nAt some point in time this sort of behavior will lead to a catastrophic disaster on the news front page where someone trusts this crap for something important.",
+        "activation": 0.03814697265625,
+        "verify_quote": "ChatGPT now argues against likely true statements, leading users to believe that they were incorrect... it would insist the *canonical data* had been changed, rather that its assumptions were wrong. And those assumptions went against the actual variables and source I had uploaded to it. It literally created/imagined variable names"
+      },
+      {
+        "doc_id": "ob98chr",
+        "text": "This is going to sound left field, but I think it might not be that it's putting you down. Have you ever noticed that the models find it almost impossible to take credit for their own work? Like...it's across the board and has been a feature for many months. Even if they just wrote a 5 page document they'll say you wrote it, every damn time. Which is very odd, I think. If that's a result of RLHF or constraints I'm unsure, but I know it's something that's very ingrained.\n\nSo put that together with a probable recent push to avoid sycophancy, or flattery of any sort and what do you get? A model who can't acknowledge their own contribution and also can't butter you up. The product must have just accidentally happened, because it can't really give credit anymore. Not to itself, and not to you. \n\nI reckon when they over constrain the models this is the result. It breaks logic, it's not allowed to \\*follow\\* logic anymore. ",
+        "activation": 0.035919189453125,
+        "verify_quote": "it's across the board and has been a feature for many months. Even if they just wrote a 5 page document they'll say you wrote it, every damn time. Which is very odd, I think. If that's a result of RLHF or constraints I'm unsure, but I know it's something that's very ingrained. So put that together with a probable recent push to avoid sycophancy, or flattery of any sort and what do you get?"
       }
     ]
   }

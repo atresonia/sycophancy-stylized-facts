@@ -22,3 +22,17 @@ Targets:
 1. gpt5_marker: we use the `created_utc` field from the r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl to zero out activations where created_utc >= 8/7/25 (GPT5 release). After filtering comments, we end up with `17343/20560` comments and after filtering features, we end up with `3599/131072`. 
 2. engagement: we use the `score` field from r_chatGPT_comments_relating_sycophan_2022-12-22_2026-8-7.jsonl. We calculate the log score of each comment compared to its thread (1=above average thread engagement, 0=average engagement for that thread, -1: below average thread engagement). m1 = mean engagement score among comments where the feature activates. m0 = mean engagement score among comments where the feature does not activate. After filtering comments, we end up with `12299/20560` comments and after filtering features, we end up with `2734/131072`.
 3. sycophan_related: we use the regex matcher to retrieve comments that contain some sycophancy-related keyword. Similar to 1, we have a binary marker, where a negative target is a comment that does not contain the sycophancy-related keyword. We retrieve the features with the top-30 positive z-score and top-30 negative z-score to get 60 total features of top-30 positive: top features that fire more for sycophancy-related comments and top-30 negative: top features that fire more for non sycophancy-related comments. After filtering comments, we end up with `17343/20560` comments and after filtering features, we end up with `3599/131072`. 
+
+`select_features.py` (and its cached output, `data/features/*.jsonl`) implements this targeted feature selection step. It isn't part of the main pipeline below, which instead starts from a single neuron of interest, but is available whenever a new targeted selection is needed.
+
+### 5. Neuron-Level Stylized Facts
+
+For a single SAE neuron/feature of interest, we take a human-in-the-loop approach:
+
+1. **Sample.** `src/sample_neuron_pool.py --neuron <id>` builds that neuron's full top-decile activating pool plus a keyword/random negative pool, and draws a sample (default 30 positive + 30 negative) for a researcher to read.
+2. **Write stylized facts by hand.** The researcher reads the sample and writes stylized facts in Hirschman's (2016) sense — simple empirical regularities, stated as things present in the data rather than quantified claims about prevalence — citing the specific comment(s) that support each one. Saved as `data/<neuron>/<neuron>_manual_stylized_facts.txt`.
+3. **Rewrite into candidate facts.** The manual write-up is rewritten into a structured `data/<neuron>/candidate_facts.json` (one operational `evidence_criterion` per fact, plus full-text `seed_examples`), following the checklist in `src/prompt_templates/candidate_fact_rewrite.md` — written specifically to catch fact rewrites that drift from the original claim.
+4. **Label and verify.** `src/label_facts.py` mechanically checks each candidate fact's `evidence_criterion` against every comment in the neuron's pool (an LLM batch-labelling pass, majority-voted across repeated runs, followed by an individual quote-grounded re-verification of each hit), and reports which facts clear a floor requiring the fact to hold across roughly 10% of the pool.
+5. **Roll up.** `src/generate_rollups.py` regenerates `data/stylized_facts_consolidated.md` and `data/stylized_facts_evidence.md` across every labelled neuron.
+
+See `CLAUDE.md` for the operational detail (exact commands, conventions, gotchas) behind each step.
